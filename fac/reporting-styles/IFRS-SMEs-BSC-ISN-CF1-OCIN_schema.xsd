@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/3/2023 6:32:31 PM -->
+<!-- AASB1060-BSC-ISN-CF1 -->
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:fac='https://github.com/seattlemethod/ifrs-smes/enhancements/fac'
+
+  xmlns:style='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/style402'
+  targetNamespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/style402'
+
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <documentation>AASB1060-BSC-ISN-CF1</documentation>
+    <appinfo>
+        <link:linkbaseRef  xlink:href='../rules-mapping/ifrs-smes-mapping-definition.xml' xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+  <import namespace='http://www.xbrl.org/2003/linkbase' schemaLocation='http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd' />
+
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac' schemaLocation='../fac.xsd' />
+
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf189' schemaLocation='../networks/BSC_schema.xsd' />
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf266' schemaLocation='../networks/IncomeByNature_schema.xsd' />
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf262' schemaLocation='../networks/ComprehensiveIncome_schema.xsd' />
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf263' schemaLocation='../networks/CashFlow_schema.xsd' />
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf261' schemaLocation='../networks/ProfitLossBreakdown_schema.xsd' />
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf264' schemaLocation='../networks/EquityBreakdown_schema.xsd' />
+
+
+</schema>
