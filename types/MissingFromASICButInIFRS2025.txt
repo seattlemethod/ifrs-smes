@@ -1,0 +1,16 @@
+These are 2024 IFRS FULL:
+
+OperatingExpense
+https://bigfoot.corefiling.com/yeti/resources/yeti-gwt/Yeti.jsp#tax~(id~538*v~5323)!con~(id~18049348)!net~(a~9626*l~2234)!lang~(code~en)!path~(g~2446850*p~0_1_48)!rg~(rg~1*p~1)
+
+
+OperatingExpenseExcludingCostOfSales
+https://bigfoot.corefiling.com/yeti/resources/yeti-gwt/Yeti.jsp#tax~(id~3201*v~5440)!con~(id~18677751)!net~(a~90546*l~14692)!lang~(code~en)!path~(g~2474552*p~0_1_49)!rg~(rg~1*p~1)
+
+
+FinanceIncomeCost
+https://bigfoot.corefiling.com/yeti/resources/yeti-gwt/Yeti.jsp#tax~(id~538*v~5323)!con~(id~18048850)!net~(a~9626*l~2234)!lang~(code~en)!path~(g~2446850*p~0_1_23)!rg~(rg~1*p~1)
+
+
+ExpenseByNature
+https://bigfoot.corefiling.com/yeti/resources/yeti-gwt/Yeti.jsp#tax~(id~538*v~5323)!con~(id~18047683)!net~(a~9626*l~2234)!lang~(code~en)!path~(g~2446850*p~0_2_7)!rg~(rg~1*p~1)

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Assets' xlink:label='ifrs-smes_Assets' />
+     <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='ifrs-smes_Assets' order='1' use='optional' />
+  </definitionLink>
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_EquityAndLiabilities' xlink:label='ifrs-smes_EquityAndLiabilities' />
+     <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='ifrs-smes_EquityAndLiabilities' order='2' use='optional' />
+  </definitionLink>
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' />
+     <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' order='3' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ComprehensiveIncome' xlink:label='ifrs-smes_ComprehensiveIncome' />
+     <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='ifrs-smes_ComprehensiveIncome' order='4' use='optional' />
+  </definitionLink>
+
+
+
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Assets" xlink:label="ifrs-smes_Assets" xlink:title="ifrs-smes_Assets to ifrs-smes_CurrentAssets" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentAssets" xlink:label="ifrs-smes_CurrentAssets" xlink:title="ifrs-smes_Assets to ifrs-smes_CurrentAssets" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_Assets" xlink:to="ifrs-smes_CurrentAssets" xlink:title="ifrs-smes_Assets to ifrs-smes_CurrentAssets" order="49"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncurrentAssets" xlink:label="ifrs-smes_NoncurrentAssets" xlink:title="ifrs-smes_Assets to ifrs-smes_NoncurrentAssets" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_Assets" xlink:to="ifrs-smes_NoncurrentAssets" xlink:title="ifrs-smes_Assets to ifrs-smes_NoncurrentAssets" order="55"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_EquityAndLiabilities" xlink:label="ifrs-smes_EquityAndLiabilities" xlink:title="ifrs-smes_EquityAndLiabilities to ifrs-smes_Liabilities" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Liabilities" xlink:label="ifrs-smes_Liabilities" xlink:title="ifrs-smes_EquityAndLiabilities to ifrs-smes_Liabilities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_EquityAndLiabilities" xlink:to="ifrs-smes_Liabilities" xlink:title="ifrs-smes_EquityAndLiabilities to ifrs-smes_Liabilities" order="18"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncurrentLiabilities" xlink:label="ifrs-smes_NoncurrentLiabilities" xlink:title="ifrs-smes_Liabilities to ifrs-smes_NoncurrentLiabilities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_Liabilities" xlink:to="ifrs-smes_NoncurrentLiabilities" xlink:title="ifrs-smes_Liabilities to ifrs-smes_NoncurrentLiabilities" order="37"  priority="1" use="optional" />
+
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentLiabilities" xlink:label="ifrs-smes_CurrentLiabilities" xlink:title="ifrs-smes_Liabilities to ifrs-smes_NoncurrentLiabilities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_Liabilities" xlink:to="ifrs-smes_CurrentLiabilities" xlink:title="ifrs-smes_Liabilities to ifrs-smes_NoncurrentLiabilities" order="37"  priority="1" use="optional" />
+
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Equity" xlink:label="ifrs-smes_Equity" xlink:title="ifrs-smes_EquityAndLiabilities to ifrs-smes_Equity" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_EquityAndLiabilities" xlink:to="ifrs-smes_Equity" xlink:title="ifrs-smes_EquityAndLiabilities to ifrs-smes_Equity" order="45"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_EquityAttributableToOwnersOfParent" xlink:label="ifrs-smes_EquityAttributableToOwnersOfParent" xlink:title="ifrs-smes_Equity to ifrs-smes_EquityAttributableToOwnersOfParent" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_Equity" xlink:to="ifrs-smes_EquityAttributableToOwnersOfParent" xlink:title="ifrs-smes_Equity to ifrs-smes_EquityAttributableToOwnersOfParent" order="36"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncontrollingInterests" xlink:label="ifrs-smes_NoncontrollingInterests" xlink:title="ifrs-smes_Equity to ifrs-smes_NoncontrollingInterests" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_Equity" xlink:to="ifrs-smes_NoncontrollingInterests" xlink:title="ifrs-smes_Equity to ifrs-smes_NoncontrollingInterests" order="41"  priority="1" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLoss" xlink:label="ifrs-smes_ProfitLoss" xlink:title="ifrs-smes_ProfitLoss to ifrs-smes_ProfitLossFromContinuingOperations" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLossFromContinuingOperations" xlink:label="ifrs-smes_ProfitLossFromContinuingOperations" xlink:title="ifrs-smes_ProfitLoss to ifrs-smes_ProfitLossFromContinuingOperations" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_ProfitLoss" xlink:to="ifrs-smes_ProfitLossFromContinuingOperations" xlink:title="ifrs-smes_ProfitLoss to ifrs-smes_ProfitLossFromContinuingOperations" order="27"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLossBeforeTax" xlink:label="ifrs-smes_ProfitLossBeforeTax" xlink:title="ifrs-smes_ProfitLossFromContinuingOperations to ifrs-smes_ProfitLossBeforeTax" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_ProfitLossFromContinuingOperations" xlink:to="ifrs-smes_ProfitLossBeforeTax" xlink:title="ifrs-smes_ProfitLossFromContinuingOperations to ifrs-smes_ProfitLossBeforeTax" order="25"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Revenue" xlink:label="ifrs-smes_Revenue" xlink:title="ifrs-smes_GrossProfit to ifrs-smes_Revenue" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_GrossProfit" xlink:label="ifrs-smes_GrossProfit" xlink:title="ifrs-smes_GrossProfit to ifrs-smes_Revenue" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_GrossProfit" xlink:to="ifrs-smes_Revenue" xlink:title="ifrs-smes_GrossProfit to ifrs-smes_Revenue" order="1"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CostOfSales" xlink:label="ifrs-smes_CostOfSales" xlink:title="ifrs-smes_GrossProfit to ifrs-smes_CostOfSales" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_GrossProfit" xlink:to="ifrs-smes_CostOfSales" xlink:title="ifrs-smes_GrossProfit to ifrs-smes_CostOfSales" order="2"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncomeTaxExpenseContinuingOperations" xlink:label="ifrs-smes_IncomeTaxExpenseContinuingOperations" xlink:title="ifrs-smes_ProfitLossFromContinuingOperations to ifrs-smes_IncomeTaxExpenseContinuingOperations" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_ProfitLossFromContinuingOperations" xlink:to="ifrs-smes_IncomeTaxExpenseContinuingOperations" xlink:title="ifrs-smes_ProfitLossFromContinuingOperations to ifrs-smes_IncomeTaxExpenseContinuingOperations" order="26"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLossFromDiscontinuedOperations" xlink:label="ifrs-smes_ProfitLossFromDiscontinuedOperations" xlink:title="ifrs-smes_ProfitLoss to ifrs-smes_ProfitLossFromDiscontinuedOperations" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_ProfitLoss" xlink:to="ifrs-smes_ProfitLossFromDiscontinuedOperations" xlink:title="ifrs-smes_ProfitLoss to ifrs-smes_ProfitLossFromDiscontinuedOperations" order="28"  priority="1" use="optional" />
+
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_ProfitLossBeforeTax" xlink:to="ifrs-smes_GrossProfit" order="27"  priority="1" use="optional" />
+
+  </definitionLink>
+
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ComprehensiveIncome" xlink:label="ifrs-smes_ComprehensiveIncome" xlink:title="ifrs-smes_ComprehensiveIncome to ifrs-smes_ProfitLoss" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLoss" xlink:label="ifrs-smes_ProfitLoss" xlink:title="ifrs-smes_ComprehensiveIncome to ifrs-smes_ProfitLoss" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_ComprehensiveIncome" xlink:to="ifrs-smes_ProfitLoss" xlink:title="ifrs-smes_ComprehensiveIncome to ifrs-smes_ProfitLoss" order="1"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_OtherComprehensiveIncome" xlink:label="ifrs-smes_OtherComprehensiveIncome" xlink:title="ifrs-smes_ComprehensiveIncome to ifrs-smes_OtherComprehensiveIncome" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_ComprehensiveIncome" xlink:to="ifrs-smes_OtherComprehensiveIncome" xlink:title="ifrs-smes_ComprehensiveIncome to ifrs-smes_OtherComprehensiveIncome" order="45"  priority="1" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents" xlink:label="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents to ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents" xlink:label="ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents to ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents" xlink:to="ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents to ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents" order="1"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" xlink:label="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents to ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents" xlink:to="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents to ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" order="2"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashFlowsFromUsedInOperatingActivities" xlink:label="ifrs-smes_CashFlowsFromUsedInOperatingActivities" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges to ifrs-smes_CashFlowsFromUsedInOperatingActivities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" xlink:to="ifrs-smes_CashFlowsFromUsedInOperatingActivities" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges to ifrs-smes_CashFlowsFromUsedInOperatingActivities" order="40"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashFlowsFromUsedInFinancingActivities" xlink:label="ifrs-smes_CashFlowsFromUsedInFinancingActivities" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges to ifrs-smes_CashFlowsFromUsedInFinancingActivities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" xlink:to="ifrs-smes_CashFlowsFromUsedInFinancingActivities" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges to ifrs-smes_CashFlowsFromUsedInFinancingActivities" order="52"  priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashFlowsFromUsedInInvestingActivities" xlink:label="ifrs-smes_CashFlowsFromUsedInInvestingActivities" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges to ifrs-smes_CashFlowsFromUsedInInvestingActivities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" xlink:to="ifrs-smes_CashFlowsFromUsedInInvestingActivities" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges to ifrs-smes_CashFlowsFromUsedInInvestingActivities" order="60"  priority="1" use="optional" />
+  </definitionLink>
+
+
+
+
+
+
+
+
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLoss" xlink:label="ifrs-smes_ProfitLoss" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashFlowsFromUsedInOperatingActivities" xlink:label="ifrs-smes_CashFlowsFromUsedInOperatingActivities" xlink:title="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges to ifrs-smes_CashFlowsFromUsedInOperatingActivities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="ifrs-smes_CashFlowsFromUsedInOperatingActivities" xlink:to="ifrs-smes_ProfitLoss" order="40"  priority="1" use="optional" />
+  </definitionLink>
+
+
+
+
+</linkbase>

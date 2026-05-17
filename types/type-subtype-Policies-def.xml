@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReportObject' xlink:label='cm_FinancialReportObject' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='cm_FinancialReportObject' order='1' use='optional' />
+  </definitionLink>
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReportObject' xlink:label='cm_FinancialReportObject' />
+    <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Revenue' xlink:label='ifrs-smes_Revenue' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_FinancialReportObject' xlink:to='ifrs-smes_Revenue' order='1' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue' />
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Revenue' xlink:label='ifrs-smes_Revenue' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='ifrs-smes_Revenue' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue' order='1' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReportObject' xlink:label='cm_FinancialReportObject' />
+    <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Inventories' xlink:label='ifrs-smes_Inventories' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_FinancialReportObject' xlink:to='ifrs-smes_Inventories' order='2' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForMeasuringInventories' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForMeasuringInventories' />
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Inventories' xlink:label='ifrs-smes_Inventories' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='ifrs-smes_Inventories' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForMeasuringInventories' order='1' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReportObject' xlink:label='cm_FinancialReportObject' />
+    <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncurrentInventories' xlink:label='ifrs-smes_NoncurrentInventories' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_FinancialReportObject' xlink:to='ifrs-smes_NoncurrentInventories' order='2' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForMeasuringInventories' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForMeasuringInventories' />
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncurrentInventories' xlink:label='ifrs-smes_NoncurrentInventories' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='ifrs-smes_NoncurrentInventories' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForMeasuringInventories' order='1' use='optional' />
+  </definitionLink>
+
+
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReportObject' xlink:label='cm_FinancialReportObject' />
+    <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_InvestmentsInAssociates' xlink:label='ifrs-smes_InvestmentsInAssociates' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_FinancialReportObject' xlink:to='ifrs-smes_InvestmentsInAssociates' order='2' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates' />
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_InvestmentsInAssociates' xlink:label='ifrs-smes_InvestmentsInAssociates' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='ifrs-smes_InvestmentsInAssociates' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates' order='1' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReportObject' xlink:label='cm_FinancialReportObject' />
+    <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_InvestmentsInJointVentures' xlink:label='ifrs-smes_InvestmentsInJointVentures' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_FinancialReportObject' xlink:to='ifrs-smes_InvestmentsInJointVentures' order='2' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForInvestmentsInJointVentures' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForInvestmentsInJointVentures' />
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_InvestmentsInJointVentures' xlink:label='ifrs-smes_InvestmentsInJointVentures' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='ifrs-smes_InvestmentsInJointVentures' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForInvestmentsInJointVentures' order='1' use='optional' />
+  </definitionLink>
+
+
+
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReportObject' xlink:label='cm_FinancialReportObject' />
+    <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncurrentProvisionsForEmployeeBenefits' xlink:label='ifrs-smes_NoncurrentProvisionsForEmployeeBenefits' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_FinancialReportObject' xlink:to='ifrs-smes_NoncurrentProvisionsForEmployeeBenefits' order='2' use='optional' />
+  </definitionLink>
+
+
+  <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' />
+     <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncurrentProvisionsForEmployeeBenefits' xlink:label='ifrs-smes_NoncurrentProvisionsForEmployeeBenefits' />
+     <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='ifrs-smes_NoncurrentProvisionsForEmployeeBenefits' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' order='1' use='optional' />
+  </definitionLink>
+
+
+
+    <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReportObject' xlink:label='cm_FinancialReportObject' />
+      <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentProvisionsForEmployeeBenefits' xlink:label='ifrs-smes_CurrentProvisionsForEmployeeBenefits' />
+       <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_FinancialReportObject' xlink:to='ifrs-smes_CurrentProvisionsForEmployeeBenefits' order='2' use='optional' />
+    </definitionLink>
+
+
+    <definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+       <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' />
+       <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentProvisionsForEmployeeBenefits' xlink:label='ifrs-smes_CurrentProvisionsForEmployeeBenefits' />
+       <definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='ifrs-smes_CurrentProvisionsForEmployeeBenefits' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' order='1' use='optional' />
+    </definitionLink>
+
+
+
+
+</linkbase>
