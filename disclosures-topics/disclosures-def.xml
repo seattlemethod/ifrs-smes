@@ -1,0 +1,1064 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 7:38:53 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 7:38:53 AM'?>
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='disclosures.xsd#Disclosures' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-subClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass'/>
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='cm_Disclosure' xlink:from='cm_Thing' order='0' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForInvestmentInAssociates' xlink:label='disclosures_AccountingPolicyForInvestmentInAssociates' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AccountingPolicyForInvestmentInAssociates' xlink:from='cm_Disclosure' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForInvestmentsInJointVentures' xlink:label='disclosures_AccountingPolicyForInvestmentsInJointVentures' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AccountingPolicyForInvestmentsInJointVentures' xlink:from='cm_Disclosure' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForMeasuringInventories' xlink:label='disclosures_AccountingPolicyForMeasuringInventories' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AccountingPolicyForMeasuringInventories' xlink:from='cm_Disclosure' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForRecognitionOfRevenue' xlink:label='disclosures_AccountingPolicyForRecognitionOfRevenue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AccountingPolicyForRecognitionOfRevenue' xlink:from='cm_Disclosure' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AmountsRecognised' xlink:label='disclosures_AmountsRecognised' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AmountsRecognised' xlink:from='cm_Disclosure' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AnalysisOfChangeInDeferredTaxAssets' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AnalysisOfChangeInDeferredTaxAssets' xlink:from='cm_Disclosure' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AnalysisOfChangeInDeferredTaxLiabilities' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' xlink:from='cm_Disclosure' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' xlink:label='disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' xlink:from='cm_Disclosure' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AssetsRollUp' xlink:label='disclosures_AssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AssetsRollUp' xlink:from='cm_Disclosure' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' xlink:label='disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' xlink:from='cm_Disclosure' order='10' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BiologicalAssets' xlink:label='disclosures_BiologicalAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_BiologicalAssets' xlink:from='cm_Disclosure' order='11' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:label='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:from='cm_Disclosure' order='12' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BreakdownOfProfitLossSet' xlink:label='disclosures_BreakdownOfProfitLossSet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_BreakdownOfProfitLossSet' xlink:from='cm_Disclosure' order='13' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinations' xlink:label='disclosures_BusinessCombinations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_BusinessCombinations' xlink:from='cm_Disclosure' order='14' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinationsDetail' xlink:label='disclosures_BusinessCombinationsDetail' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_BusinessCombinationsDetail' xlink:from='cm_Disclosure' order='15' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinationsNote' xlink:label='disclosures_BusinessCombinationsNote' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_BusinessCombinationsNote' xlink:from='cm_Disclosure' order='16' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' xlink:label='disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' xlink:from='cm_Disclosure' order='17' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsRollForward' xlink:label='disclosures_CashAndCashEquivalentsRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CashAndCashEquivalentsRollForward' xlink:from='cm_Disclosure' order='18' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashFlowHedgeInformation' xlink:label='disclosures_CashFlowHedgeInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CashFlowHedgeInformation' xlink:from='cm_Disclosure' order='19' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashFlowStatementInformation' xlink:label='disclosures_CashFlowStatementInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CashFlowStatementInformation' xlink:from='cm_Disclosure' order='20' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' xlink:label='disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' xlink:from='cm_Disclosure' order='21' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' xlink:label='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' xlink:from='cm_Disclosure' order='22' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' xlink:label='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' xlink:from='cm_Disclosure' order='23' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' xlink:label='disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' xlink:from='cm_Disclosure' order='24' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ChangesInAccountingEstimates' xlink:label='disclosures_ChangesInAccountingEstimates' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ChangesInAccountingEstimates' xlink:from='cm_Disclosure' order='25' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ClassOfShareCapitalInformation' xlink:label='disclosures_ClassOfShareCapitalInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ClassOfShareCapitalInformation' xlink:from='cm_Disclosure' order='26' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ClassesOfShareCapital' xlink:label='disclosures_ClassesOfShareCapital' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ClassesOfShareCapital' xlink:from='cm_Disclosure' order='27' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:label='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:from='cm_Disclosure' order='28' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' xlink:label='disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' xlink:from='cm_Disclosure' order='29' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentLiabilities' xlink:label='disclosures_ContingentLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ContingentLiabilities' xlink:from='cm_Disclosure' order='30' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentLiabilitiesDetails' xlink:label='disclosures_ContingentLiabilitiesDetails' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ContingentLiabilitiesDetails' xlink:from='cm_Disclosure' order='31' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentRentsRecognisedAsIncome' xlink:label='disclosures_ContingentRentsRecognisedAsIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ContingentRentsRecognisedAsIncome' xlink:from='cm_Disclosure' order='32' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CorporateInformation' xlink:label='disclosures_CorporateInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CorporateInformation' xlink:from='cm_Disclosure' order='33' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CostsRelatedToDefinedBenefitPlansInformation' xlink:label='disclosures_CostsRelatedToDefinedBenefitPlansInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CostsRelatedToDefinedBenefitPlansInformation' xlink:from='cm_Disclosure' order='34' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' xlink:label='disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' xlink:from='cm_Disclosure' order='35' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DeferredTaxAssetsAndLiabilities' xlink:label='disclosures_DeferredTaxAssetsAndLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DeferredTaxAssetsAndLiabilities' xlink:from='cm_Disclosure' order='36' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DefinedBenefitPlanInformation' xlink:label='disclosures_DefinedBenefitPlanInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DefinedBenefitPlanInformation' xlink:from='cm_Disclosure' order='37' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DefinedBenefitPlans' xlink:label='disclosures_DefinedBenefitPlans' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DefinedBenefitPlans' xlink:from='cm_Disclosure' order='38' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForDefinedBenefitPlans' xlink:label='disclosures_AccountingPolicyForDefinedBenefitPlans' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_AccountingPolicyForDefinedBenefitPlans' xlink:from='cm_Disclosure' order='39' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutHedges' xlink:label='disclosures_DetailedInformationAboutHedges' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DetailedInformationAboutHedges' xlink:from='cm_Disclosure' order='40' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutIntangibleAssets' xlink:label='disclosures_DetailedInformationAboutIntangibleAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DetailedInformationAboutIntangibleAssets' xlink:from='cm_Disclosure' order='41' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutIntangibleAssets2' xlink:label='disclosures_DetailedInformationAboutIntangibleAssets2' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DetailedInformationAboutIntangibleAssets2' xlink:from='cm_Disclosure' order='42' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' xlink:from='cm_Disclosure' order='43' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' xlink:from='cm_Disclosure' order='44' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DisaggregationOfEmployeeBenefitsExpense' xlink:label='disclosures_DisaggregationOfEmployeeBenefitsExpense' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DisaggregationOfEmployeeBenefitsExpense' xlink:from='cm_Disclosure' order='45' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DisaggregationOfRevenue' xlink:label='disclosures_DisaggregationOfRevenue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_DisaggregationOfRevenue' xlink:from='cm_Disclosure' order='46' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EffectOfChangesInForeignExchangeRates' xlink:label='disclosures_EffectOfChangesInForeignExchangeRates' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_EffectOfChangesInForeignExchangeRates' xlink:from='cm_Disclosure' order='47' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EmployeeBenefitPlansOtherInformation' xlink:label='disclosures_EmployeeBenefitPlansOtherInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_EmployeeBenefitPlansOtherInformation' xlink:from='cm_Disclosure' order='48' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EmployeeBenefits' xlink:label='disclosures_EmployeeBenefits' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_EmployeeBenefits' xlink:from='cm_Disclosure' order='49' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EquityAndLiabilitiesRollUp' xlink:label='disclosures_EquityAndLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_EquityAndLiabilitiesRollUp' xlink:from='cm_Disclosure' order='50' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EventsAfterReportingPeriod' xlink:label='disclosures_EventsAfterReportingPeriod' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_EventsAfterReportingPeriod' xlink:from='cm_Disclosure' order='51' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:label='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:from='cm_Disclosure' order='52' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' xlink:from='cm_Disclosure' order='53' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' xlink:from='cm_Disclosure' order='54' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessee' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessee' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessee' xlink:from='cm_Disclosure' order='55' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessor' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessor' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessor' xlink:from='cm_Disclosure' order='56' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssets' xlink:label='disclosures_FinancialAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FinancialAssets' xlink:from='cm_Disclosure' order='57' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssetsPledgedOrInDefault' xlink:label='disclosures_FinancialAssetsPledgedOrInDefault' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FinancialAssetsPledgedOrInDefault' xlink:from='cm_Disclosure' order='58' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialInstruments' xlink:label='disclosures_FinancialInstruments' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FinancialInstruments' xlink:from='cm_Disclosure' order='59' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FirstTimeAdoption' xlink:label='disclosures_FirstTimeAdoption' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FirstTimeAdoption' xlink:from='cm_Disclosure' order='60' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FirstTimeAdoptionOtherInformation' xlink:label='disclosures_FirstTimeAdoptionOtherInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FirstTimeAdoptionOtherInformation' xlink:from='cm_Disclosure' order='61' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GainsLossesOnFinancialInstruments' xlink:label='disclosures_GainsLossesOnFinancialInstruments' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_GainsLossesOnFinancialInstruments' xlink:from='cm_Disclosure' order='62' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GeneralInformationAboutFinancialStatements' xlink:label='disclosures_GeneralInformationAboutFinancialStatements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_GeneralInformationAboutFinancialStatements' xlink:from='cm_Disclosure' order='63' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GovernmentGrants' xlink:label='disclosures_GovernmentGrants' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_GovernmentGrants' xlink:from='cm_Disclosure' order='64' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_HedgeAccounting' xlink:label='disclosures_HedgeAccounting' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_HedgeAccounting' xlink:from='cm_Disclosure' order='65' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_HyperinflationaryReporting' xlink:label='disclosures_HyperinflationaryReporting' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_HyperinflationaryReporting' xlink:from='cm_Disclosure' order='66' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentOfAssets' xlink:label='disclosures_ImpairmentOfAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ImpairmentOfAssets' xlink:from='cm_Disclosure' order='67' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentLossAndReversalOfImpairmentLoss' xlink:label='disclosures_ImpairmentLossAndReversalOfImpairmentLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ImpairmentLossAndReversalOfImpairmentLoss' xlink:from='cm_Disclosure' order='68' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' xlink:label='disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' xlink:from='cm_Disclosure' order='69' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeAndRetainedEarningsOtherInformationSet' xlink:label='disclosures_IncomeAndRetainedEarningsOtherInformationSet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_IncomeAndRetainedEarningsOtherInformationSet' xlink:from='cm_Disclosure' order='70' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTax' xlink:label='disclosures_IncomeTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_IncomeTax' xlink:from='cm_Disclosure' order='71' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxOtherInformation' xlink:label='disclosures_IncomeTaxOtherInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_IncomeTaxOtherInformation' xlink:from='cm_Disclosure' order='72' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:label='disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:from='cm_Disclosure' order='73' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxesPaidRefund' xlink:label='disclosures_IncomeTaxesPaidRefund' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_IncomeTaxesPaidRefund' xlink:from='cm_Disclosure' order='74' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InformationAboutIntangibleAssets' xlink:label='disclosures_InformationAboutIntangibleAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_InformationAboutIntangibleAssets' xlink:from='cm_Disclosure' order='75' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InitialApplicationOfStandardsOrInterpretations' xlink:label='disclosures_InitialApplicationOfStandardsOrInterpretations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_InitialApplicationOfStandardsOrInterpretations' xlink:from='cm_Disclosure' order='76' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssets' xlink:label='disclosures_IntangibleAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_IntangibleAssets' xlink:from='cm_Disclosure' order='77' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsMaterialToEntity' xlink:label='disclosures_IntangibleAssetsMaterialToEntity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_IntangibleAssetsMaterialToEntity' xlink:from='cm_Disclosure' order='78' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsOtherInformation' xlink:label='disclosures_IntangibleAssetsOtherInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_IntangibleAssetsOtherInformation' xlink:from='cm_Disclosure' order='79' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' xlink:label='disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' xlink:from='cm_Disclosure' order='80' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InterestsInJointVentures' xlink:label='disclosures_InterestsInJointVentures' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_InterestsInJointVentures' xlink:from='cm_Disclosure' order='81' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Inventories' xlink:label='disclosures_Inventories' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_Inventories' xlink:from='cm_Disclosure' order='82' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentInAssociates' xlink:label='disclosures_InvestmentInAssociates' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_InvestmentInAssociates' xlink:from='cm_Disclosure' order='83' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentProperty' xlink:label='disclosures_InvestmentProperty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_InvestmentProperty' xlink:from='cm_Disclosure' order='84' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Leases' xlink:label='disclosures_Leases' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_Leases' xlink:from='cm_Disclosure' order='85' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MajorComponentsOfTaxExpenseIncome' xlink:label='disclosures_MajorComponentsOfTaxExpenseIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_MajorComponentsOfTaxExpenseIncome' xlink:from='cm_Disclosure' order='86' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MeasurementBasesUsedInPreparingFinancialStatements' xlink:label='disclosures_MeasurementBasesUsedInPreparingFinancialStatements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_MeasurementBasesUsedInPreparingFinancialStatements' xlink:from='cm_Disclosure' order='87' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MeasurementDepreciationAndUsefulLives' xlink:label='disclosures_MeasurementDepreciationAndUsefulLives' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_MeasurementDepreciationAndUsefulLives' xlink:from='cm_Disclosure' order='88' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NatureAndAmountOfChangeInAccountingEstimate' xlink:label='disclosures_NatureAndAmountOfChangeInAccountingEstimate' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_NatureAndAmountOfChangeInAccountingEstimate' xlink:from='cm_Disclosure' order='89' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' xlink:label='disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' xlink:from='cm_Disclosure' order='90' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:label='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:from='cm_Disclosure' order='91' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NonAdjustingEventDetail' xlink:label='disclosures_NonAdjustingEventDetail' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_NonAdjustingEventDetail' xlink:from='cm_Disclosure' order='92' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NonadjustingEventsAfterReportingPeriod' xlink:label='disclosures_NonadjustingEventsAfterReportingPeriod' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_NonadjustingEventsAfterReportingPeriod' xlink:from='cm_Disclosure' order='93' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' xlink:label='disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' xlink:from='cm_Disclosure' order='94' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:label='disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:from='cm_Disclosure' order='95' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherBusinessCombinationInformation' xlink:label='disclosures_OtherBusinessCombinationInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherBusinessCombinationInformation' xlink:from='cm_Disclosure' order='96' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherInformationAboutCorrectionsAndChanges' xlink:label='disclosures_OtherInformationAboutCorrectionsAndChanges' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherInformationAboutCorrectionsAndChanges' xlink:from='cm_Disclosure' order='97' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:label='disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:from='cm_Disclosure' order='98' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherLongtermBenefits' xlink:label='disclosures_OtherLongtermBenefits' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherLongtermBenefits' xlink:from='cm_Disclosure' order='99' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousAcquisitionInformation' xlink:label='disclosures_OtherMiscellaneousAcquisitionInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherMiscellaneousAcquisitionInformation' xlink:from='cm_Disclosure' order='100' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousInformationAboutReportingEntity' xlink:label='disclosures_OtherMiscellaneousInformationAboutReportingEntity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherMiscellaneousInformationAboutReportingEntity' xlink:from='cm_Disclosure' order='101' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherPropertyPlantAndEquipmentInformation2' xlink:label='disclosures_OtherPropertyPlantAndEquipmentInformation2' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherPropertyPlantAndEquipmentInformation2' xlink:from='cm_Disclosure' order='102' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherPropertyPlantAndEquipmentInformation' xlink:label='disclosures_OtherPropertyPlantAndEquipmentInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherPropertyPlantAndEquipmentInformation' xlink:from='cm_Disclosure' order='103' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisions' xlink:label='disclosures_OtherProvisions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherProvisions' xlink:from='cm_Disclosure' order='104' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisionsOtherInformation' xlink:label='disclosures_OtherProvisionsOtherInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherProvisionsOtherInformation' xlink:from='cm_Disclosure' order='105' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:label='disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:from='cm_Disclosure' order='106' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherRelatedPartyTransactionInformation' xlink:label='disclosures_OtherRelatedPartyTransactionInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherRelatedPartyTransactionInformation' xlink:from='cm_Disclosure' order='107' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousBiologicalAssetsInformation' xlink:label='disclosures_OtherMiscellaneousBiologicalAssetsInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OtherMiscellaneousBiologicalAssetsInformation' xlink:from='cm_Disclosure' order='108' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OutstandingBalancesForRelatedPartyTransactions' xlink:label='disclosures_OutstandingBalancesForRelatedPartyTransactions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_OutstandingBalancesForRelatedPartyTransactions' xlink:from='cm_Disclosure' order='109' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:from='cm_Disclosure' order='110' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' xlink:from='cm_Disclosure' order='111' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PriorPeriodAdjustment' xlink:label='disclosures_PriorPeriodAdjustment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_PriorPeriodAdjustment' xlink:from='cm_Disclosure' order='112' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' xlink:label='disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' xlink:from='cm_Disclosure' order='113' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReclassificationsOrChangesInPresentation' xlink:label='disclosures_ReclassificationsOrChangesInPresentation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReclassificationsOrChangesInPresentation' xlink:from='cm_Disclosure' order='114' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:from='cm_Disclosure' order='115' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' xlink:label='disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' xlink:from='cm_Disclosure' order='116' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RecognisedRevenueFromConstructionContracts' xlink:label='disclosures_RecognisedRevenueFromConstructionContracts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_RecognisedRevenueFromConstructionContracts' xlink:from='cm_Disclosure' order='117' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInBiologicalAssets' xlink:label='disclosures_ReconciliationOfChangesInBiologicalAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInBiologicalAssets' xlink:from='cm_Disclosure' order='118' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' xlink:label='disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' xlink:from='cm_Disclosure' order='119' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInGoodwill' xlink:label='disclosures_ReconciliationOfChangesInGoodwill' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInGoodwill' xlink:from='cm_Disclosure' order='120' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInGoodwillAlternative' xlink:label='disclosures_ReconciliationOfChangesInGoodwillAlternative' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInGoodwillAlternative' xlink:from='cm_Disclosure' order='121' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInInvestmentProperty' xlink:label='disclosures_ReconciliationOfChangesInInvestmentProperty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInInvestmentProperty' xlink:from='cm_Disclosure' order='122' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' xlink:label='disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' xlink:from='cm_Disclosure' order='123' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' xlink:label='disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' xlink:from='cm_Disclosure' order='124' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfInvestmentProperty' xlink:label='disclosures_ReconciliationOfInvestmentProperty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfInvestmentProperty' xlink:from='cm_Disclosure' order='125' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInOtherProvisions' xlink:label='disclosures_ReconciliationOfChangesInOtherProvisions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfChangesInOtherProvisions' xlink:from='cm_Disclosure' order='126' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfReimbursementRightsAtFairValue' xlink:label='disclosures_ReconciliationOfReimbursementRightsAtFairValue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfReimbursementRightsAtFairValue' xlink:from='cm_Disclosure' order='127' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfNumberOfSharesOutstanding' xlink:label='disclosures_ReconciliationOfNumberOfSharesOutstanding' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReconciliationOfNumberOfSharesOutstanding' xlink:from='cm_Disclosure' order='128' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NumberOfShareOptionsRollForward' xlink:label='disclosures_NumberOfShareOptionsRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_NumberOfShareOptionsRollForward' xlink:from='cm_Disclosure' order='129' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedParty' xlink:label='disclosures_RelatedParty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_RelatedParty' xlink:from='cm_Disclosure' order='130' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedPartyTransactionInformation' xlink:label='disclosures_RelatedPartyTransactionInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_RelatedPartyTransactionInformation' xlink:from='cm_Disclosure' order='131' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedPartyTransactions' xlink:label='disclosures_RelatedPartyTransactions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_RelatedPartyTransactions' xlink:from='cm_Disclosure' order='132' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReservesWithinEquity' xlink:label='disclosures_ReservesWithinEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ReservesWithinEquity' xlink:from='cm_Disclosure' order='133' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Revenue' xlink:label='disclosures_Revenue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_Revenue' xlink:from='cm_Disclosure' order='134' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ShareCapitalReservesAndOtherEquityInterest' xlink:label='disclosures_ShareCapitalReservesAndOtherEquityInterest' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ShareCapitalReservesAndOtherEquityInterest' xlink:from='cm_Disclosure' order='135' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ShareOptionsExercisable' xlink:label='disclosures_ShareOptionsExercisable' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_ShareOptionsExercisable' xlink:from='cm_Disclosure' order='136' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SharebasedPaymentArrangements' xlink:label='disclosures_SharebasedPaymentArrangements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SharebasedPaymentArrangements' xlink:from='cm_Disclosure' order='137' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SharebasedPaymentsOtherInformation' xlink:label='disclosures_SharebasedPaymentsOtherInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SharebasedPaymentsOtherInformation' xlink:from='cm_Disclosure' order='138' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfCashFlowsDirectMethod' xlink:label='disclosures_StatementOfCashFlowsDirectMethod' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfCashFlowsDirectMethod' xlink:from='cm_Disclosure' order='139' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfCashFlowsIndirectMethod' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfCashFlowsIndirectMethod' xlink:from='cm_Disclosure' order='140' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfChangesInEquity' xlink:label='disclosures_StatementOfChangesInEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfChangesInEquity' xlink:from='cm_Disclosure' order='141' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfComplianceWithIFRSforSMEs' xlink:label='disclosures_StatementOfComplianceWithIFRSforSMEs' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfComplianceWithIFRSforSMEs' xlink:from='cm_Disclosure' order='142' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfFinancialPositionClassified' xlink:from='cm_Disclosure' order='143' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:from='cm_Disclosure' order='144' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeByFunction' xlink:label='disclosures_StatementOfIncomeByFunction' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfIncomeByFunction' xlink:from='cm_Disclosure' order='145' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeByNature' xlink:label='disclosures_StatementOfIncomeByNature' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfIncomeByNature' xlink:from='cm_Disclosure' order='146' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' xlink:from='cm_Disclosure' order='147' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:from='cm_Disclosure' order='148' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfCashAndCashEquivalents' xlink:label='disclosures_SubclassificationsOfCashAndCashEquivalents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfCashAndCashEquivalents' xlink:from='cm_Disclosure' order='149' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' xlink:label='disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' xlink:from='cm_Disclosure' order='150' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfInventories' xlink:label='disclosures_SubclassificationsOfInventories' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfInventories' xlink:from='cm_Disclosure' order='151' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfLegalProceedingsProvision' xlink:label='disclosures_SubclassificationsOfLegalProceedingsProvision' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfLegalProceedingsProvision' xlink:from='cm_Disclosure' order='152' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfMiscellaneousOtherProvisions' xlink:label='disclosures_SubclassificationsOfMiscellaneousOtherProvisions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfMiscellaneousOtherProvisions' xlink:from='cm_Disclosure' order='153' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfNoncurrentPayables' xlink:label='disclosures_SubclassificationsOfNoncurrentPayables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfNoncurrentPayables' xlink:from='cm_Disclosure' order='154' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfNoncurrentReceivables' xlink:label='disclosures_SubclassificationsOfNoncurrentReceivables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfNoncurrentReceivables' xlink:from='cm_Disclosure' order='155' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOnerousContractsProvision' xlink:label='disclosures_SubclassificationsOfOnerousContractsProvision' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfOnerousContractsProvision' xlink:from='cm_Disclosure' order='156' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOtherProvisions' xlink:label='disclosures_SubclassificationsOfOtherProvisions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfOtherProvisions' xlink:from='cm_Disclosure' order='157' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOtherReserves' xlink:label='disclosures_SubclassificationsOfOtherReserves' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfOtherReserves' xlink:from='cm_Disclosure' order='158' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfPropertyPlantAndEquipment' xlink:label='disclosures_SubclassificationsOfPropertyPlantAndEquipment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfPropertyPlantAndEquipment' xlink:from='cm_Disclosure' order='159' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfRefundsProvision' xlink:label='disclosures_SubclassificationsOfRefundsProvision' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfRefundsProvision' xlink:from='cm_Disclosure' order='160' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfRestructuringProvision' xlink:label='disclosures_SubclassificationsOfRestructuringProvision' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfRestructuringProvision' xlink:from='cm_Disclosure' order='161' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' xlink:from='cm_Disclosure' order='162' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' xlink:from='cm_Disclosure' order='163' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherPayables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherPayables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfTradeAndOtherPayables' xlink:from='cm_Disclosure' order='164' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherReceivables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherReceivables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfTradeAndOtherReceivables' xlink:from='cm_Disclosure' order='165' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfWarrantyProvision' xlink:label='disclosures_SubclassificationsOfWarrantyProvision' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SubclassificationsOfWarrantyProvision' xlink:from='cm_Disclosure' order='166' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SummaryOfSignificantAccountingPolicies' xlink:label='disclosures_SummaryOfSignificantAccountingPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_SummaryOfSignificantAccountingPolicies' xlink:from='cm_Disclosure' order='167' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' xlink:label='disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' xlink:from='cm_Disclosure' order='168' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TerminationBenefits' xlink:label='disclosures_TerminationBenefits' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_TerminationBenefits' xlink:from='cm_Disclosure' order='169' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:label='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:from='cm_Disclosure' order='170' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TransactionsBetweenRelatedParties' xlink:label='disclosures_TransactionsBetweenRelatedParties' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_TransactionsBetweenRelatedParties' xlink:from='cm_Disclosure' order='171' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:label='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:from='cm_Disclosure' order='172' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:label='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:from='cm_Disclosure' order='173' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_VoluntaryChangeInAccountingPolicy' xlink:label='disclosures_VoluntaryChangeInAccountingPolicy' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_VoluntaryChangeInAccountingPolicy' xlink:from='cm_Disclosure' order='174' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_WeightedAverageExercisePricesOfShareOptions' xlink:label='disclosures_WeightedAverageExercisePricesOfShareOptions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:to='disclosures_WeightedAverageExercisePricesOfShareOptions' xlink:from='cm_Disclosure' order='175' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

@@ -1,0 +1,1477 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 7:38:53 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 7:38:53 AM'?>
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='disclosures.xsd#Disclosures' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'/>
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialStatementPresentation' xlink:from='topics_CompleteSetOfFinancialStatements' order='1' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfFinancialPosition' xlink:label='topics_StatementOfFinancialPosition' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfFinancialPosition' xlink:from='topics_FinancialStatementPresentation' order='2' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' xlink:label='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' xlink:from='topics_FinancialStatementPresentation' order='3' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfCashFlows' xlink:label='topics_StatementOfCashFlows' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfCashFlows' xlink:from='topics_FinancialStatementPresentation' order='4' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReportingAndNatureOfReportingEntity' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BasisOfReportingAndNatureOfReportingEntity' xlink:from='topics_CompleteSetOfFinancialStatements' order='5' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_SignificantAccountingPolicies' xlink:from='topics_CompleteSetOfFinancialStatements' order='6' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExplanatoryInformation' xlink:label='topics_OtherExplanatoryInformation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialAccounts' xlink:from='topics_OtherExplanatoryInformation' order='7' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExplanatoryInformation' xlink:label='topics_OtherExplanatoryInformation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BroadTransactions' xlink:from='topics_OtherExplanatoryInformation' order='8' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Revenue' xlink:label='topics_Revenue' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Revenue' xlink:from='topics_FinancialAccounts' order='9' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_CashAndCashEquivalents' xlink:from='topics_FinancialAccounts' order='10' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReportingAndNatureOfReportingEntity' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NatureOfOperations' xlink:label='topics_NatureOfOperations' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_NatureOfOperations' xlink:from='topics_BasisOfReportingAndNatureOfReportingEntity' order='11' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReportingAndNatureOfReportingEntity' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BasisOfReporting' xlink:from='topics_BasisOfReportingAndNatureOfReportingEntity' order='12' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Contingencies' xlink:from='topics_BroadTransactions' order='13' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfChangesInEquity' xlink:label='topics_StatementOfChangesInEquity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfChangesInEquity' xlink:from='topics_FinancialStatementPresentation' order='14' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExplanatoryInformation' xlink:label='topics_OtherExplanatoryInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherExplanatoryInformation' xlink:from='topics_CompleteSetOfFinancialStatements' order='15' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLoss' xlink:label='topics_StatementOfProfitOrLoss' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfProfitOrLoss' xlink:from='topics_FinancialStatementPresentation' order='16' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfOtherComprehensiveIncome' xlink:label='topics_StatementOfOtherComprehensiveIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfOtherComprehensiveIncome' xlink:from='topics_FinancialStatementPresentation' order='17' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfIncomeAndRetainedEarnings' xlink:label='topics_StatementOfIncomeAndRetainedEarnings' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfIncomeAndRetainedEarnings' xlink:from='topics_FinancialStatementPresentation' order='18' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherReceivables' xlink:label='topics_TradeAndOtherReceivables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_TradeAndOtherReceivables' xlink:from='topics_FinancialAccounts' order='19' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialAssets' xlink:from='topics_FinancialAccounts' order='20' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Inventories' xlink:label='topics_Inventories' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Inventories' xlink:from='topics_FinancialAccounts' order='21' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_PropertyPlantAndEquipment' xlink:from='topics_FinancialAccounts' order='22' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentProperty' xlink:label='topics_InvestmentProperty' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_InvestmentProperty' xlink:from='topics_FinancialAccounts' order='23' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_IntangibleAssets' xlink:from='topics_FinancialAccounts' order='24' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BiologicalAssets' xlink:label='topics_BiologicalAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BiologicalAssets' xlink:from='topics_FinancialAccounts' order='25' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInAssociates' xlink:label='topics_InvestmentsInAssociates' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_InvestmentsInAssociates' xlink:from='topics_FinancialAccounts' order='26' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInJointVentures' xlink:label='topics_InvestmentsInJointVentures' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_InvestmentsInJointVentures' xlink:from='topics_FinancialAccounts' order='27' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherPayables' xlink:label='topics_TradeAndOtherPayables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_TradeAndOtherPayables' xlink:from='topics_FinancialAccounts' order='28' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialLiabilities' xlink:label='topics_FinancialLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialLiabilities' xlink:from='topics_FinancialAccounts' order='29' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_LiabilitiesAndAssetsForCurrentTax' xlink:label='topics_LiabilitiesAndAssetsForCurrentTax' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_LiabilitiesAndAssetsForCurrentTax' xlink:from='topics_FinancialAccounts' order='30' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:label='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:from='topics_FinancialAccounts' order='31' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Provisions' xlink:from='topics_FinancialAccounts' order='32' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NoncontrollingInterests' xlink:label='topics_NoncontrollingInterests' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_NoncontrollingInterests' xlink:from='topics_FinancialAccounts' order='33' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EquityAttributableToOwnersOfParent' xlink:label='topics_EquityAttributableToOwnersOfParent' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_EquityAttributableToOwnersOfParent' xlink:from='topics_FinancialAccounts' order='34' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_AssetsClassifiedAsHeldForSale' xlink:label='topics_AssetsClassifiedAsHeldForSale' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_AssetsClassifiedAsHeldForSale' xlink:from='topics_FinancialAccounts' order='35' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_LiabilitiesClassifiedAsHeldForSale' xlink:label='topics_LiabilitiesClassifiedAsHeldForSale' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_LiabilitiesClassifiedAsHeldForSale' xlink:from='topics_FinancialAccounts' order='36' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherFinancialAccounts' xlink:label='topics_OtherFinancialAccounts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherFinancialAccounts' xlink:from='topics_FinancialAccounts' order='37' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinanceCosts' xlink:label='topics_FinanceCosts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinanceCosts' xlink:from='topics_FinancialAccounts' order='38' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ProfitLossOfInvestmentsUsingEquityMethod' xlink:label='topics_ProfitLossOfInvestmentsUsingEquityMethod' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ProfitLossOfInvestmentsUsingEquityMethod' xlink:from='topics_FinancialAccounts' order='39' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TaxExpense' xlink:label='topics_TaxExpense' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_TaxExpense' xlink:from='topics_FinancialAccounts' order='40' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DiscontinuedOperations' xlink:label='topics_DiscontinuedOperations' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_DiscontinuedOperations' xlink:from='topics_FinancialAccounts' order='41' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ImpairmentOrReversalOfImparement' xlink:label='topics_ImpairmentOrReversalOfImparement' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ImpairmentOrReversalOfImparement' xlink:from='topics_FinancialAccounts' order='42' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ProfitLoss' xlink:label='topics_ProfitLoss' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ProfitLoss' xlink:from='topics_FinancialAccounts' order='43' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherComprehensiveIncome' xlink:label='topics_OtherComprehensiveIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherComprehensiveIncome' xlink:from='topics_FinancialAccounts' order='44' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Expenses' xlink:label='topics_Expenses' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Expenses' xlink:from='topics_FinancialAccounts' order='45' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TransactionsInForeignCurrency' xlink:label='topics_TransactionsInForeignCurrency' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_TransactionsInForeignCurrency' xlink:from='topics_BroadTransactions' order='46' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InterestAndDividends' xlink:label='topics_InterestAndDividends' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_InterestAndDividends' xlink:from='topics_FinancialAccounts' order='47' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NoncashTransactions' xlink:label='topics_NoncashTransactions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_NoncashTransactions' xlink:from='topics_BroadTransactions' order='48' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_MeasurementBasis' xlink:label='topics_MeasurementBasis' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_MeasurementBasis' xlink:from='topics_SignificantAccountingPolicies' order='49' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_AuditFees' xlink:label='topics_AuditFees' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_AuditFees' xlink:from='topics_BroadTransactions' order='50' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ImputationCredits' xlink:label='topics_ImputationCredits' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ImputationCredits' xlink:from='topics_BroadTransactions' order='51' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangeInAccountingPolicy' xlink:label='topics_ChangeInAccountingPolicy' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ChangeInAccountingPolicy' xlink:from='topics_SignificantAccountingPolicies' order='52' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangeInEstimate' xlink:label='topics_ChangeInEstimate' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ChangeInEstimate' xlink:from='topics_SignificantAccountingPolicies' order='53' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PriorPeriodErrors' xlink:label='topics_PriorPeriodErrors' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_PriorPeriodErrors' xlink:from='topics_SignificantAccountingPolicies' order='54' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialInstrumentsPolicies' xlink:label='topics_FinancialInstrumentsPolicies' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialInstrumentsPolicies' xlink:from='topics_SignificantAccountingPolicies' order='55' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BusinessCombinationsAndGoodwill' xlink:from='topics_BroadTransactions' order='56' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Leases' xlink:from='topics_BroadTransactions' order='57' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_GovernmentGrants' xlink:label='topics_GovernmentGrants' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_GovernmentGrants' xlink:from='topics_BroadTransactions' order='58' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BorrowingCosts' xlink:label='topics_BorrowingCosts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BorrowingCosts' xlink:from='topics_BroadTransactions' order='59' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_SharebasedPayments' xlink:from='topics_BroadTransactions' order='60' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_EmployeeBenefits' xlink:from='topics_BroadTransactions' order='61' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_IncomeTax' xlink:from='topics_BroadTransactions' order='62' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ForeignCurrencyTranslation' xlink:label='topics_ForeignCurrencyTranslation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ForeignCurrencyTranslation' xlink:from='topics_BroadTransactions' order='63' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Hyperinflation' xlink:label='topics_Hyperinflation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Hyperinflation' xlink:from='topics_BroadTransactions' order='64' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EventsAfterEndOfReportingPeriod' xlink:label='topics_EventsAfterEndOfReportingPeriod' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_EventsAfterEndOfReportingPeriod' xlink:from='topics_BroadTransactions' order='65' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_RelatedPartyTransactions' xlink:from='topics_BroadTransactions' order='66' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherMiscellaneousAssets' xlink:label='topics_OtherMiscellaneousAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherMiscellaneousAssets' xlink:from='topics_FinancialAccounts' order='67' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherMiscellaneousLiabilities' xlink:label='topics_OtherMiscellaneousLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherMiscellaneousLiabilities' xlink:from='topics_FinancialAccounts' order='68' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CostOfSales' xlink:label='topics_CostOfSales' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_CostOfSales' xlink:from='topics_FinancialAccounts' order='69' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Equity' xlink:from='topics_FinancialAccounts' order='70' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfFinancialPosition' xlink:label='topics_StatementOfFinancialPosition' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfFinancialPositionClassified' xlink:from='topics_StatementOfFinancialPosition' order='1' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfFinancialPosition' xlink:label='topics_StatementOfFinancialPosition' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:from='topics_StatementOfFinancialPosition' order='2' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfFinancialPosition' xlink:label='topics_StatementOfFinancialPosition' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AssetsRollUp' xlink:label='disclosures_AssetsRollUp' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AssetsRollUp' xlink:from='topics_StatementOfFinancialPosition' order='3' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfFinancialPosition' xlink:label='topics_StatementOfFinancialPosition' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EquityAndLiabilitiesRollUp' xlink:label='disclosures_EquityAndLiabilitiesRollUp' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_EquityAndLiabilitiesRollUp' xlink:from='topics_StatementOfFinancialPosition' order='4' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLoss' xlink:label='topics_StatementOfProfitOrLoss' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeByFunction' xlink:label='disclosures_StatementOfIncomeByFunction' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfIncomeByFunction' xlink:from='topics_StatementOfProfitOrLoss' order='5' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLoss' xlink:label='topics_StatementOfProfitOrLoss' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeByNature' xlink:label='disclosures_StatementOfIncomeByNature' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfIncomeByNature' xlink:from='topics_StatementOfProfitOrLoss' order='6' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLoss' xlink:label='topics_StatementOfProfitOrLoss' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BreakdownOfProfitLossSet' xlink:label='disclosures_BreakdownOfProfitLossSet' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_BreakdownOfProfitLossSet' xlink:from='topics_StatementOfProfitOrLoss' order='7' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfOtherComprehensiveIncome' xlink:label='topics_StatementOfOtherComprehensiveIncome' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:from='topics_StatementOfOtherComprehensiveIncome' order='8' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfOtherComprehensiveIncome' xlink:label='topics_StatementOfOtherComprehensiveIncome' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' xlink:from='topics_StatementOfOtherComprehensiveIncome' order='9' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLoss' xlink:label='topics_StatementOfProfitOrLoss' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:label='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:from='topics_StatementOfProfitOrLoss' order='10' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfCashFlows' xlink:label='topics_StatementOfCashFlows' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:label='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:from='topics_StatementOfCashFlows' order='11' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfCashFlows' xlink:label='topics_StatementOfCashFlows' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfCashFlowsDirectMethod' xlink:label='disclosures_StatementOfCashFlowsDirectMethod' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfCashFlowsDirectMethod' xlink:from='topics_StatementOfCashFlows' order='12' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfCashFlows' xlink:label='topics_StatementOfCashFlows' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfCashFlowsIndirectMethod' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfCashFlowsIndirectMethod' xlink:from='topics_StatementOfCashFlows' order='13' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfCashFlows' xlink:label='topics_StatementOfCashFlows' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsRollForward' xlink:label='disclosures_CashAndCashEquivalentsRollForward' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CashAndCashEquivalentsRollForward' xlink:from='topics_StatementOfCashFlows' order='14' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GeneralInformationAboutFinancialStatements' xlink:label='disclosures_GeneralInformationAboutFinancialStatements' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_GeneralInformationAboutFinancialStatements' xlink:from='topics_BasisOfReporting' order='15' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfChangesInEquity' xlink:label='topics_StatementOfChangesInEquity' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfChangesInEquity' xlink:label='disclosures_StatementOfChangesInEquity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfChangesInEquity' xlink:from='topics_StatementOfChangesInEquity' order='16' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfChangesInEquity' xlink:label='topics_StatementOfChangesInEquity' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeAndRetainedEarningsOtherInformationSet' xlink:label='disclosures_IncomeAndRetainedEarningsOtherInformationSet' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_IncomeAndRetainedEarningsOtherInformationSet' xlink:from='topics_StatementOfChangesInEquity' order='17' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfPropertyPlantAndEquipment' xlink:label='disclosures_SubclassificationsOfPropertyPlantAndEquipment' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfPropertyPlantAndEquipment' xlink:from='topics_PropertyPlantAndEquipment' order='18' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' xlink:label='disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' xlink:from='topics_IntangibleAssets' order='19' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Inventories' xlink:label='topics_Inventories' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfInventories' xlink:label='disclosures_SubclassificationsOfInventories' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfInventories' xlink:from='topics_Inventories' order='20' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherReceivables' xlink:label='topics_TradeAndOtherReceivables' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfNoncurrentReceivables' xlink:label='disclosures_SubclassificationsOfNoncurrentReceivables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfNoncurrentReceivables' xlink:from='topics_TradeAndOtherReceivables' order='21' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherReceivables' xlink:label='topics_TradeAndOtherReceivables' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' xlink:from='topics_TradeAndOtherReceivables' order='22' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherReceivables' xlink:label='topics_TradeAndOtherReceivables' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherReceivables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherReceivables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfTradeAndOtherReceivables' xlink:from='topics_TradeAndOtherReceivables' order='23' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfCashAndCashEquivalents' xlink:label='disclosures_SubclassificationsOfCashAndCashEquivalents' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfCashAndCashEquivalents' xlink:from='topics_CashAndCashEquivalents' order='24' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfWarrantyProvision' xlink:label='disclosures_SubclassificationsOfWarrantyProvision' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfWarrantyProvision' xlink:from='topics_Provisions' order='25' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherPayables' xlink:label='topics_TradeAndOtherPayables' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfNoncurrentPayables' xlink:label='disclosures_SubclassificationsOfNoncurrentPayables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfNoncurrentPayables' xlink:from='topics_TradeAndOtherPayables' order='26' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherPayables' xlink:label='topics_TradeAndOtherPayables' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherPayables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherPayables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfTradeAndOtherPayables' xlink:from='topics_TradeAndOtherPayables' order='27' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOtherReserves' xlink:label='disclosures_SubclassificationsOfOtherReserves' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfOtherReserves' xlink:from='topics_Provisions' order='28' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfRestructuringProvision' xlink:label='disclosures_SubclassificationsOfRestructuringProvision' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfRestructuringProvision' xlink:from='topics_Provisions' order='29' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfLegalProceedingsProvision' xlink:label='disclosures_SubclassificationsOfLegalProceedingsProvision' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfLegalProceedingsProvision' xlink:from='topics_Provisions' order='30' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfRefundsProvision' xlink:label='disclosures_SubclassificationsOfRefundsProvision' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfRefundsProvision' xlink:from='topics_Provisions' order='31' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOnerousContractsProvision' xlink:label='disclosures_SubclassificationsOfOnerousContractsProvision' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfOnerousContractsProvision' xlink:from='topics_Provisions' order='32' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfMiscellaneousOtherProvisions' xlink:label='disclosures_SubclassificationsOfMiscellaneousOtherProvisions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfMiscellaneousOtherProvisions' xlink:from='topics_Provisions' order='33' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOtherProvisions' xlink:label='disclosures_SubclassificationsOfOtherProvisions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfOtherProvisions' xlink:from='topics_Provisions' order='34' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialLiabilities' xlink:label='topics_FinancialLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' xlink:label='disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' xlink:from='topics_FinancialLiabilities' order='35' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialLiabilities' xlink:label='topics_FinancialLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' xlink:label='disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' xlink:from='topics_FinancialLiabilities' order='36' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialLiabilities' xlink:label='topics_FinancialLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' xlink:label='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' xlink:from='topics_FinancialLiabilities' order='37' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherPayables' xlink:label='topics_TradeAndOtherPayables' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' xlink:from='topics_TradeAndOtherPayables' order='38' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfChangesInEquity' xlink:label='topics_StatementOfChangesInEquity' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PriorPeriodAdjustment' xlink:label='disclosures_PriorPeriodAdjustment' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_PriorPeriodAdjustment' xlink:from='topics_StatementOfChangesInEquity' order='39' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Revenue' xlink:label='topics_Revenue' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DisaggregationOfRevenue' xlink:label='disclosures_DisaggregationOfRevenue' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DisaggregationOfRevenue' xlink:from='topics_Revenue' order='40' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Expenses' xlink:label='topics_Expenses' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DisaggregationOfEmployeeBenefitsExpense' xlink:label='disclosures_DisaggregationOfEmployeeBenefitsExpense' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DisaggregationOfEmployeeBenefitsExpense' xlink:from='topics_Expenses' order='41' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfComplianceWithIFRSforSMEs' xlink:label='disclosures_StatementOfComplianceWithIFRSforSMEs' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_StatementOfComplianceWithIFRSforSMEs' xlink:from='topics_BasisOfReporting' order='42' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MeasurementBasesUsedInPreparingFinancialStatements' xlink:label='disclosures_MeasurementBasesUsedInPreparingFinancialStatements' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_MeasurementBasesUsedInPreparingFinancialStatements' xlink:from='topics_BasisOfReporting' order='43' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:label='disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:from='topics_BasisOfReporting' order='44' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:label='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:from='topics_BasisOfReporting' order='45' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReclassificationsOrChangesInPresentation' xlink:label='disclosures_ReclassificationsOrChangesInPresentation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReclassificationsOrChangesInPresentation' xlink:from='topics_BasisOfReporting' order='46' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SummaryOfSignificantAccountingPolicies' xlink:label='disclosures_SummaryOfSignificantAccountingPolicies' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SummaryOfSignificantAccountingPolicies' xlink:from='topics_BasisOfReporting' order='47' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' xlink:label='disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' xlink:from='topics_BasisOfReporting' order='48' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CorporateInformation' xlink:label='disclosures_CorporateInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CorporateInformation' xlink:from='topics_BasisOfReporting' order='49' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousInformationAboutReportingEntity' xlink:label='disclosures_OtherMiscellaneousInformationAboutReportingEntity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherMiscellaneousInformationAboutReportingEntity' xlink:from='topics_BasisOfReporting' order='50' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InitialApplicationOfStandardsOrInterpretations' xlink:label='disclosures_InitialApplicationOfStandardsOrInterpretations' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_InitialApplicationOfStandardsOrInterpretations' xlink:from='topics_BasisOfReporting' order='51' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_VoluntaryChangeInAccountingPolicy' xlink:label='disclosures_VoluntaryChangeInAccountingPolicy' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_VoluntaryChangeInAccountingPolicy' xlink:from='topics_BasisOfReporting' order='52' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ChangesInAccountingEstimates' xlink:label='disclosures_ChangesInAccountingEstimates' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ChangesInAccountingEstimates' xlink:from='topics_BasisOfReporting' order='53' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' xlink:label='disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' xlink:from='topics_BasisOfReporting' order='54' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherInformationAboutCorrectionsAndChanges' xlink:label='disclosures_OtherInformationAboutCorrectionsAndChanges' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherInformationAboutCorrectionsAndChanges' xlink:from='topics_BasisOfReporting' order='55' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EventsAfterEndOfReportingPeriod' xlink:label='topics_EventsAfterEndOfReportingPeriod' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EventsAfterReportingPeriod' xlink:label='disclosures_EventsAfterReportingPeriod' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_EventsAfterReportingPeriod' xlink:from='topics_EventsAfterEndOfReportingPeriod' order='56' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NonAdjustingEventDetail' xlink:label='disclosures_NonAdjustingEventDetail' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_NonAdjustingEventDetail' xlink:from='topics_BasisOfReporting' order='57' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NonadjustingEventsAfterReportingPeriod' xlink:label='disclosures_NonadjustingEventsAfterReportingPeriod' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_NonadjustingEventsAfterReportingPeriod' xlink:from='topics_BasisOfReporting' order='58' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Hyperinflation' xlink:label='topics_Hyperinflation' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_HyperinflationaryReporting' xlink:label='disclosures_HyperinflationaryReporting' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_HyperinflationaryReporting' xlink:from='topics_Hyperinflation' order='59' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinations' xlink:label='disclosures_BusinessCombinations' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_BusinessCombinations' xlink:from='topics_BusinessCombinationsAndGoodwill' order='60' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherBusinessCombinationInformation' xlink:label='disclosures_OtherBusinessCombinationInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherBusinessCombinationInformation' xlink:from='topics_BusinessCombinationsAndGoodwill' order='61' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinationsDetail' xlink:label='disclosures_BusinessCombinationsDetail' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_BusinessCombinationsDetail' xlink:from='topics_BusinessCombinationsAndGoodwill' order='62' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInGoodwill' xlink:label='disclosures_ReconciliationOfChangesInGoodwill' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInGoodwill' xlink:from='topics_BusinessCombinationsAndGoodwill' order='63' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInGoodwillAlternative' xlink:label='disclosures_ReconciliationOfChangesInGoodwillAlternative' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInGoodwillAlternative' xlink:from='topics_BusinessCombinationsAndGoodwill' order='64' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedParty' xlink:label='disclosures_RelatedParty' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_RelatedParty' xlink:from='topics_RelatedPartyTransactions' order='65' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TransactionsBetweenRelatedParties' xlink:label='disclosures_TransactionsBetweenRelatedParties' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_TransactionsBetweenRelatedParties' xlink:from='topics_RelatedPartyTransactions' order='66' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FirstTimeAdoption' xlink:label='disclosures_FirstTimeAdoption' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FirstTimeAdoption' xlink:from='topics_BasisOfReporting' order='67' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:label='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:from='topics_BasisOfReporting' order='68' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FirstTimeAdoptionOtherInformation' xlink:label='disclosures_FirstTimeAdoptionOtherInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FirstTimeAdoptionOtherInformation' xlink:from='topics_BasisOfReporting' order='69' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MeasurementDepreciationAndUsefulLives' xlink:label='disclosures_MeasurementDepreciationAndUsefulLives' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_MeasurementDepreciationAndUsefulLives' xlink:from='topics_PropertyPlantAndEquipment' order='70' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherPropertyPlantAndEquipmentInformation2' xlink:label='disclosures_OtherPropertyPlantAndEquipmentInformation2' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherPropertyPlantAndEquipmentInformation2' xlink:from='topics_PropertyPlantAndEquipment' order='71' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' xlink:label='disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' xlink:from='topics_PropertyPlantAndEquipment' order='72' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' xlink:from='topics_PropertyPlantAndEquipment' order='73' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' xlink:label='disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' xlink:from='topics_PropertyPlantAndEquipment' order='74' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherPropertyPlantAndEquipmentInformation' xlink:label='disclosures_OtherPropertyPlantAndEquipmentInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherPropertyPlantAndEquipmentInformation' xlink:from='topics_PropertyPlantAndEquipment' order='75' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' xlink:from='topics_PropertyPlantAndEquipment' order='76' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfInvestmentProperty' xlink:label='disclosures_ReconciliationOfInvestmentProperty' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfInvestmentProperty' xlink:from='topics_PropertyPlantAndEquipment' order='77' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialInstruments' xlink:label='disclosures_FinancialInstruments' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FinancialInstruments' xlink:from='topics_FinancialAssets' order='78' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:label='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:from='topics_FinancialAssets' order='79' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssets' xlink:label='disclosures_FinancialAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FinancialAssets' xlink:from='topics_FinancialAssets' order='80' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_HedgeAccounting' xlink:label='disclosures_HedgeAccounting' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_HedgeAccounting' xlink:from='topics_FinancialAssets' order='81' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutHedges' xlink:label='disclosures_DetailedInformationAboutHedges' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DetailedInformationAboutHedges' xlink:from='topics_FinancialAssets' order='82' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' xlink:label='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' xlink:from='topics_FinancialAssets' order='83' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssetsPledgedOrInDefault' xlink:label='disclosures_FinancialAssetsPledgedOrInDefault' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FinancialAssetsPledgedOrInDefault' xlink:from='topics_FinancialAssets' order='84' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashFlowHedgeInformation' xlink:label='disclosures_CashFlowHedgeInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CashFlowHedgeInformation' xlink:from='topics_FinancialAssets' order='85' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GainsLossesOnFinancialInstruments' xlink:label='disclosures_GainsLossesOnFinancialInstruments' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_GainsLossesOnFinancialInstruments' xlink:from='topics_FinancialAssets' order='86' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' xlink:label='disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' xlink:from='topics_FinancialAssets' order='87' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssets' xlink:label='disclosures_IntangibleAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_IntangibleAssets' xlink:from='topics_IntangibleAssets' order='88' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutIntangibleAssets' xlink:label='disclosures_DetailedInformationAboutIntangibleAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DetailedInformationAboutIntangibleAssets' xlink:from='topics_IntangibleAssets' order='89' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsMaterialToEntity' xlink:label='disclosures_IntangibleAssetsMaterialToEntity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_IntangibleAssetsMaterialToEntity' xlink:from='topics_IntangibleAssets' order='90' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsOtherInformation' xlink:label='disclosures_IntangibleAssetsOtherInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_IntangibleAssetsOtherInformation' xlink:from='topics_IntangibleAssets' order='91' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InformationAboutIntangibleAssets' xlink:label='disclosures_InformationAboutIntangibleAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_InformationAboutIntangibleAssets' xlink:from='topics_IntangibleAssets' order='92' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' xlink:label='disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' xlink:from='topics_IntangibleAssets' order='93' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BiologicalAssets' xlink:label='topics_BiologicalAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BiologicalAssets' xlink:label='disclosures_BiologicalAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_BiologicalAssets' xlink:from='topics_BiologicalAssets' order='94' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BiologicalAssets' xlink:label='topics_BiologicalAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInBiologicalAssets' xlink:label='disclosures_ReconciliationOfChangesInBiologicalAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInBiologicalAssets' xlink:from='topics_BiologicalAssets' order='95' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BiologicalAssets' xlink:label='topics_BiologicalAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousBiologicalAssetsInformation' xlink:label='disclosures_OtherMiscellaneousBiologicalAssetsInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherMiscellaneousBiologicalAssetsInformation' xlink:from='topics_BiologicalAssets' order='96' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentProperty' xlink:label='topics_InvestmentProperty' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentProperty' xlink:label='disclosures_InvestmentProperty' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_InvestmentProperty' xlink:from='topics_InvestmentProperty' order='97' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentProperty' xlink:label='topics_InvestmentProperty' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInInvestmentProperty' xlink:label='disclosures_ReconciliationOfChangesInInvestmentProperty' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInInvestmentProperty' xlink:from='topics_InvestmentProperty' order='98' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' xlink:label='disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' xlink:from='topics_BasisOfReporting' order='99' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInJointVentures' xlink:label='topics_InvestmentsInJointVentures' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InterestsInJointVentures' xlink:label='disclosures_InterestsInJointVentures' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_InterestsInJointVentures' xlink:from='topics_InvestmentsInJointVentures' order='100' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInJointVentures' xlink:label='topics_InvestmentsInJointVentures' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForInvestmentsInJointVentures' xlink:label='disclosures_AccountingPolicyForInvestmentsInJointVentures' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AccountingPolicyForInvestmentsInJointVentures' xlink:from='topics_InvestmentsInJointVentures' order='101' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInAssociates' xlink:label='topics_InvestmentsInAssociates' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentInAssociates' xlink:label='disclosures_InvestmentInAssociates' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_InvestmentInAssociates' xlink:from='topics_InvestmentsInAssociates' order='102' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInAssociates' xlink:label='topics_InvestmentsInAssociates' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForInvestmentInAssociates' xlink:label='disclosures_AccountingPolicyForInvestmentInAssociates' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AccountingPolicyForInvestmentInAssociates' xlink:from='topics_InvestmentsInAssociates' order='103' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DiscontinuedOperations' xlink:label='topics_DiscontinuedOperations' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' xlink:label='disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' xlink:from='topics_DiscontinuedOperations' order='104' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Inventories' xlink:label='topics_Inventories' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Inventories' xlink:label='disclosures_Inventories' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_Inventories' xlink:from='topics_Inventories' order='105' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Inventories' xlink:label='topics_Inventories' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForMeasuringInventories' xlink:label='disclosures_AccountingPolicyForMeasuringInventories' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AccountingPolicyForMeasuringInventories' xlink:from='topics_Inventories' order='106' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:label='disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:from='topics_Contingencies' order='107' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisions' xlink:label='disclosures_OtherProvisions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherProvisions' xlink:from='topics_Contingencies' order='108' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentLiabilities' xlink:label='disclosures_ContingentLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ContingentLiabilities' xlink:from='topics_Contingencies' order='109' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:label='disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:from='topics_Contingencies' order='110' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInOtherProvisions' xlink:label='disclosures_ReconciliationOfChangesInOtherProvisions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInOtherProvisions' xlink:from='topics_Contingencies' order='111' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisionsOtherInformation' xlink:label='disclosures_OtherProvisionsOtherInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherProvisionsOtherInformation' xlink:from='topics_Contingencies' order='112' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentLiabilitiesDetails' xlink:label='disclosures_ContingentLiabilitiesDetails' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ContingentLiabilitiesDetails' xlink:from='topics_Contingencies' order='113' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Revenue' xlink:label='topics_Revenue' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Revenue' xlink:label='disclosures_Revenue' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_Revenue' xlink:from='topics_Revenue' order='114' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Revenue' xlink:label='topics_Revenue' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForRecognitionOfRevenue' xlink:label='disclosures_AccountingPolicyForRecognitionOfRevenue' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AccountingPolicyForRecognitionOfRevenue' xlink:from='topics_Revenue' order='115' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_GovernmentGrants' xlink:label='topics_GovernmentGrants' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GovernmentGrants' xlink:label='disclosures_GovernmentGrants' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_GovernmentGrants' xlink:from='topics_GovernmentGrants' order='116' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Revenue' xlink:label='topics_Revenue' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RecognisedRevenueFromConstructionContracts' xlink:label='disclosures_RecognisedRevenueFromConstructionContracts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_RecognisedRevenueFromConstructionContracts' xlink:from='topics_Revenue' order='117' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ImpairmentOrReversalOfImparement' xlink:label='topics_ImpairmentOrReversalOfImparement' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentOfAssets' xlink:label='disclosures_ImpairmentOfAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ImpairmentOfAssets' xlink:from='topics_ImpairmentOrReversalOfImparement' order='118' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ImpairmentOrReversalOfImparement' xlink:label='topics_ImpairmentOrReversalOfImparement' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' xlink:label='disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' xlink:from='topics_ImpairmentOrReversalOfImparement' order='119' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ImpairmentOrReversalOfImparement' xlink:label='topics_ImpairmentOrReversalOfImparement' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentLossAndReversalOfImpairmentLoss' xlink:label='disclosures_ImpairmentLossAndReversalOfImpairmentLoss' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ImpairmentLossAndReversalOfImpairmentLoss' xlink:from='topics_ImpairmentOrReversalOfImparement' order='120' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Leases' xlink:label='disclosures_Leases' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_Leases' xlink:from='topics_Leases' order='121' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessee' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessee' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessee' xlink:from='topics_Leases' order='122' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:from='topics_Leases' order='123' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessor' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessor' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessor' xlink:from='topics_Leases' order='124' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentRentsRecognisedAsIncome' xlink:label='disclosures_ContingentRentsRecognisedAsIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ContingentRentsRecognisedAsIncome' xlink:from='topics_Leases' order='125' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' xlink:from='topics_Leases' order='126' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' xlink:from='topics_Leases' order='127' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SharebasedPaymentArrangements' xlink:label='disclosures_SharebasedPaymentArrangements' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SharebasedPaymentArrangements' xlink:from='topics_SharebasedPayments' order='128' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:label='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:from='topics_SharebasedPayments' order='129' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' xlink:label='disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' xlink:from='topics_SharebasedPayments' order='130' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NumberOfShareOptionsRollForward' xlink:label='disclosures_NumberOfShareOptionsRollForward' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_NumberOfShareOptionsRollForward' xlink:from='topics_SharebasedPayments' order='131' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_WeightedAverageExercisePricesOfShareOptions' xlink:label='disclosures_WeightedAverageExercisePricesOfShareOptions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_WeightedAverageExercisePricesOfShareOptions' xlink:from='topics_SharebasedPayments' order='132' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ShareOptionsExercisable' xlink:label='disclosures_ShareOptionsExercisable' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ShareOptionsExercisable' xlink:from='topics_SharebasedPayments' order='133' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SharebasedPaymentsOtherInformation' xlink:label='disclosures_SharebasedPaymentsOtherInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_SharebasedPaymentsOtherInformation' xlink:from='topics_SharebasedPayments' order='134' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EmployeeBenefits' xlink:label='disclosures_EmployeeBenefits' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_EmployeeBenefits' xlink:from='topics_EmployeeBenefits' order='135' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DefinedBenefitPlans' xlink:label='disclosures_DefinedBenefitPlans' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DefinedBenefitPlans' xlink:from='topics_EmployeeBenefits' order='136' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherLongtermBenefits' xlink:label='disclosures_OtherLongtermBenefits' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherLongtermBenefits' xlink:from='topics_EmployeeBenefits' order='137' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TerminationBenefits' xlink:label='disclosures_TerminationBenefits' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_TerminationBenefits' xlink:from='topics_EmployeeBenefits' order='138' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:from='topics_EmployeeBenefits' order='139' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EmployeeBenefitPlansOtherInformation' xlink:label='disclosures_EmployeeBenefitPlansOtherInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_EmployeeBenefitPlansOtherInformation' xlink:from='topics_EmployeeBenefits' order='140' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DefinedBenefitPlanInformation' xlink:label='disclosures_DefinedBenefitPlanInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DefinedBenefitPlanInformation' xlink:from='topics_EmployeeBenefits' order='141' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' xlink:label='disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' xlink:from='topics_EmployeeBenefits' order='142' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' xlink:label='disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' xlink:from='topics_EmployeeBenefits' order='143' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfReimbursementRightsAtFairValue' xlink:label='disclosures_ReconciliationOfReimbursementRightsAtFairValue' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfReimbursementRightsAtFairValue' xlink:from='topics_EmployeeBenefits' order='144' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CostsRelatedToDefinedBenefitPlansInformation' xlink:label='disclosures_CostsRelatedToDefinedBenefitPlansInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CostsRelatedToDefinedBenefitPlansInformation' xlink:from='topics_EmployeeBenefits' order='145' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForDefinedBenefitPlans' xlink:label='disclosures_AccountingPolicyForDefinedBenefitPlans' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AccountingPolicyForDefinedBenefitPlans' xlink:from='topics_EmployeeBenefits' order='146' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' xlink:from='topics_EmployeeBenefits' order='147' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTax' xlink:label='disclosures_IncomeTax' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_IncomeTax' xlink:from='topics_IncomeTax' order='148' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' xlink:label='disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' xlink:from='topics_IncomeTax' order='149' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:label='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DeferredTaxAssetsAndLiabilities' xlink:label='disclosures_DeferredTaxAssetsAndLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DeferredTaxAssetsAndLiabilities' xlink:from='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' order='150' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AnalysisOfChangeInDeferredTaxLiabilities' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' xlink:from='topics_IncomeTax' order='151' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AnalysisOfChangeInDeferredTaxAssets' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AnalysisOfChangeInDeferredTaxAssets' xlink:from='topics_IncomeTax' order='152' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MajorComponentsOfTaxExpenseIncome' xlink:label='disclosures_MajorComponentsOfTaxExpenseIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_MajorComponentsOfTaxExpenseIncome' xlink:from='topics_IncomeTax' order='153' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:label='disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:from='topics_IncomeTax' order='154' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' xlink:label='disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' xlink:from='topics_IncomeTax' order='155' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxOtherInformation' xlink:label='disclosures_IncomeTaxOtherInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_IncomeTaxOtherInformation' xlink:from='topics_IncomeTax' order='156' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ForeignCurrencyTranslation' xlink:label='topics_ForeignCurrencyTranslation' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EffectOfChangesInForeignExchangeRates' xlink:label='disclosures_EffectOfChangesInForeignExchangeRates' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_EffectOfChangesInForeignExchangeRates' xlink:from='topics_ForeignCurrencyTranslation' order='157' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashFlowStatementInformation' xlink:label='disclosures_CashFlowStatementInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CashFlowStatementInformation' xlink:from='topics_CashAndCashEquivalents' order='158' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' xlink:label='disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' xlink:from='topics_CashAndCashEquivalents' order='159' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxesPaidRefund' xlink:label='disclosures_IncomeTaxesPaidRefund' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_IncomeTaxesPaidRefund' xlink:from='topics_CashAndCashEquivalents' order='160' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ClassesOfShareCapital' xlink:label='disclosures_ClassesOfShareCapital' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ClassesOfShareCapital' xlink:from='topics_Equity' order='161' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReservesWithinEquity' xlink:label='disclosures_ReservesWithinEquity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReservesWithinEquity' xlink:from='topics_Equity' order='162' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ShareCapitalReservesAndOtherEquityInterest' xlink:label='disclosures_ShareCapitalReservesAndOtherEquityInterest' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ShareCapitalReservesAndOtherEquityInterest' xlink:from='topics_Equity' order='163' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ClassOfShareCapitalInformation' xlink:label='disclosures_ClassOfShareCapitalInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ClassOfShareCapitalInformation' xlink:from='topics_Equity' order='164' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfNumberOfSharesOutstanding' xlink:label='disclosures_ReconciliationOfNumberOfSharesOutstanding' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_ReconciliationOfNumberOfSharesOutstanding' xlink:from='topics_Equity' order='165' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NatureAndAmountOfChangeInAccountingEstimate' xlink:label='disclosures_NatureAndAmountOfChangeInAccountingEstimate' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_NatureAndAmountOfChangeInAccountingEstimate' xlink:from='topics_BasisOfReporting' order='166' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:label='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:from='topics_BasisOfReporting' order='167' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AmountsRecognised' xlink:label='disclosures_AmountsRecognised' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_AmountsRecognised' xlink:from='topics_BusinessCombinationsAndGoodwill' order='168' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousAcquisitionInformation' xlink:label='disclosures_OtherMiscellaneousAcquisitionInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherMiscellaneousAcquisitionInformation' xlink:from='topics_BusinessCombinationsAndGoodwill' order='169' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedPartyTransactionInformation' xlink:label='disclosures_RelatedPartyTransactionInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_RelatedPartyTransactionInformation' xlink:from='topics_RelatedPartyTransactions' order='170' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedPartyTransactions' xlink:label='disclosures_RelatedPartyTransactions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_RelatedPartyTransactions' xlink:from='topics_RelatedPartyTransactions' order='171' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OutstandingBalancesForRelatedPartyTransactions' xlink:label='disclosures_OutstandingBalancesForRelatedPartyTransactions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OutstandingBalancesForRelatedPartyTransactions' xlink:from='topics_RelatedPartyTransactions' order='172' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherRelatedPartyTransactionInformation' xlink:label='disclosures_OtherRelatedPartyTransactionInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_OtherRelatedPartyTransactionInformation' xlink:from='topics_RelatedPartyTransactions' order='173' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutIntangibleAssets2' xlink:label='disclosures_DetailedInformationAboutIntangibleAssets2' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_DetailedInformationAboutIntangibleAssets2' xlink:from='topics_IntangibleAssets' order='174' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures/role/Disclosures'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinationsNote' xlink:label='disclosures_BusinessCombinationsNote' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='disclosures_BusinessCombinationsNote' xlink:from='topics_BusinessCombinationsAndGoodwill' order='175' use='optional' />
+   </link:presentationLink>
+
+</link:linkbase>

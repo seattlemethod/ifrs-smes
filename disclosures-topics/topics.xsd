@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 7:38:42 AM -->
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+
+  xmlns:topics='https://github.com/seattlemethod/ifrs-smes/enhancements/topics'
+  targetNamespace='https://github.com/seattlemethod/ifrs-smes/enhancements/topics'
+
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <documentation>IFRS for SMEs</documentation>
+    <appinfo>
+      <link:roleType roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' id='Topics'>
+        <link:definition>Topics</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='topics-lab.xml' xlink:title='Label Links, all' />
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='topics-doc.xml' xlink:title='Documentation Links, all' />
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/referenceLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='topics-ref.xml' xlink:title='References, all' />
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+  <import namespace='http://www.xbrl.org/2003/linkbase' schemaLocation='http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd' />
+
+    <complexType abstract='false' mixed='false' name='headingItemType'>
+        <simpleContent>
+           <restriction base='xbrli:tokenItemType'>
+           <attributeGroup ref='xbrli:nonNumericItemAttrs' />
+           </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType abstract='false' mixed='false' name='topicItemType'>
+        <simpleContent>
+           <restriction base='xbrli:tokenItemType'>
+           <attributeGroup ref='xbrli:nonNumericItemAttrs' />
+           </restriction>
+        </simpleContent>
+    </complexType>
+  <element id='topics_AssetsClassifiedAsHeldForSale' name='AssetsClassifiedAsHeldForSale' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_AuditFees' name='AuditFees' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_BasisOfReporting' name='BasisOfReporting' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_BasisOfReportingAndNatureOfReportingEntity' name='BasisOfReportingAndNatureOfReportingEntity' type='topics:headingItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_BiologicalAssets' name='BiologicalAssets' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_BorrowingCosts' name='BorrowingCosts' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_BroadTransactions' name='BroadTransactions' type='topics:headingItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_BusinessCombinationsAndGoodwill' name='BusinessCombinationsAndGoodwill' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_CashAndCashEquivalents' name='CashAndCashEquivalents' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_ChangeInAccountingPolicy' name='ChangeInAccountingPolicy' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_ChangeInEstimate' name='ChangeInEstimate' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_CompleteSetOfFinancialStatements' name='CompleteSetOfFinancialStatements' type='topics:headingItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_Contingencies' name='Contingencies' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_CostOfSales' name='CostOfSales' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' name='DeferredTaxLiabilitiesAndDeferredTaxAssets' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_DiscontinuedOperations' name='DiscontinuedOperations' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_EmployeeBenefits' name='EmployeeBenefits' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_Equity' name='Equity' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_EquityAttributableToOwnersOfParent' name='EquityAttributableToOwnersOfParent' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_EventsAfterEndOfReportingPeriod' name='EventsAfterEndOfReportingPeriod' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_Expenses' name='Expenses' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_FinanceCosts' name='FinanceCosts' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_FinancialAccounts' name='FinancialAccounts' type='topics:headingItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_FinancialAssets' name='FinancialAssets' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_FinancialInstrumentsPolicies' name='FinancialInstrumentsPolicies' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_FinancialLiabilities' name='FinancialLiabilities' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_FinancialStatementPresentation' name='FinancialStatementPresentation' type='topics:headingItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_ForeignCurrencyTranslation' name='ForeignCurrencyTranslation' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_GovernmentGrants' name='GovernmentGrants' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_Hyperinflation' name='Hyperinflation' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_ImpairmentOrReversalOfImparement' name='ImpairmentOrReversalOfImparement' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_ImputationCredits' name='ImputationCredits' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_IncomeTax' name='IncomeTax' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_IntangibleAssets' name='IntangibleAssets' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_InterestAndDividends' name='InterestAndDividends' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_Inventories' name='Inventories' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_InvestmentProperty' name='InvestmentProperty' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_InvestmentsInAssociates' name='InvestmentsInAssociates' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_InvestmentsInJointVentures' name='InvestmentsInJointVentures' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_Leases' name='Leases' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_LiabilitiesAndAssetsForCurrentTax' name='LiabilitiesAndAssetsForCurrentTax' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_LiabilitiesClassifiedAsHeldForSale' name='LiabilitiesClassifiedAsHeldForSale' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_MeasurementBasis' name='MeasurementBasis' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_NatureOfOperations' name='NatureOfOperations' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_NoncashTransactions' name='NoncashTransactions' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_NoncontrollingInterests' name='NoncontrollingInterests' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_OtherComprehensiveIncome' name='OtherComprehensiveIncome' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_OtherExplanatoryInformation' name='OtherExplanatoryInformation' type='topics:headingItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_OtherFinancialAccounts' name='OtherFinancialAccounts' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_OtherMiscellaneousAssets' name='OtherMiscellaneousAssets' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_OtherMiscellaneousLiabilities' name='OtherMiscellaneousLiabilities' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_PriorPeriodErrors' name='PriorPeriodErrors' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_ProfitLoss' name='ProfitLoss' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_ProfitLossOfInvestmentsUsingEquityMethod' name='ProfitLossOfInvestmentsUsingEquityMethod' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_PropertyPlantAndEquipment' name='PropertyPlantAndEquipment' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_Provisions' name='Provisions' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_RelatedPartyTransactions' name='RelatedPartyTransactions' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_Revenue' name='Revenue' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_SharebasedPayments' name='SharebasedPayments' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_SignificantAccountingPolicies' name='SignificantAccountingPolicies' type='topics:headingItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_StatementOfCashFlows' name='StatementOfCashFlows' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_StatementOfChangesInEquity' name='StatementOfChangesInEquity' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_StatementOfFinancialPosition' name='StatementOfFinancialPosition' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_StatementOfIncomeAndRetainedEarnings' name='StatementOfIncomeAndRetainedEarnings' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_StatementOfOtherComprehensiveIncome' name='StatementOfOtherComprehensiveIncome' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_StatementOfProfitOrLoss' name='StatementOfProfitOrLoss' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' name='StatementOfProfitOrLossAndOtherComprehensiveIncome' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_TaxExpense' name='TaxExpense' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_TradeAndOtherPayables' name='TradeAndOtherPayables' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_TradeAndOtherReceivables' name='TradeAndOtherReceivables' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='topics_TransactionsInForeignCurrency' name='TransactionsInForeignCurrency' type='topics:topicItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+
+</schema>

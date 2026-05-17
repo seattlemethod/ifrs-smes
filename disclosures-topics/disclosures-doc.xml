@@ -1,0 +1,709 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 7:38:53 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 7:38:53 AM'?>
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForDefinedBenefitPlans' xlink:label='disclosures_AccountingPolicyForDefinedBenefitPlans' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AccountingPolicyForDefinedBenefitPlans' xlink:to='disclosures_AccountingPolicyForDefinedBenefitPlans_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AccountingPolicyForDefinedBenefitPlans_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about accounting policies for defined benefit plans.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForInvestmentInAssociates' xlink:label='disclosures_AccountingPolicyForInvestmentInAssociates' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AccountingPolicyForInvestmentInAssociates' xlink:to='disclosures_AccountingPolicyForInvestmentInAssociates_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AccountingPolicyForInvestmentInAssociates_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about accounting policies for investments in associates.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForInvestmentsInJointVentures' xlink:label='disclosures_AccountingPolicyForInvestmentsInJointVentures' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AccountingPolicyForInvestmentsInJointVentures' xlink:to='disclosures_AccountingPolicyForInvestmentsInJointVentures_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AccountingPolicyForInvestmentsInJointVentures_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about accounting policies for investments in joint ventures.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForMeasuringInventories' xlink:label='disclosures_AccountingPolicyForMeasuringInventories' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AccountingPolicyForMeasuringInventories' xlink:to='disclosures_AccountingPolicyForMeasuringInventories_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AccountingPolicyForMeasuringInventories_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about accounting policies for measuring inventories.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AccountingPolicyForRecognitionOfRevenue' xlink:label='disclosures_AccountingPolicyForRecognitionOfRevenue' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AccountingPolicyForRecognitionOfRevenue' xlink:to='disclosures_AccountingPolicyForRecognitionOfRevenue_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AccountingPolicyForRecognitionOfRevenue_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about accounting policy for recognition of revenue.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AmountsRecognised' xlink:label='disclosures_AmountsRecognised' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AmountsRecognised' xlink:to='disclosures_AmountsRecognised_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AmountsRecognised_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about amounts recognized as of acquisition date for each major class of asset or liability assumed.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AnalysisOfChangeInDeferredTaxAssets' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AnalysisOfChangeInDeferredTaxAssets' xlink:to='disclosures_AnalysisOfChangeInDeferredTaxAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Analysis of information about changes in deferred tax assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AnalysisOfChangeInDeferredTaxLiabilities' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' xlink:to='disclosures_AnalysisOfChangeInDeferredTaxLiabilities_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxLiabilities_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Analysis of information about changes in deferred tax liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' xlink:label='disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment' xlink:to='disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Description of assets and liabilities of the economic entity with significant risk of material adjustment.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AssetsRollUp' xlink:label='disclosures_AssetsRollUp' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_AssetsRollUp' xlink:to='disclosures_AssetsRollUp_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_AssetsRollUp_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the roll up of assets when classified basis alternative approach is used on the statement of financial position</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BiologicalAssets' xlink:label='disclosures_BiologicalAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_BiologicalAssets' xlink:to='disclosures_BiologicalAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_BiologicalAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about biological assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:label='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:to='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the breakdown of comprehensive income (loss) by controlling and noncontrolling.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BreakdownOfProfitLossSet' xlink:label='disclosures_BreakdownOfProfitLossSet' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_BreakdownOfProfitLossSet' xlink:to='disclosures_BreakdownOfProfitLossSet_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_BreakdownOfProfitLossSet_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the breakdown of profit (loss) by controlling and noncontrolling.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinations' xlink:label='disclosures_BusinessCombinations' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_BusinessCombinations' xlink:to='disclosures_BusinessCombinations_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_BusinessCombinations_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about business combinations.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinationsDetail' xlink:label='disclosures_BusinessCombinationsDetail' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_BusinessCombinationsDetail' xlink:to='disclosures_BusinessCombinationsDetail_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_BusinessCombinationsDetail_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of information about each business combination.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BusinessCombinationsNote' xlink:label='disclosures_BusinessCombinationsNote' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_BusinessCombinationsNote' xlink:to='disclosures_BusinessCombinationsNote_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_BusinessCombinationsNote_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Business combinations note.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' xlink:label='disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition' xlink:to='disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about cash and cash equivalents per cash flow statement if different from statement of financial position.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsRollForward' xlink:label='disclosures_CashAndCashEquivalentsRollForward' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CashAndCashEquivalentsRollForward' xlink:to='disclosures_CashAndCashEquivalentsRollForward_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CashAndCashEquivalentsRollForward_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the roll forward of cash and cash equivalents per the statement of cash flows.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashFlowHedgeInformation' xlink:label='disclosures_CashFlowHedgeInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CashFlowHedgeInformation' xlink:to='disclosures_CashFlowHedgeInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CashFlowHedgeInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about financial assets that are cash flow hedges.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashFlowStatementInformation' xlink:label='disclosures_CashFlowStatementInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CashFlowStatementInformation' xlink:to='disclosures_CashFlowStatementInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CashFlowStatementInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about cash flow statement.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' xlink:label='disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities' xlink:to='disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Categories of current financial assets and current financial liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' xlink:label='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities' xlink:to='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Categories of financial assets and financial liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' xlink:label='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2' xlink:to='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CategoriesOfFinancialAssetsAndFinancialLiabilities2_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about categories of financial assets and financial liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' xlink:label='disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities' xlink:to='disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Categories of noncurrent financial assets and noncurrent financial liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ChangesInAccountingEstimates' xlink:label='disclosures_ChangesInAccountingEstimates' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ChangesInAccountingEstimates' xlink:to='disclosures_ChangesInAccountingEstimates_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ChangesInAccountingEstimates_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about any changes in accounting estimates.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ClassesOfShareCapital' xlink:label='disclosures_ClassesOfShareCapital' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ClassesOfShareCapital' xlink:to='disclosures_ClassesOfShareCapital_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ClassesOfShareCapital_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about classes of share capital.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ClassOfShareCapitalInformation' xlink:label='disclosures_ClassOfShareCapitalInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ClassOfShareCapitalInformation' xlink:to='disclosures_ClassOfShareCapitalInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ClassOfShareCapitalInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about classes of share capital by class.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:label='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:to='disclosures_ComparativeInformationPreparedUnderPreviousGAAP_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ComparativeInformationPreparedUnderPreviousGAAP_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about comparison of previous GAAP with IFRS for SMEs.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' xlink:label='disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ConsolidatedSeparateAndCombinedFinancialStatements' xlink:to='disclosures_ConsolidatedSeparateAndCombinedFinancialStatements_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ConsolidatedSeparateAndCombinedFinancialStatements_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about consolidated, separate, and combined financial statements.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentLiabilities' xlink:label='disclosures_ContingentLiabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ContingentLiabilities' xlink:to='disclosures_ContingentLiabilities_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ContingentLiabilities_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about contingent liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentLiabilitiesDetails' xlink:label='disclosures_ContingentLiabilitiesDetails' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ContingentLiabilitiesDetails' xlink:to='disclosures_ContingentLiabilitiesDetails_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ContingentLiabilitiesDetails_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about contingent liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ContingentRentsRecognisedAsIncome' xlink:label='disclosures_ContingentRentsRecognisedAsIncome' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ContingentRentsRecognisedAsIncome' xlink:to='disclosures_ContingentRentsRecognisedAsIncome_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ContingentRentsRecognisedAsIncome_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about contingent rents recognized in income.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CorporateInformation' xlink:label='disclosures_CorporateInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CorporateInformation' xlink:to='disclosures_CorporateInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CorporateInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the reporting economic entity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CostsRelatedToDefinedBenefitPlansInformation' xlink:label='disclosures_CostsRelatedToDefinedBenefitPlansInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CostsRelatedToDefinedBenefitPlansInformation' xlink:to='disclosures_CostsRelatedToDefinedBenefitPlansInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CostsRelatedToDefinedBenefitPlansInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about costs related to defined benefit plans.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' xlink:label='disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity' xlink:to='disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about income tax relating to current and deffered tax related to items charged directly to equity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DeferredTaxAssetsAndLiabilities' xlink:label='disclosures_DeferredTaxAssetsAndLiabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DeferredTaxAssetsAndLiabilities' xlink:to='disclosures_DeferredTaxAssetsAndLiabilities_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DeferredTaxAssetsAndLiabilities_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about deferred tax assets and liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DefinedBenefitPlanInformation' xlink:label='disclosures_DefinedBenefitPlanInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DefinedBenefitPlanInformation' xlink:to='disclosures_DefinedBenefitPlanInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DefinedBenefitPlanInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about defined benefit plans.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DefinedBenefitPlans' xlink:label='disclosures_DefinedBenefitPlans' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DefinedBenefitPlans' xlink:to='disclosures_DefinedBenefitPlans_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DefinedBenefitPlans_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about defined benefit plans.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutHedges' xlink:label='disclosures_DetailedInformationAboutHedges' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DetailedInformationAboutHedges' xlink:to='disclosures_DetailedInformationAboutHedges_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DetailedInformationAboutHedges_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about hedges.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutIntangibleAssets' xlink:label='disclosures_DetailedInformationAboutIntangibleAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DetailedInformationAboutIntangibleAssets' xlink:to='disclosures_DetailedInformationAboutIntangibleAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DetailedInformationAboutIntangibleAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about intangible assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutIntangibleAssets2' xlink:label='disclosures_DetailedInformationAboutIntangibleAssets2' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DetailedInformationAboutIntangibleAssets2' xlink:to='disclosures_DetailedInformationAboutIntangibleAssets2_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DetailedInformationAboutIntangibleAssets2_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about intangible assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty' xlink:to='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about property, plant,  and equipment and investment property.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' xlink:to='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about property, plant,  and equipment and investment property, alternative.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DisaggregationOfEmployeeBenefitsExpense' xlink:label='disclosures_DisaggregationOfEmployeeBenefitsExpense' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DisaggregationOfEmployeeBenefitsExpense' xlink:to='disclosures_DisaggregationOfEmployeeBenefitsExpense_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DisaggregationOfEmployeeBenefitsExpense_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Disaggregation of employee benefits expense.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DisaggregationOfRevenue' xlink:label='disclosures_DisaggregationOfRevenue' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_DisaggregationOfRevenue' xlink:to='disclosures_DisaggregationOfRevenue_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_DisaggregationOfRevenue_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Disaggregation of revenue.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EffectOfChangesInForeignExchangeRates' xlink:label='disclosures_EffectOfChangesInForeignExchangeRates' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_EffectOfChangesInForeignExchangeRates' xlink:to='disclosures_EffectOfChangesInForeignExchangeRates_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_EffectOfChangesInForeignExchangeRates_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the effect of changes in foreign exchange rates.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EmployeeBenefitPlansOtherInformation' xlink:label='disclosures_EmployeeBenefitPlansOtherInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_EmployeeBenefitPlansOtherInformation' xlink:to='disclosures_EmployeeBenefitPlansOtherInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_EmployeeBenefitPlansOtherInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information about employee benefit plans.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EmployeeBenefits' xlink:label='disclosures_EmployeeBenefits' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_EmployeeBenefits' xlink:to='disclosures_EmployeeBenefits_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_EmployeeBenefits_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about employee benefits.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EquityAndLiabilitiesRollUp' xlink:label='disclosures_EquityAndLiabilitiesRollUp' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_EquityAndLiabilitiesRollUp' xlink:to='disclosures_EquityAndLiabilitiesRollUp_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_EquityAndLiabilitiesRollUp_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the roll up of liabilities and equity when classified basis alternative approach is used on the statement of financial position</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EventsAfterReportingPeriod' xlink:label='disclosures_EventsAfterReportingPeriod' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_EventsAfterReportingPeriod' xlink:to='disclosures_EventsAfterReportingPeriod_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_EventsAfterReportingPeriod_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about events occuring after reporting period.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:label='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:to='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the fact that amount of change in accounting estimate is impracticable to measure.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessee' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessee' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FinanceLeaseAndOperatingLeaseByLessee' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessee_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessee_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about finance type leases and operating type leases by lessee.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLesseeDetail_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about finance and operating lease by lessee.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessor' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessor' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FinanceLeaseAndOperatingLeaseByLessor' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessor_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessor_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about finance lease and operating lease by lessor.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail' xlink:to='disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FinanceLeaseAndOperatingLeaseByLessorDetail_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about finance and operating lease by lessor.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssets' xlink:label='disclosures_FinancialAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FinancialAssets' xlink:to='disclosures_FinancialAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FinancialAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about financial assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssetsPledgedOrInDefault' xlink:label='disclosures_FinancialAssetsPledgedOrInDefault' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FinancialAssetsPledgedOrInDefault' xlink:to='disclosures_FinancialAssetsPledgedOrInDefault_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FinancialAssetsPledgedOrInDefault_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about financial assets that have been pledged or which are in default.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:label='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:to='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about financial assets that have been transferred and are not derecognized in their entirety.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinancialInstruments' xlink:label='disclosures_FinancialInstruments' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FinancialInstruments' xlink:to='disclosures_FinancialInstruments_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FinancialInstruments_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about financial instuments.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FirstTimeAdoption' xlink:label='disclosures_FirstTimeAdoption' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FirstTimeAdoption' xlink:to='disclosures_FirstTimeAdoption_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FirstTimeAdoption_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about first time adoption of IFRS for SMEs.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FirstTimeAdoptionOtherInformation' xlink:label='disclosures_FirstTimeAdoptionOtherInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_FirstTimeAdoptionOtherInformation' xlink:to='disclosures_FirstTimeAdoptionOtherInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_FirstTimeAdoptionOtherInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information related to first time adoption of IFRS for SMEs.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GainsLossesOnFinancialInstruments' xlink:label='disclosures_GainsLossesOnFinancialInstruments' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_GainsLossesOnFinancialInstruments' xlink:to='disclosures_GainsLossesOnFinancialInstruments_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_GainsLossesOnFinancialInstruments_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about gains and losses on financial instruments.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GeneralInformationAboutFinancialStatements' xlink:label='disclosures_GeneralInformationAboutFinancialStatements' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_GeneralInformationAboutFinancialStatements' xlink:to='disclosures_GeneralInformationAboutFinancialStatements_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_GeneralInformationAboutFinancialStatements_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>General information about financial statements.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GovernmentGrants' xlink:label='disclosures_GovernmentGrants' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_GovernmentGrants' xlink:to='disclosures_GovernmentGrants_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_GovernmentGrants_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about government grants.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_HedgeAccounting' xlink:label='disclosures_HedgeAccounting' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_HedgeAccounting' xlink:to='disclosures_HedgeAccounting_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_HedgeAccounting_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about hedge accounting.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_HyperinflationaryReporting' xlink:label='disclosures_HyperinflationaryReporting' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_HyperinflationaryReporting' xlink:to='disclosures_HyperinflationaryReporting_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_HyperinflationaryReporting_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the affect of hyperinflation on financial statements.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentLossAndReversalOfImpairmentLoss' xlink:label='disclosures_ImpairmentLossAndReversalOfImpairmentLoss' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ImpairmentLossAndReversalOfImpairmentLoss' xlink:to='disclosures_ImpairmentLossAndReversalOfImpairmentLoss_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ImpairmentLossAndReversalOfImpairmentLoss_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about impairment of assets and reversals of impairment.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' xlink:label='disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail' xlink:to='disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ImpairmentLossAndReversalOfImpairmentLossDetail_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about impairment of assets and reversals of impairments.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ImpairmentOfAssets' xlink:label='disclosures_ImpairmentOfAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ImpairmentOfAssets' xlink:to='disclosures_ImpairmentOfAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ImpairmentOfAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about impairment of assets and reversals of impairments.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeAndRetainedEarningsOtherInformationSet' xlink:label='disclosures_IncomeAndRetainedEarningsOtherInformationSet' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_IncomeAndRetainedEarningsOtherInformationSet' xlink:to='disclosures_IncomeAndRetainedEarningsOtherInformationSet_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_IncomeAndRetainedEarningsOtherInformationSet_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Additional disclosures for statement of income or statement of changes in equity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTax' xlink:label='disclosures_IncomeTax' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_IncomeTax' xlink:to='disclosures_IncomeTax_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_IncomeTax_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about income tax.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxesPaidRefund' xlink:label='disclosures_IncomeTaxesPaidRefund' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_IncomeTaxesPaidRefund' xlink:to='disclosures_IncomeTaxesPaidRefund_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_IncomeTaxesPaidRefund_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about cash flows from income taxes paid (refund).</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxOtherInformation' xlink:label='disclosures_IncomeTaxOtherInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_IncomeTaxOtherInformation' xlink:to='disclosures_IncomeTaxOtherInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_IncomeTaxOtherInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information about income tax.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:label='disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:to='disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about income tax relating to components of other comprehensive income (loss).</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InformationAboutIntangibleAssets' xlink:label='disclosures_InformationAboutIntangibleAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_InformationAboutIntangibleAssets' xlink:to='disclosures_InformationAboutIntangibleAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_InformationAboutIntangibleAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about intangible assets by class of intangible asset.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InitialApplicationOfStandardsOrInterpretations' xlink:label='disclosures_InitialApplicationOfStandardsOrInterpretations' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_InitialApplicationOfStandardsOrInterpretations' xlink:to='disclosures_InitialApplicationOfStandardsOrInterpretations_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_InitialApplicationOfStandardsOrInterpretations_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the initial appication of IFRS for SMEs standards or interpretations.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssets' xlink:label='disclosures_IntangibleAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_IntangibleAssets' xlink:to='disclosures_IntangibleAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_IntangibleAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about intangible assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsMaterialToEntity' xlink:label='disclosures_IntangibleAssetsMaterialToEntity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_IntangibleAssetsMaterialToEntity' xlink:to='disclosures_IntangibleAssetsMaterialToEntity_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_IntangibleAssetsMaterialToEntity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about intantible assets which are material to the reporting economic entity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsOtherInformation' xlink:label='disclosures_IntangibleAssetsOtherInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_IntangibleAssetsOtherInformation' xlink:to='disclosures_IntangibleAssetsOtherInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_IntangibleAssetsOtherInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information about intangible assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' xlink:label='disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123' xlink:to='disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_InterestIncomeExpenseForFinancialAssetsLiabilities123_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about interest income or expense for financial assets or liabilities not at fair value through profit or loss.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InterestsInJointVentures' xlink:label='disclosures_InterestsInJointVentures' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_InterestsInJointVentures' xlink:to='disclosures_InterestsInJointVentures_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_InterestsInJointVentures_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about interests in joint ventures.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Inventories' xlink:label='disclosures_Inventories' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_Inventories' xlink:to='disclosures_Inventories_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_Inventories_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about inventories.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentInAssociates' xlink:label='disclosures_InvestmentInAssociates' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_InvestmentInAssociates' xlink:to='disclosures_InvestmentInAssociates_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_InvestmentInAssociates_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about interests in associates.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentProperty' xlink:label='disclosures_InvestmentProperty' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_InvestmentProperty' xlink:to='disclosures_InvestmentProperty_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_InvestmentProperty_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about investment property.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Leases' xlink:label='disclosures_Leases' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_Leases' xlink:to='disclosures_Leases_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_Leases_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about leases.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MajorComponentsOfTaxExpenseIncome' xlink:label='disclosures_MajorComponentsOfTaxExpenseIncome' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_MajorComponentsOfTaxExpenseIncome' xlink:to='disclosures_MajorComponentsOfTaxExpenseIncome_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_MajorComponentsOfTaxExpenseIncome_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about major components of tax expense (income).</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MeasurementBasesUsedInPreparingFinancialStatements' xlink:label='disclosures_MeasurementBasesUsedInPreparingFinancialStatements' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_MeasurementBasesUsedInPreparingFinancialStatements' xlink:to='disclosures_MeasurementBasesUsedInPreparingFinancialStatements_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_MeasurementBasesUsedInPreparingFinancialStatements_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Explanation of the measurement bases used in the preparation of the financial statements.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_MeasurementDepreciationAndUsefulLives' xlink:label='disclosures_MeasurementDepreciationAndUsefulLives' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_MeasurementDepreciationAndUsefulLives' xlink:to='disclosures_MeasurementDepreciationAndUsefulLives_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_MeasurementDepreciationAndUsefulLives_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about measurement, depreciation, useful lives of property, plant, and equipment.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NatureAndAmountOfChangeInAccountingEstimate' xlink:label='disclosures_NatureAndAmountOfChangeInAccountingEstimate' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_NatureAndAmountOfChangeInAccountingEstimate' xlink:to='disclosures_NatureAndAmountOfChangeInAccountingEstimate_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_NatureAndAmountOfChangeInAccountingEstimate_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the nature and amount of change in accounting estimate.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' xlink:label='disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate' xlink:to='disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_NatureOfAccountingErrorsInPriorPeriodsEstimate_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the nature, amount, and correction of accounting errors in prior period estate.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:label='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:to='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the roll up of net cash flow when the direct method is used to represent the cash flow statement.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NonAdjustingEventDetail' xlink:label='disclosures_NonAdjustingEventDetail' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_NonAdjustingEventDetail' xlink:to='disclosures_NonAdjustingEventDetail_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_NonAdjustingEventDetail_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about nonadjusting events occurring after reporting period detail..</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NonadjustingEventsAfterReportingPeriod' xlink:label='disclosures_NonadjustingEventsAfterReportingPeriod' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_NonadjustingEventsAfterReportingPeriod' xlink:to='disclosures_NonadjustingEventsAfterReportingPeriod_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_NonadjustingEventsAfterReportingPeriod_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about nonadjusting events occurring after reporting period.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' xlink:label='disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions' xlink:to='disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_NumberAndWeightedAverageExercisePricesOfShareOptions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the number and weighted average exercise prices of share options.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NumberOfShareOptionsRollForward' xlink:label='disclosures_NumberOfShareOptionsRollForward' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_NumberOfShareOptionsRollForward' xlink:to='disclosures_NumberOfShareOptionsRollForward_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_NumberOfShareOptionsRollForward_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of the number of share options.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:label='disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:to='disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Description of other accounting policies that are relevant to understanging the financial statements.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherBusinessCombinationInformation' xlink:label='disclosures_OtherBusinessCombinationInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherBusinessCombinationInformation' xlink:to='disclosures_OtherBusinessCombinationInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherBusinessCombinationInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other business combination information.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherInformationAboutCorrectionsAndChanges' xlink:label='disclosures_OtherInformationAboutCorrectionsAndChanges' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherInformationAboutCorrectionsAndChanges' xlink:to='disclosures_OtherInformationAboutCorrectionsAndChanges_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherInformationAboutCorrectionsAndChanges_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information about corrections and changes not included in any other disclosure.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:label='disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:to='disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information about other provisions, contingent liabilities, and contingent assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherLongtermBenefits' xlink:label='disclosures_OtherLongtermBenefits' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherLongtermBenefits' xlink:to='disclosures_OtherLongtermBenefits_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherLongtermBenefits_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about other long-term benefits.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousAcquisitionInformation' xlink:label='disclosures_OtherMiscellaneousAcquisitionInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherMiscellaneousAcquisitionInformation' xlink:to='disclosures_OtherMiscellaneousAcquisitionInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousAcquisitionInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other miscellaneous information about acquisition.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousBiologicalAssetsInformation' xlink:label='disclosures_OtherMiscellaneousBiologicalAssetsInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherMiscellaneousBiologicalAssetsInformation' xlink:to='disclosures_OtherMiscellaneousBiologicalAssetsInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousBiologicalAssetsInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other miscellaneous information about biological assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousInformationAboutReportingEntity' xlink:label='disclosures_OtherMiscellaneousInformationAboutReportingEntity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherMiscellaneousInformationAboutReportingEntity' xlink:to='disclosures_OtherMiscellaneousInformationAboutReportingEntity_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousInformationAboutReportingEntity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other miscellenous information about the reporting economic entity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherPropertyPlantAndEquipmentInformation' xlink:label='disclosures_OtherPropertyPlantAndEquipmentInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherPropertyPlantAndEquipmentInformation' xlink:to='disclosures_OtherPropertyPlantAndEquipmentInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherPropertyPlantAndEquipmentInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information related to property, plant, and equipment.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherPropertyPlantAndEquipmentInformation2' xlink:label='disclosures_OtherPropertyPlantAndEquipmentInformation2' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherPropertyPlantAndEquipmentInformation2' xlink:to='disclosures_OtherPropertyPlantAndEquipmentInformation2_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherPropertyPlantAndEquipmentInformation2_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information related to property, plant, and equipment.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisions' xlink:label='disclosures_OtherProvisions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherProvisions' xlink:to='disclosures_OtherProvisions_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherProvisions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about other provisions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:label='disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets' xlink:to='disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherProvisionsContingentLiabilitiesAndContingentAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about other provisions, contingent liabilities, and contingent assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherProvisionsOtherInformation' xlink:label='disclosures_OtherProvisionsOtherInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherProvisionsOtherInformation' xlink:to='disclosures_OtherProvisionsOtherInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherProvisionsOtherInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information about other provisions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherRelatedPartyTransactionInformation' xlink:label='disclosures_OtherRelatedPartyTransactionInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OtherRelatedPartyTransactionInformation' xlink:to='disclosures_OtherRelatedPartyTransactionInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OtherRelatedPartyTransactionInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information about related party transactions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OutstandingBalancesForRelatedPartyTransactions' xlink:label='disclosures_OutstandingBalancesForRelatedPartyTransactions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_OutstandingBalancesForRelatedPartyTransactions' xlink:to='disclosures_OutstandingBalancesForRelatedPartyTransactions_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_OutstandingBalancesForRelatedPartyTransactions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about outstanding balances resulting from related party transactions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:to='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the percentage or amount which each major category contributes to fair value of total plan assets</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' xlink:to='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about the percentage or amount which each major category contributes to fair value of total plan assets</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' xlink:label='disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_PlanToSellNoncurrentAssetOrDisposalGroup' xlink:to='disclosures_PlanToSellNoncurrentAssetOrDisposalGroup_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_PlanToSellNoncurrentAssetOrDisposalGroup_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about binding sale agreements for major disposal of assets or group of assets and liabilities.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PriorPeriodAdjustment' xlink:label='disclosures_PriorPeriodAdjustment' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_PriorPeriodAdjustment' xlink:to='disclosures_PriorPeriodAdjustment_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_PriorPeriodAdjustment_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Retrospective restatement of equity due to a prior period adjustment.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' xlink:label='disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_PropertyPlantAndEquipmentAndInvestmentProperty' xlink:to='disclosures_PropertyPlantAndEquipmentAndInvestmentProperty_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_PropertyPlantAndEquipmentAndInvestmentProperty_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Summary information about property, plant,  and equipment and investment property.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReclassificationsOrChangesInPresentation' xlink:label='disclosures_ReclassificationsOrChangesInPresentation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReclassificationsOrChangesInPresentation' xlink:to='disclosures_ReclassificationsOrChangesInPresentation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReclassificationsOrChangesInPresentation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Description of reclassification of financial statement line items or changes in financial statement presentation.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:to='disclosures_RecognisedFinanceLeaseAsAssetsByLessee_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about finance leases as asset by lessee.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RecognisedRevenueFromConstructionContracts' xlink:label='disclosures_RecognisedRevenueFromConstructionContracts' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_RecognisedRevenueFromConstructionContracts' xlink:to='disclosures_RecognisedRevenueFromConstructionContracts_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_RecognisedRevenueFromConstructionContracts_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about recognition of revenue from construction contracts.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInBiologicalAssets' xlink:label='disclosures_ReconciliationOfChangesInBiologicalAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInBiologicalAssets' xlink:to='disclosures_ReconciliationOfChangesInBiologicalAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInBiologicalAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in biological assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' xlink:label='disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInFairValueOfPlanAssets' xlink:to='disclosures_ReconciliationOfChangesInFairValueOfPlanAssets_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInFairValueOfPlanAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in fair value of plan assets.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInGoodwill' xlink:label='disclosures_ReconciliationOfChangesInGoodwill' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInGoodwill' xlink:to='disclosures_ReconciliationOfChangesInGoodwill_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInGoodwill_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in goodwill.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInGoodwillAlternative' xlink:label='disclosures_ReconciliationOfChangesInGoodwillAlternative' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInGoodwillAlternative' xlink:to='disclosures_ReconciliationOfChangesInGoodwillAlternative_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInGoodwillAlternative_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in goodwill alternative.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' xlink:label='disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill' xlink:to='disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about changes in intangible assets by class of intangible asset.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInInvestmentProperty' xlink:label='disclosures_ReconciliationOfChangesInInvestmentProperty' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInInvestmentProperty' xlink:to='disclosures_ReconciliationOfChangesInInvestmentProperty_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInInvestmentProperty_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in investment property.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInOtherProvisions' xlink:label='disclosures_ReconciliationOfChangesInOtherProvisions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInOtherProvisions' xlink:to='disclosures_ReconciliationOfChangesInOtherProvisions_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInOtherProvisions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Detailed information about other provisions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' xlink:label='disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation' xlink:to='disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in present value of defined benefit obligation.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' xlink:label='disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment' xlink:to='disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfChangesInPropertyPlantAndEquipment_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in property, plant, and equipment.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfInvestmentProperty' xlink:label='disclosures_ReconciliationOfInvestmentProperty' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfInvestmentProperty' xlink:to='disclosures_ReconciliationOfInvestmentProperty_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfInvestmentProperty_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in investment property.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfNumberOfSharesOutstanding' xlink:label='disclosures_ReconciliationOfNumberOfSharesOutstanding' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfNumberOfSharesOutstanding' xlink:to='disclosures_ReconciliationOfNumberOfSharesOutstanding_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfNumberOfSharesOutstanding_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of share capital outstanding.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReconciliationOfReimbursementRightsAtFairValue' xlink:label='disclosures_ReconciliationOfReimbursementRightsAtFairValue' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReconciliationOfReimbursementRightsAtFairValue' xlink:to='disclosures_ReconciliationOfReimbursementRightsAtFairValue_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReconciliationOfReimbursementRightsAtFairValue_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Reconciliation of changes in reimbursement rights at fair value.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedParty' xlink:label='disclosures_RelatedParty' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_RelatedParty' xlink:to='disclosures_RelatedParty_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_RelatedParty_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about related parties.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedPartyTransactionInformation' xlink:label='disclosures_RelatedPartyTransactionInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_RelatedPartyTransactionInformation' xlink:to='disclosures_RelatedPartyTransactionInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_RelatedPartyTransactionInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about related party transactions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RelatedPartyTransactions' xlink:label='disclosures_RelatedPartyTransactions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_RelatedPartyTransactions' xlink:to='disclosures_RelatedPartyTransactions_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_RelatedPartyTransactions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about related party transactions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReservesWithinEquity' xlink:label='disclosures_ReservesWithinEquity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ReservesWithinEquity' xlink:to='disclosures_ReservesWithinEquity_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ReservesWithinEquity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about reserves within equity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_Revenue' xlink:label='disclosures_Revenue' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_Revenue' xlink:to='disclosures_Revenue_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_Revenue_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about revenue.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SharebasedPaymentArrangements' xlink:label='disclosures_SharebasedPaymentArrangements' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SharebasedPaymentArrangements' xlink:to='disclosures_SharebasedPaymentArrangements_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SharebasedPaymentArrangements_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about share-based payment arragnements.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SharebasedPaymentsOtherInformation' xlink:label='disclosures_SharebasedPaymentsOtherInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SharebasedPaymentsOtherInformation' xlink:to='disclosures_SharebasedPaymentsOtherInformation_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SharebasedPaymentsOtherInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Other information about share-based payments.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ShareCapitalReservesAndOtherEquityInterest' xlink:label='disclosures_ShareCapitalReservesAndOtherEquityInterest' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ShareCapitalReservesAndOtherEquityInterest' xlink:to='disclosures_ShareCapitalReservesAndOtherEquityInterest_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ShareCapitalReservesAndOtherEquityInterest_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about share capital, reserves, and other equity interest.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ShareOptionsExercisable' xlink:label='disclosures_ShareOptionsExercisable' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_ShareOptionsExercisable' xlink:to='disclosures_ShareOptionsExercisable_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_ShareOptionsExercisable_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about exercisable share options outstanding.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfCashFlowsDirectMethod' xlink:label='disclosures_StatementOfCashFlowsDirectMethod' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfCashFlowsDirectMethod' xlink:to='disclosures_StatementOfCashFlowsDirectMethod_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfCashFlowsDirectMethod_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Combination of the roll up of net cash flow and the roll forward of cash and cash equivlents.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfCashFlowsIndirectMethod' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfCashFlowsIndirectMethod' xlink:to='disclosures_StatementOfCashFlowsIndirectMethod_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Combination of the roll up of net cash flow and the roll forward of cash and cash equivlents.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfChangesInEquity' xlink:label='disclosures_StatementOfChangesInEquity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfChangesInEquity' xlink:to='disclosures_StatementOfChangesInEquity_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfChangesInEquity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the roll forward of equity and the subcomponents of equity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfComplianceWithIFRSforSMEs' xlink:label='disclosures_StatementOfComplianceWithIFRSforSMEs' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfComplianceWithIFRSforSMEs' xlink:to='disclosures_StatementOfComplianceWithIFRSforSMEs_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfComplianceWithIFRSforSMEs_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Statement of compliance with IFRS for SMEs accounting rules.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfFinancialPositionClassified' xlink:to='disclosures_StatementOfFinancialPositionClassified_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfFinancialPositionClassified_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Economic entity balance sheet (statement of financial position). Classified, net assets approach.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:to='disclosures_StatementOfFinancialPositionOrderOfLiqudity_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Economic entity balance sheet (statement of financial position) presented in the order of liquidity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeByFunction' xlink:label='disclosures_StatementOfIncomeByFunction' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfIncomeByFunction' xlink:to='disclosures_StatementOfIncomeByFunction_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfIncomeByFunction_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Economic entity statement of income.  Two statement approach.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeByNature' xlink:label='disclosures_StatementOfIncomeByNature' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfIncomeByNature' xlink:to='disclosures_StatementOfIncomeByNature_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfIncomeByNature_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the roll up of profit or loss when expenses are reported by nature.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' xlink:to='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the roll up of comprehensive income or loss reconciling profit (loss) to comprehensive income (loss) when single statement approach is used.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:to='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the roll up of comprehensive income or loss reconciling profit (loss) to comprehensive income (loss) when single statement approach is used.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfCashAndCashEquivalents' xlink:label='disclosures_SubclassificationsOfCashAndCashEquivalents' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfCashAndCashEquivalents' xlink:to='disclosures_SubclassificationsOfCashAndCashEquivalents_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfCashAndCashEquivalents_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item cash and cash equivalents.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' xlink:label='disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill' xlink:to='disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfIntangibleAssetsAndGoodwill_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item intangible assets and goodwill.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfInventories' xlink:label='disclosures_SubclassificationsOfInventories' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfInventories' xlink:to='disclosures_SubclassificationsOfInventories_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfInventories_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item inventories.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfLegalProceedingsProvision' xlink:label='disclosures_SubclassificationsOfLegalProceedingsProvision' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfLegalProceedingsProvision' xlink:to='disclosures_SubclassificationsOfLegalProceedingsProvision_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfLegalProceedingsProvision_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item legal proceedings provision.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfMiscellaneousOtherProvisions' xlink:label='disclosures_SubclassificationsOfMiscellaneousOtherProvisions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfMiscellaneousOtherProvisions' xlink:to='disclosures_SubclassificationsOfMiscellaneousOtherProvisions_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfMiscellaneousOtherProvisions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item miscelleneous other providions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfNoncurrentPayables' xlink:label='disclosures_SubclassificationsOfNoncurrentPayables' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfNoncurrentPayables' xlink:to='disclosures_SubclassificationsOfNoncurrentPayables_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfNoncurrentPayables_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item noncurrent payables.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfNoncurrentReceivables' xlink:label='disclosures_SubclassificationsOfNoncurrentReceivables' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfNoncurrentReceivables' xlink:to='disclosures_SubclassificationsOfNoncurrentReceivables_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfNoncurrentReceivables_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item noncurrent receivables.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOnerousContractsProvision' xlink:label='disclosures_SubclassificationsOfOnerousContractsProvision' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfOnerousContractsProvision' xlink:to='disclosures_SubclassificationsOfOnerousContractsProvision_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfOnerousContractsProvision_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item onerous contracts provision.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOtherProvisions' xlink:label='disclosures_SubclassificationsOfOtherProvisions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfOtherProvisions' xlink:to='disclosures_SubclassificationsOfOtherProvisions_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfOtherProvisions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item other providions.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfOtherReserves' xlink:label='disclosures_SubclassificationsOfOtherReserves' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfOtherReserves' xlink:to='disclosures_SubclassificationsOfOtherReserves_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfOtherReserves_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item other reserves.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfPropertyPlantAndEquipment' xlink:label='disclosures_SubclassificationsOfPropertyPlantAndEquipment' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfPropertyPlantAndEquipment' xlink:to='disclosures_SubclassificationsOfPropertyPlantAndEquipment_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfPropertyPlantAndEquipment_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item property, plant and equipment.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfRefundsProvision' xlink:label='disclosures_SubclassificationsOfRefundsProvision' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfRefundsProvision' xlink:to='disclosures_SubclassificationsOfRefundsProvision_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfRefundsProvision_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item refunds provision.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfRestructuringProvision' xlink:label='disclosures_SubclassificationsOfRestructuringProvision' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfRestructuringProvision' xlink:to='disclosures_SubclassificationsOfRestructuringProvision_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfRestructuringProvision_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item restructuring provision.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfTradeAndOtherCurrentPayables' xlink:to='disclosures_SubclassificationsOfTradeAndOtherCurrentPayables_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfTradeAndOtherCurrentPayables_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of line item trade and other current payables.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables' xlink:to='disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfTradeAndOtherCurrentReceivables_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item trade and other current receivables</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherPayables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherPayables' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfTradeAndOtherPayables' xlink:to='disclosures_SubclassificationsOfTradeAndOtherPayables_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfTradeAndOtherPayables_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item trade and other payables.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfTradeAndOtherReceivables' xlink:label='disclosures_SubclassificationsOfTradeAndOtherReceivables' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfTradeAndOtherReceivables' xlink:to='disclosures_SubclassificationsOfTradeAndOtherReceivables_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfTradeAndOtherReceivables_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item trade and other receivables.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SubclassificationsOfWarrantyProvision' xlink:label='disclosures_SubclassificationsOfWarrantyProvision' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SubclassificationsOfWarrantyProvision' xlink:to='disclosures_SubclassificationsOfWarrantyProvision_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SubclassificationsOfWarrantyProvision_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Details of the line item warranty provision.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SummaryOfSignificantAccountingPolicies' xlink:label='disclosures_SummaryOfSignificantAccountingPolicies' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_SummaryOfSignificantAccountingPolicies' xlink:to='disclosures_SummaryOfSignificantAccountingPolicies_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_SummaryOfSignificantAccountingPolicies_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Description of significant accounting policies of the reporting economic entity.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' xlink:label='disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits' xlink:to='disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about temporary differences, unused tax losses, and unused tax credits.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TerminationBenefits' xlink:label='disclosures_TerminationBenefits' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_TerminationBenefits' xlink:to='disclosures_TerminationBenefits_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_TerminationBenefits_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about termination benefits.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:label='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:to='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about terms and conditions of share-based payment arrangements.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TransactionsBetweenRelatedParties' xlink:label='disclosures_TransactionsBetweenRelatedParties' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_TransactionsBetweenRelatedParties' xlink:to='disclosures_TransactionsBetweenRelatedParties_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_TransactionsBetweenRelatedParties_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about transactions between related parties.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:label='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:to='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Description of uncertainties of the ability of the enty to continue as a going concern.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_VoluntaryChangeInAccountingPolicy' xlink:label='disclosures_VoluntaryChangeInAccountingPolicy' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_VoluntaryChangeInAccountingPolicy' xlink:to='disclosures_VoluntaryChangeInAccountingPolicy_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_VoluntaryChangeInAccountingPolicy_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about any voluntary changes in accounting policies.</label>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_WeightedAverageExercisePricesOfShareOptions' xlink:label='disclosures_WeightedAverageExercisePricesOfShareOptions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='disclosures_WeightedAverageExercisePricesOfShareOptions' xlink:to='disclosures_WeightedAverageExercisePricesOfShareOptions_lbl' />
+    <label xlink:type='resource' xlink:label='disclosures_WeightedAverageExercisePricesOfShareOptions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/documentation'>Information about the weighted average exercise price for number of share options reconciliation.</label>
+ 
+  </labelLink>
+</linkbase>

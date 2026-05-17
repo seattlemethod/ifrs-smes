@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 7:38:42 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 7:38:42 AM'?>
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='topics.xsd#Topics' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics'/>
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialStatementPresentation' xlink:from='topics_CompleteSetOfFinancialStatements' order='1' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfFinancialPosition' xlink:label='topics_StatementOfFinancialPosition' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfFinancialPosition' xlink:from='topics_FinancialStatementPresentation' order='2' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' xlink:label='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' xlink:from='topics_FinancialStatementPresentation' order='3' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLoss' xlink:label='topics_StatementOfProfitOrLoss' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfProfitOrLoss' xlink:from='topics_FinancialStatementPresentation' order='4' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfOtherComprehensiveIncome' xlink:label='topics_StatementOfOtherComprehensiveIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfOtherComprehensiveIncome' xlink:from='topics_FinancialStatementPresentation' order='5' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfIncomeAndRetainedEarnings' xlink:label='topics_StatementOfIncomeAndRetainedEarnings' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfIncomeAndRetainedEarnings' xlink:from='topics_FinancialStatementPresentation' order='6' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfChangesInEquity' xlink:label='topics_StatementOfChangesInEquity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfChangesInEquity' xlink:from='topics_FinancialStatementPresentation' order='7' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfCashFlows' xlink:label='topics_StatementOfCashFlows' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_StatementOfCashFlows' xlink:from='topics_FinancialStatementPresentation' order='8' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReportingAndNatureOfReportingEntity' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BasisOfReportingAndNatureOfReportingEntity' xlink:from='topics_CompleteSetOfFinancialStatements' order='9' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReportingAndNatureOfReportingEntity' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BasisOfReporting' xlink:from='topics_BasisOfReportingAndNatureOfReportingEntity' order='10' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReportingAndNatureOfReportingEntity' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NatureOfOperations' xlink:label='topics_NatureOfOperations' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_NatureOfOperations' xlink:from='topics_BasisOfReportingAndNatureOfReportingEntity' order='11' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_SignificantAccountingPolicies' xlink:from='topics_CompleteSetOfFinancialStatements' order='12' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_MeasurementBasis' xlink:label='topics_MeasurementBasis' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_MeasurementBasis' xlink:from='topics_SignificantAccountingPolicies' order='13' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangeInAccountingPolicy' xlink:label='topics_ChangeInAccountingPolicy' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ChangeInAccountingPolicy' xlink:from='topics_SignificantAccountingPolicies' order='14' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangeInEstimate' xlink:label='topics_ChangeInEstimate' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ChangeInEstimate' xlink:from='topics_SignificantAccountingPolicies' order='15' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PriorPeriodErrors' xlink:label='topics_PriorPeriodErrors' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_PriorPeriodErrors' xlink:from='topics_SignificantAccountingPolicies' order='16' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialInstrumentsPolicies' xlink:label='topics_FinancialInstrumentsPolicies' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialInstrumentsPolicies' xlink:from='topics_SignificantAccountingPolicies' order='17' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExplanatoryInformation' xlink:label='topics_OtherExplanatoryInformation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherExplanatoryInformation' xlink:from='topics_CompleteSetOfFinancialStatements' order='18' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExplanatoryInformation' xlink:label='topics_OtherExplanatoryInformation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialAccounts' xlink:from='topics_OtherExplanatoryInformation' order='19' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_CashAndCashEquivalents' xlink:from='topics_FinancialAccounts' order='20' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherReceivables' xlink:label='topics_TradeAndOtherReceivables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_TradeAndOtherReceivables' xlink:from='topics_FinancialAccounts' order='21' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialAssets' xlink:from='topics_FinancialAccounts' order='22' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Inventories' xlink:label='topics_Inventories' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Inventories' xlink:from='topics_FinancialAccounts' order='23' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_PropertyPlantAndEquipment' xlink:from='topics_FinancialAccounts' order='24' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentProperty' xlink:label='topics_InvestmentProperty' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_InvestmentProperty' xlink:from='topics_FinancialAccounts' order='25' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_IntangibleAssets' xlink:from='topics_FinancialAccounts' order='26' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BiologicalAssets' xlink:label='topics_BiologicalAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BiologicalAssets' xlink:from='topics_FinancialAccounts' order='27' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInAssociates' xlink:label='topics_InvestmentsInAssociates' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_InvestmentsInAssociates' xlink:from='topics_FinancialAccounts' order='28' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInJointVentures' xlink:label='topics_InvestmentsInJointVentures' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_InvestmentsInJointVentures' xlink:from='topics_FinancialAccounts' order='29' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherMiscellaneousAssets' xlink:label='topics_OtherMiscellaneousAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherMiscellaneousAssets' xlink:from='topics_FinancialAccounts' order='30' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherPayables' xlink:label='topics_TradeAndOtherPayables' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_TradeAndOtherPayables' xlink:from='topics_FinancialAccounts' order='31' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialLiabilities' xlink:label='topics_FinancialLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinancialLiabilities' xlink:from='topics_FinancialAccounts' order='32' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_LiabilitiesAndAssetsForCurrentTax' xlink:label='topics_LiabilitiesAndAssetsForCurrentTax' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_LiabilitiesAndAssetsForCurrentTax' xlink:from='topics_FinancialAccounts' order='33' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:label='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:from='topics_FinancialAccounts' order='34' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Provisions' xlink:from='topics_FinancialAccounts' order='35' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherMiscellaneousLiabilities' xlink:label='topics_OtherMiscellaneousLiabilities' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherMiscellaneousLiabilities' xlink:from='topics_FinancialAccounts' order='36' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NoncontrollingInterests' xlink:label='topics_NoncontrollingInterests' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_NoncontrollingInterests' xlink:from='topics_FinancialAccounts' order='37' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EquityAttributableToOwnersOfParent' xlink:label='topics_EquityAttributableToOwnersOfParent' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_EquityAttributableToOwnersOfParent' xlink:from='topics_FinancialAccounts' order='38' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_AssetsClassifiedAsHeldForSale' xlink:label='topics_AssetsClassifiedAsHeldForSale' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_AssetsClassifiedAsHeldForSale' xlink:from='topics_FinancialAccounts' order='39' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_LiabilitiesClassifiedAsHeldForSale' xlink:label='topics_LiabilitiesClassifiedAsHeldForSale' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_LiabilitiesClassifiedAsHeldForSale' xlink:from='topics_FinancialAccounts' order='40' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherFinancialAccounts' xlink:label='topics_OtherFinancialAccounts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherFinancialAccounts' xlink:from='topics_FinancialAccounts' order='41' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Equity' xlink:from='topics_FinancialAccounts' order='42' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Revenue' xlink:label='topics_Revenue' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Revenue' xlink:from='topics_FinancialAccounts' order='43' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CostOfSales' xlink:label='topics_CostOfSales' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_CostOfSales' xlink:from='topics_FinancialAccounts' order='44' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinanceCosts' xlink:label='topics_FinanceCosts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_FinanceCosts' xlink:from='topics_FinancialAccounts' order='45' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ProfitLossOfInvestmentsUsingEquityMethod' xlink:label='topics_ProfitLossOfInvestmentsUsingEquityMethod' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ProfitLossOfInvestmentsUsingEquityMethod' xlink:from='topics_FinancialAccounts' order='46' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TaxExpense' xlink:label='topics_TaxExpense' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_TaxExpense' xlink:from='topics_FinancialAccounts' order='47' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DiscontinuedOperations' xlink:label='topics_DiscontinuedOperations' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_DiscontinuedOperations' xlink:from='topics_FinancialAccounts' order='48' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ImpairmentOrReversalOfImparement' xlink:label='topics_ImpairmentOrReversalOfImparement' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ImpairmentOrReversalOfImparement' xlink:from='topics_FinancialAccounts' order='49' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ProfitLoss' xlink:label='topics_ProfitLoss' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ProfitLoss' xlink:from='topics_FinancialAccounts' order='50' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherComprehensiveIncome' xlink:label='topics_OtherComprehensiveIncome' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_OtherComprehensiveIncome' xlink:from='topics_FinancialAccounts' order='51' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Expenses' xlink:label='topics_Expenses' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Expenses' xlink:from='topics_FinancialAccounts' order='52' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InterestAndDividends' xlink:label='topics_InterestAndDividends' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_InterestAndDividends' xlink:from='topics_FinancialAccounts' order='53' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExplanatoryInformation' xlink:label='topics_OtherExplanatoryInformation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BroadTransactions' xlink:from='topics_OtherExplanatoryInformation' order='54' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TransactionsInForeignCurrency' xlink:label='topics_TransactionsInForeignCurrency' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_TransactionsInForeignCurrency' xlink:from='topics_BroadTransactions' order='55' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NoncashTransactions' xlink:label='topics_NoncashTransactions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_NoncashTransactions' xlink:from='topics_BroadTransactions' order='56' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_AuditFees' xlink:label='topics_AuditFees' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_AuditFees' xlink:from='topics_BroadTransactions' order='57' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ImputationCredits' xlink:label='topics_ImputationCredits' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ImputationCredits' xlink:from='topics_BroadTransactions' order='58' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BusinessCombinationsAndGoodwill' xlink:from='topics_BroadTransactions' order='59' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Leases' xlink:from='topics_BroadTransactions' order='60' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Contingencies' xlink:from='topics_BroadTransactions' order='61' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_GovernmentGrants' xlink:label='topics_GovernmentGrants' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_GovernmentGrants' xlink:from='topics_BroadTransactions' order='62' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BorrowingCosts' xlink:label='topics_BorrowingCosts' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_BorrowingCosts' xlink:from='topics_BroadTransactions' order='63' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_SharebasedPayments' xlink:from='topics_BroadTransactions' order='64' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_EmployeeBenefits' xlink:from='topics_BroadTransactions' order='65' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_IncomeTax' xlink:from='topics_BroadTransactions' order='66' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ForeignCurrencyTranslation' xlink:label='topics_ForeignCurrencyTranslation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_ForeignCurrencyTranslation' xlink:from='topics_BroadTransactions' order='67' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Hyperinflation' xlink:label='topics_Hyperinflation' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_Hyperinflation' xlink:from='topics_BroadTransactions' order='68' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EventsAfterEndOfReportingPeriod' xlink:label='topics_EventsAfterEndOfReportingPeriod' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_EventsAfterEndOfReportingPeriod' xlink:from='topics_BroadTransactions' order='69' use='optional' />
+   </link:presentationLink>
+
+   <link:presentationLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+      <link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:to='topics_RelatedPartyTransactions' xlink:from='topics_BroadTransactions' order='70' use='optional' />
+   </link:presentationLink>
+
+</link:linkbase>

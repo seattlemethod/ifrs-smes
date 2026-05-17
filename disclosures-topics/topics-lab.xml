@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 7:38:42 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 7:38:42 AM'?>
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+  <roleRef xlink:type='simple' xlink:href='http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel' roleURI='http://www.xbrl.org/2009/role/negatedLabel' />
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_AssetsClassifiedAsHeldForSale' xlink:label='topics_AssetsClassifiedAsHeldForSale' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_AssetsClassifiedAsHeldForSale' xlink:to='topics_AssetsClassifiedAsHeldForSale_lbl' />
+    <label xlink:type='resource' xlink:label='topics_AssetsClassifiedAsHeldForSale_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Assets Classified as Held for Sale</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_AuditFees' xlink:label='topics_AuditFees' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_AuditFees' xlink:to='topics_AuditFees_lbl' />
+    <label xlink:type='resource' xlink:label='topics_AuditFees_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Audit Fees</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_BasisOfReporting' xlink:to='topics_BasisOfReporting_lbl' />
+    <label xlink:type='resource' xlink:label='topics_BasisOfReporting_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Basis of Reporting</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReportingAndNatureOfReportingEntity' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_BasisOfReportingAndNatureOfReportingEntity' xlink:to='topics_BasisOfReportingAndNatureOfReportingEntity_lbl' />
+    <label xlink:type='resource' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Basis of Reporting and Nature of Reporting Entity</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BiologicalAssets' xlink:label='topics_BiologicalAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_BiologicalAssets' xlink:to='topics_BiologicalAssets_lbl' />
+    <label xlink:type='resource' xlink:label='topics_BiologicalAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Biological Assets</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BorrowingCosts' xlink:label='topics_BorrowingCosts' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_BorrowingCosts' xlink:to='topics_BorrowingCosts_lbl' />
+    <label xlink:type='resource' xlink:label='topics_BorrowingCosts_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Borrowing Costs</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_BroadTransactions' xlink:to='topics_BroadTransactions_lbl' />
+    <label xlink:type='resource' xlink:label='topics_BroadTransactions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Broad Transactions</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_BusinessCombinationsAndGoodwill' xlink:to='topics_BusinessCombinationsAndGoodwill_lbl' />
+    <label xlink:type='resource' xlink:label='topics_BusinessCombinationsAndGoodwill_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Business Combinations and Goodwill</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_CashAndCashEquivalents' xlink:to='topics_CashAndCashEquivalents_lbl' />
+    <label xlink:type='resource' xlink:label='topics_CashAndCashEquivalents_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Cash and Cash Equivalents</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangeInAccountingPolicy' xlink:label='topics_ChangeInAccountingPolicy' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_ChangeInAccountingPolicy' xlink:to='topics_ChangeInAccountingPolicy_lbl' />
+    <label xlink:type='resource' xlink:label='topics_ChangeInAccountingPolicy_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Change in Accounting Policy</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangeInEstimate' xlink:label='topics_ChangeInEstimate' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_ChangeInEstimate' xlink:to='topics_ChangeInEstimate_lbl' />
+    <label xlink:type='resource' xlink:label='topics_ChangeInEstimate_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Change in Estimate</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_CompleteSetOfFinancialStatements' xlink:to='topics_CompleteSetOfFinancialStatements_lbl' />
+    <label xlink:type='resource' xlink:label='topics_CompleteSetOfFinancialStatements_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Complete Set of Financial Report</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_Contingencies' xlink:to='topics_Contingencies_lbl' />
+    <label xlink:type='resource' xlink:label='topics_Contingencies_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Contingencies</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_CostOfSales' xlink:label='topics_CostOfSales' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_CostOfSales' xlink:to='topics_CostOfSales_lbl' />
+    <label xlink:type='resource' xlink:label='topics_CostOfSales_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Cost of Sales</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:label='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:to='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets_lbl' />
+    <label xlink:type='resource' xlink:label='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Deferred Tax Liabilities and Deferred Tax Assets</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_DiscontinuedOperations' xlink:label='topics_DiscontinuedOperations' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_DiscontinuedOperations' xlink:to='topics_DiscontinuedOperations_lbl' />
+    <label xlink:type='resource' xlink:label='topics_DiscontinuedOperations_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Discontinued Operations</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_EmployeeBenefits' xlink:to='topics_EmployeeBenefits_lbl' />
+    <label xlink:type='resource' xlink:label='topics_EmployeeBenefits_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Employee Benefits</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_Equity' xlink:to='topics_Equity_lbl' />
+    <label xlink:type='resource' xlink:label='topics_Equity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Equity</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_EquityAttributableToOwnersOfParent' xlink:label='topics_EquityAttributableToOwnersOfParent' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_EquityAttributableToOwnersOfParent' xlink:to='topics_EquityAttributableToOwnersOfParent_lbl' />
+    <label xlink:type='resource' xlink:label='topics_EquityAttributableToOwnersOfParent_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Equity Attributable to Owners of Parent</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_EventsAfterEndOfReportingPeriod' xlink:label='topics_EventsAfterEndOfReportingPeriod' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_EventsAfterEndOfReportingPeriod' xlink:to='topics_EventsAfterEndOfReportingPeriod_lbl' />
+    <label xlink:type='resource' xlink:label='topics_EventsAfterEndOfReportingPeriod_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Events after End of Reporting Period</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Expenses' xlink:label='topics_Expenses' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_Expenses' xlink:to='topics_Expenses_lbl' />
+    <label xlink:type='resource' xlink:label='topics_Expenses_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Expenses</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinanceCosts' xlink:label='topics_FinanceCosts' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_FinanceCosts' xlink:to='topics_FinanceCosts_lbl' />
+    <label xlink:type='resource' xlink:label='topics_FinanceCosts_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Finance Costs</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_FinancialAccounts' xlink:to='topics_FinancialAccounts_lbl' />
+    <label xlink:type='resource' xlink:label='topics_FinancialAccounts_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Financial Accounts</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_FinancialAssets' xlink:to='topics_FinancialAssets_lbl' />
+    <label xlink:type='resource' xlink:label='topics_FinancialAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Financial Assets</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialInstrumentsPolicies' xlink:label='topics_FinancialInstrumentsPolicies' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_FinancialInstrumentsPolicies' xlink:to='topics_FinancialInstrumentsPolicies_lbl' />
+    <label xlink:type='resource' xlink:label='topics_FinancialInstrumentsPolicies_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Financial Instrument Policies</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialLiabilities' xlink:label='topics_FinancialLiabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_FinancialLiabilities' xlink:to='topics_FinancialLiabilities_lbl' />
+    <label xlink:type='resource' xlink:label='topics_FinancialLiabilities_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Financial Liabilities</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_FinancialStatementPresentation' xlink:to='topics_FinancialStatementPresentation_lbl' />
+    <label xlink:type='resource' xlink:label='topics_FinancialStatementPresentation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Financial Statement Presentation</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ForeignCurrencyTranslation' xlink:label='topics_ForeignCurrencyTranslation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_ForeignCurrencyTranslation' xlink:to='topics_ForeignCurrencyTranslation_lbl' />
+    <label xlink:type='resource' xlink:label='topics_ForeignCurrencyTranslation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Foreign Currency Translation</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_GovernmentGrants' xlink:label='topics_GovernmentGrants' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_GovernmentGrants' xlink:to='topics_GovernmentGrants_lbl' />
+    <label xlink:type='resource' xlink:label='topics_GovernmentGrants_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Government Grants</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Hyperinflation' xlink:label='topics_Hyperinflation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_Hyperinflation' xlink:to='topics_Hyperinflation_lbl' />
+    <label xlink:type='resource' xlink:label='topics_Hyperinflation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Hyperinflation</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ImpairmentOrReversalOfImparement' xlink:label='topics_ImpairmentOrReversalOfImparement' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_ImpairmentOrReversalOfImparement' xlink:to='topics_ImpairmentOrReversalOfImparement_lbl' />
+    <label xlink:type='resource' xlink:label='topics_ImpairmentOrReversalOfImparement_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Impairment of Reversal of Impairment</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ImputationCredits' xlink:label='topics_ImputationCredits' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_ImputationCredits' xlink:to='topics_ImputationCredits_lbl' />
+    <label xlink:type='resource' xlink:label='topics_ImputationCredits_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Imputation Credits</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_IncomeTax' xlink:to='topics_IncomeTax_lbl' />
+    <label xlink:type='resource' xlink:label='topics_IncomeTax_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Income Tax</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_IntangibleAssets' xlink:to='topics_IntangibleAssets_lbl' />
+    <label xlink:type='resource' xlink:label='topics_IntangibleAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Intangible Assets</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_InterestAndDividends' xlink:label='topics_InterestAndDividends' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_InterestAndDividends' xlink:to='topics_InterestAndDividends_lbl' />
+    <label xlink:type='resource' xlink:label='topics_InterestAndDividends_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Interest and Dividends</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Inventories' xlink:label='topics_Inventories' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_Inventories' xlink:to='topics_Inventories_lbl' />
+    <label xlink:type='resource' xlink:label='topics_Inventories_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Inventories</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentProperty' xlink:label='topics_InvestmentProperty' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_InvestmentProperty' xlink:to='topics_InvestmentProperty_lbl' />
+    <label xlink:type='resource' xlink:label='topics_InvestmentProperty_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Investment Property</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInAssociates' xlink:label='topics_InvestmentsInAssociates' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_InvestmentsInAssociates' xlink:to='topics_InvestmentsInAssociates_lbl' />
+    <label xlink:type='resource' xlink:label='topics_InvestmentsInAssociates_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Investments in Associates</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInJointVentures' xlink:label='topics_InvestmentsInJointVentures' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_InvestmentsInJointVentures' xlink:to='topics_InvestmentsInJointVentures_lbl' />
+    <label xlink:type='resource' xlink:label='topics_InvestmentsInJointVentures_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Investments in Joint Ventures</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_Leases' xlink:to='topics_Leases_lbl' />
+    <label xlink:type='resource' xlink:label='topics_Leases_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Leases</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_LiabilitiesAndAssetsForCurrentTax' xlink:label='topics_LiabilitiesAndAssetsForCurrentTax' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_LiabilitiesAndAssetsForCurrentTax' xlink:to='topics_LiabilitiesAndAssetsForCurrentTax_lbl' />
+    <label xlink:type='resource' xlink:label='topics_LiabilitiesAndAssetsForCurrentTax_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Liabilities and Assets for Current Tax</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_LiabilitiesClassifiedAsHeldForSale' xlink:label='topics_LiabilitiesClassifiedAsHeldForSale' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_LiabilitiesClassifiedAsHeldForSale' xlink:to='topics_LiabilitiesClassifiedAsHeldForSale_lbl' />
+    <label xlink:type='resource' xlink:label='topics_LiabilitiesClassifiedAsHeldForSale_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Liabilities Classified as Held for Sale</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_MeasurementBasis' xlink:label='topics_MeasurementBasis' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_MeasurementBasis' xlink:to='topics_MeasurementBasis_lbl' />
+    <label xlink:type='resource' xlink:label='topics_MeasurementBasis_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Measurement Basis</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_NatureOfOperations' xlink:label='topics_NatureOfOperations' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_NatureOfOperations' xlink:to='topics_NatureOfOperations_lbl' />
+    <label xlink:type='resource' xlink:label='topics_NatureOfOperations_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Nature of Operations</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_NoncashTransactions' xlink:label='topics_NoncashTransactions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_NoncashTransactions' xlink:to='topics_NoncashTransactions_lbl' />
+    <label xlink:type='resource' xlink:label='topics_NoncashTransactions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Non-cash Transactions</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_NoncontrollingInterests' xlink:label='topics_NoncontrollingInterests' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_NoncontrollingInterests' xlink:to='topics_NoncontrollingInterests_lbl' />
+    <label xlink:type='resource' xlink:label='topics_NoncontrollingInterests_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Non-controlling Interests</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherComprehensiveIncome' xlink:label='topics_OtherComprehensiveIncome' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_OtherComprehensiveIncome' xlink:to='topics_OtherComprehensiveIncome_lbl' />
+    <label xlink:type='resource' xlink:label='topics_OtherComprehensiveIncome_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Other Comprehensive Income</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExplanatoryInformation' xlink:label='topics_OtherExplanatoryInformation' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_OtherExplanatoryInformation' xlink:to='topics_OtherExplanatoryInformation_lbl' />
+    <label xlink:type='resource' xlink:label='topics_OtherExplanatoryInformation_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Other Explanatory Information</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherFinancialAccounts' xlink:label='topics_OtherFinancialAccounts' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_OtherFinancialAccounts' xlink:to='topics_OtherFinancialAccounts_lbl' />
+    <label xlink:type='resource' xlink:label='topics_OtherFinancialAccounts_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Other Financial Accounts</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherMiscellaneousAssets' xlink:label='topics_OtherMiscellaneousAssets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_OtherMiscellaneousAssets' xlink:to='topics_OtherMiscellaneousAssets_lbl' />
+    <label xlink:type='resource' xlink:label='topics_OtherMiscellaneousAssets_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Other Miscellaneous Assets</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherMiscellaneousLiabilities' xlink:label='topics_OtherMiscellaneousLiabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_OtherMiscellaneousLiabilities' xlink:to='topics_OtherMiscellaneousLiabilities_lbl' />
+    <label xlink:type='resource' xlink:label='topics_OtherMiscellaneousLiabilities_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Other Miscellaneous Liabilities</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_PriorPeriodErrors' xlink:label='topics_PriorPeriodErrors' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_PriorPeriodErrors' xlink:to='topics_PriorPeriodErrors_lbl' />
+    <label xlink:type='resource' xlink:label='topics_PriorPeriodErrors_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Prior Period Errors</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ProfitLoss' xlink:label='topics_ProfitLoss' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_ProfitLoss' xlink:to='topics_ProfitLoss_lbl' />
+    <label xlink:type='resource' xlink:label='topics_ProfitLoss_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Profit (Loss)</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ProfitLossOfInvestmentsUsingEquityMethod' xlink:label='topics_ProfitLossOfInvestmentsUsingEquityMethod' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_ProfitLossOfInvestmentsUsingEquityMethod' xlink:to='topics_ProfitLossOfInvestmentsUsingEquityMethod_lbl' />
+    <label xlink:type='resource' xlink:label='topics_ProfitLossOfInvestmentsUsingEquityMethod_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Profit (Loss) of Investments Using Equity Method</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_PropertyPlantAndEquipment' xlink:to='topics_PropertyPlantAndEquipment_lbl' />
+    <label xlink:type='resource' xlink:label='topics_PropertyPlantAndEquipment_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Property, Plant and Equipment</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_Provisions' xlink:to='topics_Provisions_lbl' />
+    <label xlink:type='resource' xlink:label='topics_Provisions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Provisions</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_RelatedPartyTransactions' xlink:to='topics_RelatedPartyTransactions_lbl' />
+    <label xlink:type='resource' xlink:label='topics_RelatedPartyTransactions_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Related Party Transactions</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Revenue' xlink:label='topics_Revenue' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_Revenue' xlink:to='topics_Revenue_lbl' />
+    <label xlink:type='resource' xlink:label='topics_Revenue_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Revenue</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_SharebasedPayments' xlink:to='topics_SharebasedPayments_lbl' />
+    <label xlink:type='resource' xlink:label='topics_SharebasedPayments_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Share-based Payments</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_SignificantAccountingPolicies' xlink:to='topics_SignificantAccountingPolicies_lbl' />
+    <label xlink:type='resource' xlink:label='topics_SignificantAccountingPolicies_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Significant Accounting Policies</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfCashFlows' xlink:label='topics_StatementOfCashFlows' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_StatementOfCashFlows' xlink:to='topics_StatementOfCashFlows_lbl' />
+    <label xlink:type='resource' xlink:label='topics_StatementOfCashFlows_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Statement of Cash Flows</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfChangesInEquity' xlink:label='topics_StatementOfChangesInEquity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_StatementOfChangesInEquity' xlink:to='topics_StatementOfChangesInEquity_lbl' />
+    <label xlink:type='resource' xlink:label='topics_StatementOfChangesInEquity_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Statement of Changes in Equity</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfFinancialPosition' xlink:label='topics_StatementOfFinancialPosition' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_StatementOfFinancialPosition' xlink:to='topics_StatementOfFinancialPosition_lbl' />
+    <label xlink:type='resource' xlink:label='topics_StatementOfFinancialPosition_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Statement of Financial Position</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfIncomeAndRetainedEarnings' xlink:label='topics_StatementOfIncomeAndRetainedEarnings' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_StatementOfIncomeAndRetainedEarnings' xlink:to='topics_StatementOfIncomeAndRetainedEarnings_lbl' />
+    <label xlink:type='resource' xlink:label='topics_StatementOfIncomeAndRetainedEarnings_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Statement of Income and Retained Earnings</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfOtherComprehensiveIncome' xlink:label='topics_StatementOfOtherComprehensiveIncome' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_StatementOfOtherComprehensiveIncome' xlink:to='topics_StatementOfOtherComprehensiveIncome_lbl' />
+    <label xlink:type='resource' xlink:label='topics_StatementOfOtherComprehensiveIncome_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Statement of Other Comprehensive Income</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLoss' xlink:label='topics_StatementOfProfitOrLoss' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_StatementOfProfitOrLoss' xlink:to='topics_StatementOfProfitOrLoss_lbl' />
+    <label xlink:type='resource' xlink:label='topics_StatementOfProfitOrLoss_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Statement of Profit or Loss</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' xlink:label='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' xlink:to='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome_lbl' />
+    <label xlink:type='resource' xlink:label='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Statement of Profit or Loss and Other Comprehensive Income</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_TaxExpense' xlink:label='topics_TaxExpense' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_TaxExpense' xlink:to='topics_TaxExpense_lbl' />
+    <label xlink:type='resource' xlink:label='topics_TaxExpense_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Tax Expense</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherPayables' xlink:label='topics_TradeAndOtherPayables' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_TradeAndOtherPayables' xlink:to='topics_TradeAndOtherPayables_lbl' />
+    <label xlink:type='resource' xlink:label='topics_TradeAndOtherPayables_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Trade and Other Payables</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherReceivables' xlink:label='topics_TradeAndOtherReceivables' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_TradeAndOtherReceivables' xlink:to='topics_TradeAndOtherReceivables_lbl' />
+    <label xlink:type='resource' xlink:label='topics_TradeAndOtherReceivables_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Trade and Other Receivables</label>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_TransactionsInForeignCurrency' xlink:label='topics_TransactionsInForeignCurrency' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='topics_TransactionsInForeignCurrency' xlink:to='topics_TransactionsInForeignCurrency_lbl' />
+    <label xlink:type='resource' xlink:label='topics_TransactionsInForeignCurrency_lbl' xml:lang='en' xlink:role='http://www.xbrl.org/2003/role/label'>Transactions in Foreign Currency</label>
+ 
+  </labelLink>
+</linkbase>

@@ -1,0 +1,648 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 7:38:42 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 7:38:42 AM'?>
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ref='http://www.xbrl.org/2004/ref' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd'>
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_AssetsClassifiedAsHeldForSale' xlink:label='topics_AssetsClassifiedAsHeldForSale' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_AssetsClassifiedAsHeldForSale' xlink:to='topics_AssetsClassifiedAsHeldForSale_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_AssetsClassifiedAsHeldForSale_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_AuditFees' xlink:label='topics_AuditFees' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_AuditFees' xlink:to='topics_AuditFees_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_AuditFees_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_BasisOfReporting' xlink:to='topics_BasisOfReporting_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_BasisOfReporting_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReportingAndNatureOfReportingEntity' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_BasisOfReportingAndNatureOfReportingEntity' xlink:to='topics_BasisOfReportingAndNatureOfReportingEntity_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_BasisOfReportingAndNatureOfReportingEntity_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BiologicalAssets' xlink:label='topics_BiologicalAssets' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_BiologicalAssets' xlink:to='topics_BiologicalAssets_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_BiologicalAssets_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BorrowingCosts' xlink:label='topics_BorrowingCosts' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_BorrowingCosts' xlink:to='topics_BorrowingCosts_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_BorrowingCosts_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactions' xlink:label='topics_BroadTransactions' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_BroadTransactions' xlink:to='topics_BroadTransactions_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_BroadTransactions_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinationsAndGoodwill' xlink:label='topics_BusinessCombinationsAndGoodwill' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_BusinessCombinationsAndGoodwill' xlink:to='topics_BusinessCombinationsAndGoodwill_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_BusinessCombinationsAndGoodwill_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_CashAndCashEquivalents' xlink:to='topics_CashAndCashEquivalents_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_CashAndCashEquivalents_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangeInAccountingPolicy' xlink:label='topics_ChangeInAccountingPolicy' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_ChangeInAccountingPolicy' xlink:to='topics_ChangeInAccountingPolicy_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_ChangeInAccountingPolicy_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangeInEstimate' xlink:label='topics_ChangeInEstimate' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_ChangeInEstimate' xlink:to='topics_ChangeInEstimate_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_ChangeInEstimate_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_CompleteSetOfFinancialStatements' xlink:label='topics_CompleteSetOfFinancialStatements' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_CompleteSetOfFinancialStatements' xlink:to='topics_CompleteSetOfFinancialStatements_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_CompleteSetOfFinancialStatements_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_Contingencies' xlink:to='topics_Contingencies_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_Contingencies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_CostOfSales' xlink:label='topics_CostOfSales' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_CostOfSales' xlink:to='topics_CostOfSales_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_CostOfSales_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:label='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets' xlink:to='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_DeferredTaxLiabilitiesAndDeferredTaxAssets_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_DiscontinuedOperations' xlink:label='topics_DiscontinuedOperations' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_DiscontinuedOperations' xlink:to='topics_DiscontinuedOperations_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_DiscontinuedOperations_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_EmployeeBenefits' xlink:label='topics_EmployeeBenefits' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_EmployeeBenefits' xlink:to='topics_EmployeeBenefits_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_EmployeeBenefits_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_Equity' xlink:to='topics_Equity_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_Equity_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_EquityAttributableToOwnersOfParent' xlink:label='topics_EquityAttributableToOwnersOfParent' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_EquityAttributableToOwnersOfParent' xlink:to='topics_EquityAttributableToOwnersOfParent_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_EquityAttributableToOwnersOfParent_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_EventsAfterEndOfReportingPeriod' xlink:label='topics_EventsAfterEndOfReportingPeriod' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_EventsAfterEndOfReportingPeriod' xlink:to='topics_EventsAfterEndOfReportingPeriod_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_EventsAfterEndOfReportingPeriod_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Expenses' xlink:label='topics_Expenses' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_Expenses' xlink:to='topics_Expenses_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_Expenses_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinanceCosts' xlink:label='topics_FinanceCosts' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_FinanceCosts' xlink:to='topics_FinanceCosts_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_FinanceCosts_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAccounts' xlink:label='topics_FinancialAccounts' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_FinancialAccounts' xlink:to='topics_FinancialAccounts_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_FinancialAccounts_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialAssets' xlink:label='topics_FinancialAssets' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_FinancialAssets' xlink:to='topics_FinancialAssets_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_FinancialAssets_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialInstrumentsPolicies' xlink:label='topics_FinancialInstrumentsPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_FinancialInstrumentsPolicies' xlink:to='topics_FinancialInstrumentsPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_FinancialInstrumentsPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialLiabilities' xlink:label='topics_FinancialLiabilities' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_FinancialLiabilities' xlink:to='topics_FinancialLiabilities_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_FinancialLiabilities_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementPresentation' xlink:label='topics_FinancialStatementPresentation' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_FinancialStatementPresentation' xlink:to='topics_FinancialStatementPresentation_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_FinancialStatementPresentation_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ForeignCurrencyTranslation' xlink:label='topics_ForeignCurrencyTranslation' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_ForeignCurrencyTranslation' xlink:to='topics_ForeignCurrencyTranslation_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_ForeignCurrencyTranslation_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_GovernmentGrants' xlink:label='topics_GovernmentGrants' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_GovernmentGrants' xlink:to='topics_GovernmentGrants_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_GovernmentGrants_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Hyperinflation' xlink:label='topics_Hyperinflation' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_Hyperinflation' xlink:to='topics_Hyperinflation_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_Hyperinflation_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ImpairmentOrReversalOfImparement' xlink:label='topics_ImpairmentOrReversalOfImparement' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_ImpairmentOrReversalOfImparement' xlink:to='topics_ImpairmentOrReversalOfImparement_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_ImpairmentOrReversalOfImparement_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ImputationCredits' xlink:label='topics_ImputationCredits' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_ImputationCredits' xlink:to='topics_ImputationCredits_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_ImputationCredits_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTax' xlink:label='topics_IncomeTax' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_IncomeTax' xlink:to='topics_IncomeTax_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_IncomeTax_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssets' xlink:label='topics_IntangibleAssets' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_IntangibleAssets' xlink:to='topics_IntangibleAssets_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_IntangibleAssets_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_InterestAndDividends' xlink:label='topics_InterestAndDividends' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_InterestAndDividends' xlink:to='topics_InterestAndDividends_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_InterestAndDividends_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Inventories' xlink:label='topics_Inventories' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_Inventories' xlink:to='topics_Inventories_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_Inventories_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentProperty' xlink:label='topics_InvestmentProperty' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_InvestmentProperty' xlink:to='topics_InvestmentProperty_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_InvestmentProperty_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInAssociates' xlink:label='topics_InvestmentsInAssociates' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_InvestmentsInAssociates' xlink:to='topics_InvestmentsInAssociates_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_InvestmentsInAssociates_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsInJointVentures' xlink:label='topics_InvestmentsInJointVentures' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_InvestmentsInJointVentures' xlink:to='topics_InvestmentsInJointVentures_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_InvestmentsInJointVentures_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Leases' xlink:label='topics_Leases' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_Leases' xlink:to='topics_Leases_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_Leases_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_LiabilitiesAndAssetsForCurrentTax' xlink:label='topics_LiabilitiesAndAssetsForCurrentTax' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_LiabilitiesAndAssetsForCurrentTax' xlink:to='topics_LiabilitiesAndAssetsForCurrentTax_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_LiabilitiesAndAssetsForCurrentTax_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_LiabilitiesClassifiedAsHeldForSale' xlink:label='topics_LiabilitiesClassifiedAsHeldForSale' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_LiabilitiesClassifiedAsHeldForSale' xlink:to='topics_LiabilitiesClassifiedAsHeldForSale_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_LiabilitiesClassifiedAsHeldForSale_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_MeasurementBasis' xlink:label='topics_MeasurementBasis' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_MeasurementBasis' xlink:to='topics_MeasurementBasis_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_MeasurementBasis_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_NatureOfOperations' xlink:label='topics_NatureOfOperations' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_NatureOfOperations' xlink:to='topics_NatureOfOperations_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_NatureOfOperations_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_NoncashTransactions' xlink:label='topics_NoncashTransactions' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_NoncashTransactions' xlink:to='topics_NoncashTransactions_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_NoncashTransactions_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_NoncontrollingInterests' xlink:label='topics_NoncontrollingInterests' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_NoncontrollingInterests' xlink:to='topics_NoncontrollingInterests_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_NoncontrollingInterests_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherComprehensiveIncome' xlink:label='topics_OtherComprehensiveIncome' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_OtherComprehensiveIncome' xlink:to='topics_OtherComprehensiveIncome_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_OtherComprehensiveIncome_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExplanatoryInformation' xlink:label='topics_OtherExplanatoryInformation' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_OtherExplanatoryInformation' xlink:to='topics_OtherExplanatoryInformation_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_OtherExplanatoryInformation_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherFinancialAccounts' xlink:label='topics_OtherFinancialAccounts' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_OtherFinancialAccounts' xlink:to='topics_OtherFinancialAccounts_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_OtherFinancialAccounts_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherMiscellaneousAssets' xlink:label='topics_OtherMiscellaneousAssets' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_OtherMiscellaneousAssets' xlink:to='topics_OtherMiscellaneousAssets_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_OtherMiscellaneousAssets_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherMiscellaneousLiabilities' xlink:label='topics_OtherMiscellaneousLiabilities' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_OtherMiscellaneousLiabilities' xlink:to='topics_OtherMiscellaneousLiabilities_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_OtherMiscellaneousLiabilities_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_PriorPeriodErrors' xlink:label='topics_PriorPeriodErrors' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_PriorPeriodErrors' xlink:to='topics_PriorPeriodErrors_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_PriorPeriodErrors_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ProfitLoss' xlink:label='topics_ProfitLoss' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_ProfitLoss' xlink:to='topics_ProfitLoss_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_ProfitLoss_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_ProfitLossOfInvestmentsUsingEquityMethod' xlink:label='topics_ProfitLossOfInvestmentsUsingEquityMethod' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_ProfitLossOfInvestmentsUsingEquityMethod' xlink:to='topics_ProfitLossOfInvestmentsUsingEquityMethod_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_ProfitLossOfInvestmentsUsingEquityMethod_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_PropertyPlantAndEquipment' xlink:to='topics_PropertyPlantAndEquipment_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_PropertyPlantAndEquipment_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Provisions' xlink:label='topics_Provisions' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_Provisions' xlink:to='topics_Provisions_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_Provisions_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyTransactions' xlink:label='topics_RelatedPartyTransactions' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_RelatedPartyTransactions' xlink:to='topics_RelatedPartyTransactions_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_RelatedPartyTransactions_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_Revenue' xlink:label='topics_Revenue' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_Revenue' xlink:to='topics_Revenue_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_Revenue_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_SharebasedPayments' xlink:label='topics_SharebasedPayments' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_SharebasedPayments' xlink:to='topics_SharebasedPayments_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_SharebasedPayments_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_SignificantAccountingPolicies' xlink:to='topics_SignificantAccountingPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_SignificantAccountingPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfCashFlows' xlink:label='topics_StatementOfCashFlows' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_StatementOfCashFlows' xlink:to='topics_StatementOfCashFlows_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_StatementOfCashFlows_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfChangesInEquity' xlink:label='topics_StatementOfChangesInEquity' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_StatementOfChangesInEquity' xlink:to='topics_StatementOfChangesInEquity_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_StatementOfChangesInEquity_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfFinancialPosition' xlink:label='topics_StatementOfFinancialPosition' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_StatementOfFinancialPosition' xlink:to='topics_StatementOfFinancialPosition_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_StatementOfFinancialPosition_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfIncomeAndRetainedEarnings' xlink:label='topics_StatementOfIncomeAndRetainedEarnings' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_StatementOfIncomeAndRetainedEarnings' xlink:to='topics_StatementOfIncomeAndRetainedEarnings_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_StatementOfIncomeAndRetainedEarnings_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfOtherComprehensiveIncome' xlink:label='topics_StatementOfOtherComprehensiveIncome' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_StatementOfOtherComprehensiveIncome' xlink:to='topics_StatementOfOtherComprehensiveIncome_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_StatementOfOtherComprehensiveIncome_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLoss' xlink:label='topics_StatementOfProfitOrLoss' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_StatementOfProfitOrLoss' xlink:to='topics_StatementOfProfitOrLoss_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_StatementOfProfitOrLoss_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' xlink:label='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome' xlink:to='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_StatementOfProfitOrLossAndOtherComprehensiveIncome_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_TaxExpense' xlink:label='topics_TaxExpense' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_TaxExpense' xlink:to='topics_TaxExpense_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_TaxExpense_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherPayables' xlink:label='topics_TradeAndOtherPayables' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_TradeAndOtherPayables' xlink:to='topics_TradeAndOtherPayables_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_TradeAndOtherPayables_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_TradeAndOtherReceivables' xlink:label='topics_TradeAndOtherReceivables' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_TradeAndOtherReceivables' xlink:to='topics_TradeAndOtherReceivables_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_TradeAndOtherReceivables_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='topics.xsd#topics_TransactionsInForeignCurrency' xlink:label='topics_TransactionsInForeignCurrency' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='topics_TransactionsInForeignCurrency' xlink:to='topics_TransactionsInForeignCurrency_lbl' />
+    <reference xlink:type='resource' xlink:label='topics_TransactionsInForeignCurrency_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>IASB</ref:Publisher>
+       <ref:Chapter>IFRS for SMEs</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://www.ifrs.org/content/dam/ifrs/publications/ifrs-for-smes/english/2009/ifrs-for-smes-standard.pdf</ref:URI>
+    </reference>
+ 
+  </referenceLink>
+</linkbase>
