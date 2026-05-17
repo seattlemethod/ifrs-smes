@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Charles Hoffman, CPA: 3/3/2023 -->
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'><arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"/>
+<arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all"/>
+<roleRef xlink:type='simple' xlink:href='../fac.xsd#EquityBreakdown' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/EquityBreakdown' /><presentationLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/EquityBreakdown">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityBreakdownHypercube" xlink:label="fac_EquityBreakdownHypercube"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityBreakdownLineItems" xlink:label="fac_EquityBreakdownLineItems"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_EquityBreakdownHypercube" xlink:to="fac_EquityBreakdownLineItems" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityRollUp" xlink:label="fac_EquityRollUp"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_EquityBreakdownLineItems" xlink:to="fac_EquityRollUp" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityAttributableToControllingInterests" xlink:label="fac_EquityAttributableToControllingInterests"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_EquityRollUp" xlink:to="fac_EquityAttributableToControllingInterests" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityAttributableToNoncontrollingInterests" xlink:label="fac_EquityAttributableToNoncontrollingInterests"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_EquityRollUp" xlink:to="fac_EquityAttributableToNoncontrollingInterests" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Equity" xlink:label="fac_Equity"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_EquityRollUp" xlink:to="fac_Equity" order="3" use="optional"/>
+</presentationLink><calculationLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/EquityBreakdown">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Equity" xlink:label="fac_Equity"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityAttributableToControllingInterests" xlink:label="fac_EquityAttributableToControllingInterests"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Equity" xlink:to="fac_EquityAttributableToControllingInterests" order="1" weight="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityAttributableToNoncontrollingInterests" xlink:label="fac_EquityAttributableToNoncontrollingInterests"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Equity" xlink:to="fac_EquityAttributableToNoncontrollingInterests" order="2" weight="1" use="optional"/>
+</calculationLink><definitionLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/EquityBreakdown">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityBreakdownLineItems" xlink:label="fac_EquityBreakdownLineItems"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityRollUp" xlink:label="fac_EquityRollUp"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_EquityBreakdownLineItems" xlink:to="fac_EquityRollUp" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityAttributableToControllingInterests" xlink:label="fac_EquityAttributableToControllingInterests"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_EquityRollUp" xlink:to="fac_EquityAttributableToControllingInterests" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityAttributableToNoncontrollingInterests" xlink:label="fac_EquityAttributableToNoncontrollingInterests"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_EquityRollUp" xlink:to="fac_EquityAttributableToNoncontrollingInterests" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Equity" xlink:label="fac_Equity"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_EquityRollUp" xlink:to="fac_Equity" order="3" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_EquityBreakdownHypercube" xlink:label="fac_EquityBreakdownHypercube"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="fac_EquityBreakdownLineItems" xlink:to="fac_EquityBreakdownHypercube" order="2" use="optional" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xbrldt:contextElement="segment" xbrldt:closed="true"/>
+</definitionLink></linkbase>

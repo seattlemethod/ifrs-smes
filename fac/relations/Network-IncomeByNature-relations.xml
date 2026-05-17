@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Charles Hoffman, CPA: 3/3/2023 -->
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'  xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+
+<arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"/>
+<arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all"/>
+
+<roleRef xlink:type='simple' xlink:href='../fac.xsd#IncomeByNature' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/IncomeByNature' />
+
+<presentationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/IncomeByNature">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeStatementHypercube" xlink:label="fac_IncomeStatementHypercube" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeStatementLineItems" xlink:label="fac_IncomeStatementLineItems" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_IncomeStatementHypercube" xlink:to="fac_IncomeStatementLineItems" order="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" xlink:label="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" order="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsBeforeTax" xlink:label="fac_ProfitLossFromContinuingOperationsBeforeTax" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" xlink:to="fac_ProfitLossFromContinuingOperationsBeforeTax" order="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_TaxExpenseIncome" xlink:label="fac_TaxExpenseIncome" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" xlink:to="fac_TaxExpenseIncome" order="2" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsAfterTax" xlink:label="fac_ProfitLossFromContinuingOperationsAfterTax" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" xlink:to="fac_ProfitLossFromContinuingOperationsAfterTax" order="3" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossRollUp" xlink:label="fac_ProfitLossRollUp" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_ProfitLossRollUp" order="2" use="optional" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ProfitLossRollUp" xlink:to="fac_ProfitLossFromContinuingOperationsAfterTax" order="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromDiscontinuedOperations" xlink:label="fac_ProfitLossFromDiscontinuedOperations" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ProfitLossRollUp" xlink:to="fac_ProfitLossFromDiscontinuedOperations" order="2" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLoss" xlink:label="fac_ProfitLoss" />
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ProfitLossRollUp" xlink:to="fac_ProfitLoss" order="3" use="optional" />
+</presentationLink>
+
+<calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/IncomeByNature">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLoss" xlink:label="fac_ProfitLoss" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromDiscontinuedOperations" xlink:label="fac_ProfitLossFromDiscontinuedOperations" />
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLossFromDiscontinuedOperations" order="1" weight="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsAfterTax" xlink:label="fac_ProfitLossFromContinuingOperationsAfterTax" />
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLossFromContinuingOperationsAfterTax" order="2" weight="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_TaxExpenseIncome" xlink:label="fac_TaxExpenseIncome" />
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTax" xlink:to="fac_TaxExpenseIncome" order="1" weight="-1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsBeforeTax" xlink:label="fac_ProfitLossFromContinuingOperationsBeforeTax" />
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTax" xlink:to="fac_ProfitLossFromContinuingOperationsBeforeTax" order="2" weight="1" use="optional" />
+</calculationLink>
+
+<definitionLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/IncomeByNature">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeStatementLineItems" xlink:label="fac_IncomeStatementLineItems" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossRollUp" xlink:label="fac_ProfitLossRollUp" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_ProfitLossRollUp" order="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" xlink:label="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_ProfitLossRollUp" xlink:to="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" order="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsBeforeTaxRollUp" xlink:label="fac_ProfitLossFromContinuingOperationsBeforeTaxRollUp" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" xlink:to="fac_ProfitLossFromContinuingOperationsBeforeTaxRollUp" order="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsBeforeTax" xlink:label="fac_ProfitLossFromContinuingOperationsBeforeTax" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_ProfitLossFromContinuingOperationsBeforeTaxRollUp" xlink:to="fac_ProfitLossFromContinuingOperationsBeforeTax" order="1" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_TaxExpenseIncome" xlink:label="fac_TaxExpenseIncome" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" xlink:to="fac_TaxExpenseIncome" order="2" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromContinuingOperationsAfterTax" xlink:label="fac_ProfitLossFromContinuingOperationsAfterTax" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTaxRollUp" xlink:to="fac_ProfitLossFromContinuingOperationsAfterTax" order="3" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLossFromDiscontinuedOperations" xlink:label="fac_ProfitLossFromDiscontinuedOperations" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_ProfitLossRollUp" xlink:to="fac_ProfitLossFromDiscontinuedOperations" order="2" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ProfitLoss" xlink:label="fac_ProfitLoss" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_ProfitLossRollUp" xlink:to="fac_ProfitLoss" order="3" use="optional" />
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeStatementHypercube" xlink:label="fac_IncomeStatementHypercube" />
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_IncomeStatementHypercube" order="2" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+</definitionLink>
+
+
+</linkbase>

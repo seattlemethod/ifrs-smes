@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Charles Hoffman, CPA: 3/3/2023 -->
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'><arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"/>
+<arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all"/>
+<roleRef xlink:type='simple' xlink:href='../fac.xsd#BSC' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/BSC' /><presentationLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/BSC">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_BalanceSheetClassifiedHypercube" xlink:label="fac_BalanceSheetClassifiedHypercube"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_BalanceSheetClassifiedLineItems" xlink:label="fac_BalanceSheetClassifiedLineItems"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_BalanceSheetClassifiedHypercube" xlink:to="fac_BalanceSheetClassifiedLineItems" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_AssetsRollUp" xlink:label="fac_AssetsRollUp"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_AssetsRollUp" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_CurrentAssets" xlink:label="fac_CurrentAssets"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_AssetsRollUp" xlink:to="fac_CurrentAssets" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NoncurrentAssets" xlink:label="fac_NoncurrentAssets"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_AssetsRollUp" xlink:to="fac_NoncurrentAssets" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Assets" xlink:label="fac_Assets"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_AssetsRollUp" xlink:to="fac_Assets" order="3" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_LiabilitiesAndEquityRollUp" xlink:label="fac_LiabilitiesAndEquityRollUp"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_LiabilitiesAndEquityRollUp" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_LiabilitiesRollUp" xlink:label="fac_LiabilitiesRollUp"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_LiabilitiesAndEquityRollUp" xlink:to="fac_LiabilitiesRollUp" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_CurrentLiabilities" xlink:label="fac_CurrentLiabilities"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_LiabilitiesRollUp" xlink:to="fac_CurrentLiabilities" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NoncurrentLiabilities" xlink:label="fac_NoncurrentLiabilities"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_LiabilitiesRollUp" xlink:to="fac_NoncurrentLiabilities" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_LiabilitiesRollUp" xlink:to="fac_Liabilities" order="3" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Equity" xlink:label="fac_Equity"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_LiabilitiesAndEquityRollUp" xlink:to="fac_Equity" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_LiabilitiesAndEquity" xlink:label="fac_LiabilitiesAndEquity"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_LiabilitiesAndEquityRollUp" xlink:to="fac_LiabilitiesAndEquity" order="3" use="optional"/>
+</presentationLink><calculationLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/BSC">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Assets" xlink:label="fac_Assets"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_CurrentAssets" xlink:label="fac_CurrentAssets"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Assets" xlink:to="fac_CurrentAssets" order="1" weight="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NoncurrentAssets" xlink:label="fac_NoncurrentAssets"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Assets" xlink:to="fac_NoncurrentAssets" order="2" weight="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_LiabilitiesAndEquity" xlink:label="fac_LiabilitiesAndEquity"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_LiabilitiesAndEquity" xlink:to="fac_Liabilities" order="1" weight="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_CurrentLiabilities" xlink:label="fac_CurrentLiabilities"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Liabilities" xlink:to="fac_CurrentLiabilities" order="1" weight="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NoncurrentLiabilities" xlink:label="fac_NoncurrentLiabilities"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Liabilities" xlink:to="fac_NoncurrentLiabilities" order="2" weight="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Equity" xlink:label="fac_Equity"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_LiabilitiesAndEquity" xlink:to="fac_Equity" order="2" weight="1" use="optional"/>
+</calculationLink><definitionLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/BSC">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_BalanceSheetClassifiedLineItems" xlink:label="fac_BalanceSheetClassifiedLineItems"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_BalanceSheetClassifiedHypercube" xlink:label="fac_BalanceSheetClassifiedHypercube"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_BalanceSheetClassifiedHypercube" order="1" use="optional" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xbrldt:contextElement="segment" xbrldt:closed="true"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_CurrentAssets" xlink:label="fac_CurrentAssets"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_CurrentAssets" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NoncurrentAssets" xlink:label="fac_NoncurrentAssets"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_NoncurrentAssets" order="3" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Assets" xlink:label="fac_Assets"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_Assets" order="4" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_CurrentLiabilities" xlink:label="fac_CurrentLiabilities"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_CurrentLiabilities" order="5" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NoncurrentLiabilities" xlink:label="fac_NoncurrentLiabilities"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_NoncurrentLiabilities" order="6" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_Liabilities" order="7" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Equity" xlink:label="fac_Equity"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_Equity" order="8" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_LiabilitiesAndEquity" xlink:label="fac_LiabilitiesAndEquity"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_BalanceSheetClassifiedLineItems" xlink:to="fac_LiabilitiesAndEquity" order="9" use="optional"/>
+</definitionLink></linkbase>
