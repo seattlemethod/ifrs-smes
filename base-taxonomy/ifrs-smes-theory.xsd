@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Theory Schema -->
+<?xbrlsite name='Source' value='XBRL Site (Azure)'?>
+<?xbrlsite name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?xbrlsite name='CreatedDate' value='2025-11-29'?>
+<?xbrlsite name='ReportingSchemeTitle' value='IFRS for SMES Financial Reporting Scheme (ifrs-smes)'?>
+<?xbrlsite name='Description' value='IFRS for small and medioum enterprises published in 2024 by the IFRS Foundation.'?>
+<?xbrlsite name='ReportingStyles' value='../fac/reporting-styles-cm-ref.xml'?>
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+
+  xmlns:topics='https://github.com/seattlemethod/ifrs-smes/enhancements/topics'
+  xmlns:disclosures='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures'
+  xmlns:dm='https://github.com/seattlemethod/ifrs-smes/enhancements/dm'
+
+  xmlns:style='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/style400'
+  xmlns:type-subtype="https://github.com/seattlemethod/ifrs-smes/enhancements/type"
+
+
+  xmlns:ifrs-smes="https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs-smes"
+  xmlns:entry='https://github.com/seattlemethod/ifrs-smes/enhancements/entry'
+  xmlns:ifrs-smes-theory='https://github.com/seattlemethod/ifrs-smes/enhancements/theory'
+  targetNamespace='https://github.com/seattlemethod/ifrs-smes/enhancements/theory'
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='../reporting-checklist/reporting-checklist-testing-rules-def.xml' xlink:title='Reporting Checklist' />
+
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='commentary-ifrs-smes-lab.xml' xlink:title='Commentary' />
+
+
+
+    </appinfo>
+  </annotation>
+<import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+
+<import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/entry' schemaLocation='ifrs-smes-entryPoint.xsd' />
+
+<import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/style400' schemaLocation='../fac/reporting-styles/IFRS-SMEs-BSU-ISN-CF1-OCIN_schema.xsd' />
+<import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/type' schemaLocation='../types/type-subtype.xsd' />
+<import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/topics' schemaLocation='../disclosures-topics/topics.xsd' />
+<import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/disclosures' schemaLocation='../disclosures-topics/disclosures.xsd' />
+<import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/dm' schemaLocation='../disclosure-mechanics/dm.xsd' />
+
+
+</schema>

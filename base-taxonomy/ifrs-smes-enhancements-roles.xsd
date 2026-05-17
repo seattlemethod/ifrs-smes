@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance"
+		xmlns:num="http://www.xbrl.org/dtr/type/numeric"
+		xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:generic="http://xbrl.org/2008/generic"
+		elementFormDefault="qualified"
+		targetNamespace="https://github.com/seattlemethod/ifrs-smes/enhancements-roles"
+		xmlns:enhancements-roles="https://github.com/seattlemethod/ifrs-smes/enhancements-roles"
+		xmlns:ifrs-smes="https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs-smes" >
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-110000" id="role-110000">
+        <link:definition>[110000] General information about financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-210000" id="role-210000">
+        <link:definition>[210000] Statement of financial position, current/non-current</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-220000" id="role-220000">
+        <link:definition>[220000] Statement of financial position, order of liquidity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-310000" id="role-310000">
+        <link:definition>[310000] Income statement, by function of expense</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-320000" id="role-320000">
+        <link:definition>[320000] Income statement, by nature of expense</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-410000" id="role-410000">
+        <link:definition>[410000] Statement of comprehensive income, OCI components presented net of tax</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-420000" id="role-420000">
+        <link:definition>[420000] Statement of comprehensive income, OCI components presented before tax</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-510000" id="role-510000">
+        <link:definition>[510000] Statement of cash flows, direct method</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-520000" id="role-520000">
+        <link:definition>[520000] Statement of cash flows, indirect method</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-610000" id="role-610000">
+        <link:definition>[610000] Statement of changes in equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-610000A" id="role-610000A">
+        <link:definition>[610000A] Statement of changes in equity - Prior Period Adjustment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-800100" id="role-800100">
+        <link:definition>[800100] Notes - Subclassifications of assets, liabilities and equities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-650000" id="role-650000">
+        <link:definition>[650000] Statement of income and retained earnings, additional disclosures</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-800200" id="role-800200">
+        <link:definition>[800200] Notes - Analysis of income and expense</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-810000A" id="role-810000A">
+        <link:definition>[810000A] Notes - Corporate information and statement of IFRS compliance (Text Blocks)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-810000B" id="role-810000B">
+        <link:definition>[810000B] Notes - Reclassifications or changes in presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-810000C" id="role-810000C">
+        <link:definition>[810000C] Notes - Assets and liabilities with significant risk of material adjustment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-811000A" id="role-811000A">
+        <link:definition>[811000A] Notes - Accounting policies, changes in accounting estimates and errors</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-811000B" id="role-811000B">
+        <link:definition>[811000B] Notes - Changes in accounting estimates (Table)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-815000A" id="role-815000A">
+        <link:definition>[815000A] Notes - Events after reporting period</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-815000B" id="role-815000B">
+        <link:definition>[815000B] Notes - Events after reporting period - Table</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-816000" id="role-816000">
+        <link:definition>[816000] Notes - Hyperinflationary reporting</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-817000A" id="role-817000A">
+        <link:definition>[817000A] Notes - Business combinations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-817000B" id="role-817000B">
+        <link:definition>[817000B] Notes - Business combinations - Details Table</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-817000C" id="role-817000C">
+        <link:definition>[817000C] Notes - Business combinations - Goodwill rollforward</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-817000D" id="role-817000D">
+        <link:definition>[817000D] Notes - Business combinations - Goodwill rollforward alternative</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-610000B" id="role-610000B">
+        <link:definition>[610000B] Statement of changes in equity - Simplified</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-818000A" id="role-818000A">
+        <link:definition>[818000A] Notes - Related party</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-818000B" id="role-818000B">
+        <link:definition>[818000B] Notes - Related party transactions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-819100A" id="role-819100A">
+        <link:definition>[819100A] Notes - First time adoption</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-819100B" id="role-819100B">
+        <link:definition>[819100B] Notes - First time adoption - Comparative information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-822100A" id="role-822100A">
+        <link:definition>[822100A] Notes - Property, plant and equipment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-822100B" id="role-822100B">
+        <link:definition>[822100B] Notes - Property, plant and equipment - Details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-822100C" id="role-822100C">
+        <link:definition>[822100C] Notes - Property, plant and equipment - Details Simplified</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-822100D" id="role-822100D">
+        <link:definition>[822100D] Notes - Property, plant and equipment - Investment property roll forward</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-822390A" id="role-822390A">
+        <link:definition>[822390A] Notes - Financial instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-822390B" id="role-822390B">
+        <link:definition>[822390B] Notes - Financial instruments - Transferred</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-822390C" id="role-822390C">
+        <link:definition>[822390C] Notes - Financial instruments - Financial asset details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-822390D" id="role-822390D">
+        <link:definition>[822390D] Notes - Financial instruments - Hedges Detail</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-823180A" id="role-823180A">
+        <link:definition>[823180A] Notes - Intangible assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-823180B" id="role-823180B">
+        <link:definition>[823180B] Notes - Intangible assets - Details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-823180C" id="role-823180C">
+        <link:definition>[823180C] Notes - Intangible assets - Material to entity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-824180A" id="role-824180A">
+        <link:definition>[824180A] Notes - Agriculture</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-824180B" id="role-824180B">
+        <link:definition>[824180B] Notes - Agriculture - Details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-825100A" id="role-825100A">
+        <link:definition>[825100A] Notes - Investment property</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-825480A" id="role-825480A">
+        <link:definition>[825480A] Notes - Consolidated, combined and separate financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-825500A" id="role-825500A">
+        <link:definition>[825500A] Notes - Interests in joint ventures</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-825600A" id="role-825600A">
+        <link:definition>[825600A] Notes - Investments in associates</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-825900A" id="role-825900A">
+        <link:definition>[825900A] Notes - Non-current assets or disposal groups held for sale</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-826380A" id="role-826380A">
+        <link:definition>[826380A] Notes - Inventories</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-827570A" id="role-827570A">
+        <link:definition>[827570A] Notes - Other provisions, contingent liabilities and contingent assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-827570B" id="role-827570B">
+        <link:definition>[827570B] Notes - Other provisions, contingent liabilities and contingent assets - Details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-827570C" id="role-827570C">
+        <link:definition>[827570C] Notes - Other provisions, contingent liabilities and contingent assets - Contingint liabilities details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-831110A" id="role-831110A">
+        <link:definition>[831110A] Notes - Revenue</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-831400A" id="role-831400A">
+        <link:definition>[831400A] Notes - Government grants</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-831710A" id="role-831710A">
+        <link:definition>[831710A] Notes - Construction contracts</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-832410A" id="role-832410A">
+        <link:definition>[832410A] Notes - Impairment of assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-832410B" id="role-832410B">
+        <link:definition>[832410B] Notes - Impairment of assets - Details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-832600A" id="role-832600A">
+        <link:definition>[832600A] Notes - Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-832600B" id="role-832600B">
+        <link:definition>[832600B] Notes - Leases - Recognized finance lease as asset</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-832600C" id="role-832600C">
+        <link:definition>[832600C] Notes - Leases - Lessee</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-832600D" id="role-832600D">
+        <link:definition>[832600D] Notes - Leases - Lessor</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-834120A" id="role-834120A">
+        <link:definition>[834120A] Notes - Share-based payment arrangements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-834120B" id="role-834120B">
+        <link:definition>[834120B] Notes - Share-based payment arrangements - Terms and conditions details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-834480A" id="role-834480A">
+        <link:definition>[834480A] Notes - Employee benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-834480B" id="role-834480B">
+        <link:definition>[834480B] Notes - Employee benefits - Defined benefit plan details</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-834480C" id="role-834480C">
+        <link:definition>[834480C] Notes - Employee benefits - Other long term  plans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-834480D" id="role-834480D">
+        <link:definition>[834480D] Notes - Employee benefits - Termination benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-835110A" id="role-835110A">
+        <link:definition>[835110A] Notes - Income taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-835110B" id="role-835110B">
+        <link:definition>[835110B] Notes - Income taxes - Temporary differences, unused losses, unused credits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-842000A" id="role-842000A">
+        <link:definition>[842000A] Notes - Effects of changes in foreign exchange rates</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-851100A" id="role-851100A">
+        <link:definition>[851100SA] Notes - Cash flow statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-861200A" id="role-861200A">
+        <link:definition>[861200A] Notes - Share capital, reserves and other equity interest</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-861200B" id="role-861200B">
+        <link:definition>[861200B] Notes - Share capital, reserves and other equity interest - Classes of share capital</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/role/role-861200C" id="role-861200C">
+        <link:definition>[861200C] Notes - Share capital, reserves and other equity interest - Reserves within equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>generic:link</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.xbrl.org/2003/xlink-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+
+</xsd:schema>

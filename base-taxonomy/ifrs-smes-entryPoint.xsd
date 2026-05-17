@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		elementFormDefault="qualified"
+		targetNamespace="https://github.com/seattlemethod/ifrs-smes/enhancements/entry"
+		xmlns:entry="https://github.com/seattlemethod/ifrs-smes/enhancements/entry"
+		xmlns:ifrs-smes="https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs-smes" >
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/labels/lab_ifrs_for_smes-en_2024-03-27.xml" xlink:title="Label Links, all" />
+			<link:linkbaseRef xlink:type="simple" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/labels/doc_ifrs_for_smes-en_2024-03-27.xml" xlink:title="Documentation, all" />
+			<link:linkbaseRef xlink:type="simple" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/linkbases/ref_ifrs_for_smes_2024-03-27.xml" xlink:title="Documentation, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ifrs-smes-enhancements-for.xml" xlink:title="XBRL Formulas" />
+			<link:linkbaseRef xlink:type="simple" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="commentary-ifrs-smes-lab.xml" xlink:title="Commentary" />
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.xbrl.org/2003/xlink-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs-smes" schemaLocation="https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd" />
+	<xsd:import namespace="https://github.com/seattlemethod/ifrs-smes/enhancements" schemaLocation="ifrs-smes-enhancements.xsd" />
+
+</xsd:schema>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/01/2025 -->
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+
+    <loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Assets' xlink:label='ifrs-smes_Assets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ifrs-smes_Assets' xlink:to='ifrs-smes_Assets_lbl' />
+    <label xlink:type='resource' xlink:label='ifrs-smes_Assets_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/commentaryGuidance'>This is an example of COMMENTARY that can easily be appended to any report element.  Can be used for interpretations of standards, etc.</label>
+
+
+
+  </labelLink>
+</linkbase>
