@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 8:08:51 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 8:08:51 AM'?>
+<?twinfox name='DisclosureName' value='disclosures:UncertaintiesOfEntitysAbilityToContinueAsGoingConcern'?>
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='extended-link-roles.xsd#UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/UncertaintiesOfEntitysAbilityToContinueAsGoingConcern'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-equivalentClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#conceptArrangementPattern-requiresConcept' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#disclosure-hasConceptArrangementPattern' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-hasConceptArrangementPattern'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:label='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_TextBlock' xlink:label='cm_TextBlock' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-hasConceptArrangementPattern' xlink:to='cm_TextBlock' xlink:from='disclosures_UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/UncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_TextBlock' xlink:label='cm_TextBlock' />
+      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfUncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:label='ifrs-smes_DescriptionOfUncertaintiesOfEntitysAbilityToContinueAsGoingConcern' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_DescriptionOfUncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:from='cm_TextBlock' order='2' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

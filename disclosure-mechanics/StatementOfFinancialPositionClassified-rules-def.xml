@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 8:08:51 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 8:08:51 AM'?>
+<?twinfox name='DisclosureName' value='disclosures:StatementOfFinancialPositionClassified'?>
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='extended-link-roles.xsd#StatementOfFinancialPositionClassified' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassified'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-subClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#disclosure-hasConceptArrangementPattern' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-hasConceptArrangementPattern'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#disclosure-requiresConcept' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresConcept'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#reportedDisclosure-requiresDisclosure' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportedDisclosure-requiresDisclosure'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassified' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Component' xlink:label='cm_Component' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-hasConceptArrangementPattern' xlink:to='cm_Component' xlink:from='disclosures_StatementOfFinancialPositionClassified' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassified' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_AssetsRollUp' xlink:label='disclosures_AssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportedDisclosure-requiresDisclosure' xlink:to='disclosures_AssetsRollUp' xlink:from='disclosures_StatementOfFinancialPositionClassified' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassified' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_EquityAndLiabilitiesRollUp' xlink:label='disclosures_EquityAndLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportedDisclosure-requiresDisclosure' xlink:to='disclosures_EquityAndLiabilitiesRollUp' xlink:from='disclosures_StatementOfFinancialPositionClassified' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassified' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentAssets' xlink:label='ifrs-smes_CurrentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresConcept' xlink:to='ifrs-smes_CurrentAssets' xlink:from='disclosures_StatementOfFinancialPositionClassified' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassified' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentLiabilities' xlink:label='ifrs-smes_CurrentLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresConcept' xlink:to='ifrs-smes_CurrentLiabilities' xlink:from='disclosures_StatementOfFinancialPositionClassified' order='5' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

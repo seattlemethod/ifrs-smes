@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 8:08:50 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 8:08:50 AM'?>
+<?twinfox name='DisclosureName' value='disclosures:RecognisedFinanceLeaseAsAssetsByLessee'?>
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='extended-link-roles.xsd#RecognisedFinanceLeaseAsAssetsByLessee' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedFinanceLeaseAsAssetsByLessee'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-equivalentClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#conceptArrangementPattern-requiresConcept' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#disclosure-equivalentTextblock' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#disclosure-hasConceptArrangementPattern' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-hasConceptArrangementPattern'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#disclosure-requiresAxis' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#disclosure-requiresHypercube' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedFinanceLeaseAsAssetsByLessee' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' />
+      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeTable' xlink:label='ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeTable' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeTable' xlink:from='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedFinanceLeaseAsAssetsByLessee' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-hasConceptArrangementPattern' xlink:to='cm_Set' xlink:from='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedFinanceLeaseAsAssetsByLessee' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
+      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_RecognisedFinanceLeaseAsAssets' xlink:label='ifrs-smes_RecognisedFinanceLeaseAsAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_RecognisedFinanceLeaseAsAssets' xlink:from='cm_Set' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedFinanceLeaseAsAssetsByLessee' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' />
+      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeExplanatory' xlink:label='ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeExplanatory' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock' xlink:to='ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeExplanatory' xlink:from='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedFinanceLeaseAsAssetsByLessee' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' />
+      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis' xlink:label='ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis' xlink:from='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedFinanceLeaseAsAssetsByLessee' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RecognisedFinanceLeaseAsAssetsByLessee' xlink:label='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' />
+      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ClassesOfAssetsAxis' xlink:label='ifrs-smes_ClassesOfAssetsAxis' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_ClassesOfAssetsAxis' xlink:from='disclosures_RecognisedFinanceLeaseAsAssetsByLessee' order='6' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>
