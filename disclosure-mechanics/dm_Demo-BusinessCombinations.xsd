@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 8:08:51 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 8:08:51 AM'?>
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:dm='https://github.com/seattlemethod/ifrs-smes/enhancements/dm'
+  xmlns:generic='http://xbrl.org/2008/generic'
+  targetNamespace='https://github.com/seattlemethod/ifrs-smes/enhancements/dm'
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <appinfo>
+
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='BusinessCombinationsNote-rules-def.xml'  xlink:title='BusinessCombinationsNote'/>
+
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='BusinessCombinationsDetail-rules-def.xml'  xlink:title='BusinessCombinationsDetail'/>
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='AmountsRecognised-rules-def.xml'  xlink:title='AmountsRecognised'/>
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='OtherMiscellaneousAcquisitionInformation-rules-def.xml'  xlink:title='OtherMiscellaneousAcquisitionInformation'/>
+
+
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+</schema>
