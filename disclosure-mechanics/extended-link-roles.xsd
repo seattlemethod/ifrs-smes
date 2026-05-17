@@ -1,0 +1,1596 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/22/2025 8:08:51 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/22/2025 8:08:51 AM'?>
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:dm-elr='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr'
+  xmlns:generic='http://xbrl.org/2008/generic'
+  targetNamespace='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr'
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <appinfo>
+
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassified'
+                 id='StatementOfFinancialPositionClassified'>
+                 <link:definition>Statement of Financial Position Classified</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfIncomeByFunction'
+                 id='StatementOfIncomeByFunction'>
+                 <link:definition>Statement of Income by Function</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AssetsRollUp'
+                 id='AssetsRollUp'>
+                 <link:definition>Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/EquityAndLiabilitiesRollUp'
+                 id='EquityAndLiabilitiesRollUp'>
+                 <link:definition>Equity and Liabilities Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfIncomeByNature'
+                 id='StatementOfIncomeByNature'>
+                 <link:definition>Statement of Income by Nature</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/BreakdownOfProfitLossSet'
+                 id='BreakdownOfProfitLossSet'>
+                 <link:definition>Breakdown of Profit (Loss) Set</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfOtherComprehensiveIncomeNetOfTax'
+                 id='StatementOfOtherComprehensiveIncomeNetOfTax'>
+                 <link:definition>Statement of Other Comprehensive Income, Net of Tax Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/BreakdownOfOtherComprehensiveIncomeLossSet'
+                 id='BreakdownOfOtherComprehensiveIncomeLossSet'>
+                 <link:definition>Breakdown of Comprehensive Income (Loss) Set</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp'
+                 id='NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp'>
+                 <link:definition>Net Increase (Decrease) in Cash and Cash Equivalents (Direct Method) Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CashAndCashEquivalentsRollForward'
+                 id='CashAndCashEquivalentsRollForward'>
+                 <link:definition>Cash And Cash Equivalents Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfCashFlowsDirectMethod'
+                 id='StatementOfCashFlowsDirectMethod'>
+                 <link:definition>Statement of Cash Flows Direct Method</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionOrderOfLiqudity'
+                 id='StatementOfFinancialPositionOrderOfLiqudity'>
+                 <link:definition>Statement of Financial Position Order of Liquidity</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfOtherComprehensiveIncomeBeforeTax'
+                 id='StatementOfOtherComprehensiveIncomeBeforeTax'>
+                 <link:definition>Statement of Other Comprehensive Income, Before Tax Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfCashFlowsIndirectMethod'
+                 id='StatementOfCashFlowsIndirectMethod'>
+                 <link:definition>Statement of Cash Flows Indirect Method</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/GeneralInformationAboutFinancialStatements'
+                 id='GeneralInformationAboutFinancialStatements'>
+                 <link:definition>General information about financial statements [set]</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfChangesInEquity'
+                 id='StatementOfChangesInEquity'>
+                 <link:definition>Statement of changes in equity</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IncomeAndRetainedEarningsOtherInformationSet'
+                 id='IncomeAndRetainedEarningsOtherInformationSet'>
+                 <link:definition>Income and retained earnings other information [set]</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfPropertyPlantAndEquipment'
+                 id='SubclassificationsOfPropertyPlantAndEquipment'>
+                 <link:definition>Subclassifications of property, plant and equipment</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfIntangibleAssetsAndGoodwill'
+                 id='SubclassificationsOfIntangibleAssetsAndGoodwill'>
+                 <link:definition>Subclassifications of intangible assets and goodwill</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfInventories'
+                 id='SubclassificationsOfInventories'>
+                 <link:definition>Subclassifications of inventories</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfNoncurrentReceivables'
+                 id='SubclassificationsOfNoncurrentReceivables'>
+                 <link:definition>Subclassifications of noncurrent receivables</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfTradeAndOtherCurrentReceivables'
+                 id='SubclassificationsOfTradeAndOtherCurrentReceivables'>
+                 <link:definition>Subclassifications of trade and other current receivables</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfTradeAndOtherReceivables'
+                 id='SubclassificationsOfTradeAndOtherReceivables'>
+                 <link:definition>Subclassifications of trade and other receivables</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfCashAndCashEquivalents'
+                 id='SubclassificationsOfCashAndCashEquivalents'>
+                 <link:definition>Subclassifications of cash and cash equivalents</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfWarrantyProvision'
+                 id='SubclassificationsOfWarrantyProvision'>
+                 <link:definition>Subclassifications of warranty provision</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfNoncurrentPayables'
+                 id='SubclassificationsOfNoncurrentPayables'>
+                 <link:definition>Subclassifications of noncurrent payables</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfTradeAndOtherPayables'
+                 id='SubclassificationsOfTradeAndOtherPayables'>
+                 <link:definition>Subclassifications of trade and other payables</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfOtherReserves'
+                 id='SubclassificationsOfOtherReserves'>
+                 <link:definition>Subclassifications of other reserves</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfRestructuringProvision'
+                 id='SubclassificationsOfRestructuringProvision'>
+                 <link:definition>Subclassifications of restructuring provision</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfLegalProceedingsProvision'
+                 id='SubclassificationsOfLegalProceedingsProvision'>
+                 <link:definition>Subclassifications of legal proceedings provision</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfRefundsProvision'
+                 id='SubclassificationsOfRefundsProvision'>
+                 <link:definition>Subclassifications of refunds provision</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfOnerousContractsProvision'
+                 id='SubclassificationsOfOnerousContractsProvision'>
+                 <link:definition>Subclassifications of onerous contracts provision</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfMiscellaneousOtherProvisions'
+                 id='SubclassificationsOfMiscellaneousOtherProvisions'>
+                 <link:definition>Subclassifications of miscelleneous other provisions</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfOtherProvisions'
+                 id='SubclassificationsOfOtherProvisions'>
+                 <link:definition>Subclassifications of other provisions</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities'
+                 id='CategoriesOfNoncurrentFinancialAssetsAndNoncurrentFinancialLiabilities'>
+                 <link:definition>Categories of noncurrent financial assets and noncurrent financial liabilities</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities'
+                 id='CategoriesOfCurrentFinancialAssetsAndCurrentFinancialLiabilities'>
+                 <link:definition>Categories of current financial assets and current financial liabilities</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CategoriesOfFinancialAssetsAndFinancialLiabilities'
+                 id='CategoriesOfFinancialAssetsAndFinancialLiabilities'>
+                 <link:definition>Categories of financial assets and financial liabilities</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SubclassificationsOfTradeAndOtherCurrentPayables'
+                 id='SubclassificationsOfTradeAndOtherCurrentPayables'>
+                 <link:definition>Subclassifications of trade and other current payables</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/PriorPeriodAdjustment'
+                 id='PriorPeriodAdjustment'>
+                 <link:definition>Prior period adjustment</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DisaggregationOfRevenue'
+                 id='DisaggregationOfRevenue'>
+                 <link:definition>Disaggregation of revenue</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DisaggregationOfEmployeeBenefitsExpense'
+                 id='DisaggregationOfEmployeeBenefitsExpense'>
+                 <link:definition>Disaggregation of employee benefits expense</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfComplianceWithIFRSforSMEs'
+                 id='StatementOfComplianceWithIFRSforSMEs'>
+                 <link:definition>Statement of compliance with IFRS for SMEs</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/MeasurementBasesUsedInPreparingFinancialStatements'
+                 id='MeasurementBasesUsedInPreparingFinancialStatements'>
+                 <link:definition>Measurement bases used in preparing financial statements</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements'
+                 id='OtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements'>
+                 <link:definition>Other accounting policies relevant to understaning financial statements</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/UncertaintiesOfEntitysAbilityToContinueAsGoingConcern'
+                 id='UncertaintiesOfEntitysAbilityToContinueAsGoingConcern'>
+                 <link:definition>Uncertainties of entity ability to continue as going concern</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReclassificationsOrChangesInPresentation'
+                 id='ReclassificationsOrChangesInPresentation'>
+                 <link:definition>Reclassifications or changes in presentation</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SummaryOfSignificantAccountingPolicies'
+                 id='SummaryOfSignificantAccountingPolicies'>
+                 <link:definition>Summary of significant accounting policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment'
+                 id='AssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustment'>
+                 <link:definition>Assets and liabilities with significant risk of material adjustment</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CorporateInformation'
+                 id='CorporateInformation'>
+                 <link:definition>Corporate information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherMiscellaneousInformationAboutReportingEntity'
+                 id='OtherMiscellaneousInformationAboutReportingEntity'>
+                 <link:definition>Other miscellaneous information about reporting entity</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/InitialApplicationOfStandardsOrInterpretations'
+                 id='InitialApplicationOfStandardsOrInterpretations'>
+                 <link:definition>Initial application of standards or interpretations</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/VoluntaryChangeInAccountingPolicy'
+                 id='VoluntaryChangeInAccountingPolicy'>
+                 <link:definition>Voluntary change in accounting policy</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ChangesInAccountingEstimates'
+                 id='ChangesInAccountingEstimates'>
+                 <link:definition>Changes in accounting estimates</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NatureOfAccountingErrorsInPriorPeriodsEstimate'
+                 id='NatureOfAccountingErrorsInPriorPeriodsEstimate'>
+                 <link:definition>Nature of accounting errors in prior period estimate</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherInformationAboutCorrectionsAndChanges'
+                 id='OtherInformationAboutCorrectionsAndChanges'>
+                 <link:definition>Other information about corrections and changes</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/EventsAfterReportingPeriod'
+                 id='EventsAfterReportingPeriod'>
+                 <link:definition>Events occurring after reporting period</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NonadjustingEventsAfterReportingPeriod'
+                 id='NonadjustingEventsAfterReportingPeriod'>
+                 <link:definition>Nonadjusting events occurring after reporting period</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/HyperinflationaryReporting'
+                 id='HyperinflationaryReporting'>
+                 <link:definition>Hyperinflationary reporting</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/BusinessCombinations'
+                 id='BusinessCombinations'>
+                 <link:definition>Business combinations</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/BusinessCombinationsDetail'
+                 id='BusinessCombinationsDetail'>
+                 <link:definition>Business combinations detail</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInGoodwill'
+                 id='ReconciliationOfChangesInGoodwill'>
+                 <link:definition>Reconciliation of changes in goodwill</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInGoodwillAlternative'
+                 id='ReconciliationOfChangesInGoodwillAlternative'>
+                 <link:definition>Reconciliation of changes in goodwill alternative</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RelatedParty'
+                 id='RelatedParty'>
+                 <link:definition>Related party</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/TransactionsBetweenRelatedParties'
+                 id='TransactionsBetweenRelatedParties'>
+                 <link:definition>Transactions between related parties</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FirstTimeAdoption'
+                 id='FirstTimeAdoption'>
+                 <link:definition>First time adoption</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ComparativeInformationPreparedUnderPreviousGAAP'
+                 id='ComparativeInformationPreparedUnderPreviousGAAP'>
+                 <link:definition>Comparative information prepared under previous GAAP</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FirstTimeAdoptionOtherInformation'
+                 id='FirstTimeAdoptionOtherInformation'>
+                 <link:definition>First time adoption other information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/PropertyPlantAndEquipmentAndInvestmentProperty'
+                 id='PropertyPlantAndEquipmentAndInvestmentProperty'>
+                 <link:definition>Property, plant, and equipment and investment property</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty'
+                 id='DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentProperty'>
+                 <link:definition>Detailed information about property, plant, and equipment and investment property</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInPropertyPlantAndEquipment'
+                 id='ReconciliationOfChangesInPropertyPlantAndEquipment'>
+                 <link:definition>Reconciliation of changes in property, plant, and equipment</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherPropertyPlantAndEquipmentInformation'
+                 id='OtherPropertyPlantAndEquipmentInformation'>
+                 <link:definition>Other property, plant, and equipment information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative'
+                 id='DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative'>
+                 <link:definition>Detailed information about property, plant, and equipment and investment property alternative</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfInvestmentProperty'
+                 id='ReconciliationOfInvestmentProperty'>
+                 <link:definition>Reconciliation of investment property</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinancialInstruments'
+                 id='FinancialInstruments'>
+                 <link:definition>Financial instruments</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition'
+                 id='FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition'>
+                 <link:definition>Transferred financial assets that are not derecognised in their entirety</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinancialAssets'
+                 id='FinancialAssets'>
+                 <link:definition>Financial assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/HedgeAccounting'
+                 id='HedgeAccounting'>
+                 <link:definition>Hedge accounting</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutHedges'
+                 id='DetailedInformationAboutHedges'>
+                 <link:definition>Detailed information about hedges</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CategoriesOfFinancialAssetsAndFinancialLiabilities2'
+                 id='CategoriesOfFinancialAssetsAndFinancialLiabilities2'>
+                 <link:definition>Categories of financial assets and financial liabilities2</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinancialAssetsPledgedOrInDefault'
+                 id='FinancialAssetsPledgedOrInDefault'>
+                 <link:definition>Financial assets pledged or in default</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CashFlowHedgeInformation'
+                 id='CashFlowHedgeInformation'>
+                 <link:definition>Cash flow hedge information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/GainsLossesOnFinancialInstruments'
+                 id='GainsLossesOnFinancialInstruments'>
+                 <link:definition>Gains or losses on financial instruments</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/InterestIncomeExpenseForFinancialAssetsLiabilities123'
+                 id='InterestIncomeExpenseForFinancialAssetsLiabilities123'>
+                 <link:definition>Interest income or expense for financial assets or liabilities not at fair value through profit or loss</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IntangibleAssets'
+                 id='IntangibleAssets'>
+                 <link:definition>Intangible assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutIntangibleAssets'
+                 id='DetailedInformationAboutIntangibleAssets'>
+                 <link:definition>Detailed information about intangible assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IntangibleAssetsMaterialToEntity'
+                 id='IntangibleAssetsMaterialToEntity'>
+                 <link:definition>Intangible assets material to entity</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IntangibleAssetsOtherInformation'
+                 id='IntangibleAssetsOtherInformation'>
+                 <link:definition>Intangible assets other information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/InformationAboutIntangibleAssets'
+                 id='InformationAboutIntangibleAssets'>
+                 <link:definition>Information about intangible assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill'
+                 id='ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill'>
+                 <link:definition>Recognition of changes in intangible assets other than goodwill</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/BiologicalAssets'
+                 id='BiologicalAssets'>
+                 <link:definition>Biological assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInBiologicalAssets'
+                 id='ReconciliationOfChangesInBiologicalAssets'>
+                 <link:definition>Reconciliation of changes in biological assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherMiscellaneousBiologicalAssetsInformation'
+                 id='OtherMiscellaneousBiologicalAssetsInformation'>
+                 <link:definition>Otner miscellaneous biological assets information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/InvestmentProperty'
+                 id='InvestmentProperty'>
+                 <link:definition>Investment property</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInInvestmentProperty'
+                 id='ReconciliationOfChangesInInvestmentProperty'>
+                 <link:definition>Reconciliation of changes in investment property</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ConsolidatedSeparateAndCombinedFinancialStatements'
+                 id='ConsolidatedSeparateAndCombinedFinancialStatements'>
+                 <link:definition>Consolidated, separate, and combined financial statements</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/InterestsInJointVentures'
+                 id='InterestsInJointVentures'>
+                 <link:definition>Interests in joint ventures</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AccountingPolicyForInvestmentsInJointVentures'
+                 id='AccountingPolicyForInvestmentsInJointVentures'>
+                 <link:definition>Accounting policies for investment in joint ventures</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/InvestmentInAssociates'
+                 id='InvestmentInAssociates'>
+                 <link:definition>Investment in associates</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AccountingPolicyForInvestmentInAssociates'
+                 id='AccountingPolicyForInvestmentInAssociates'>
+                 <link:definition>Accounting policies for investment in associates</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/PlanToSellNoncurrentAssetOrDisposalGroup'
+                 id='PlanToSellNoncurrentAssetOrDisposalGroup'>
+                 <link:definition>Binding sale agreement for major disposal of assets or group of assets and liabilities</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/Inventories'
+                 id='Inventories'>
+                 <link:definition>Inventories</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AccountingPolicyForMeasuringInventories'
+                 id='AccountingPolicyForMeasuringInventories'>
+                 <link:definition>Accounting policy for measuring inventories</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherProvisionsContingentLiabilitiesAndContingentAssets'
+                 id='OtherProvisionsContingentLiabilitiesAndContingentAssets'>
+                 <link:definition>Other provisions, contingent liabilities, and contingent assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherProvisions'
+                 id='OtherProvisions'>
+                 <link:definition>Other provisions</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ContingentLiabilities'
+                 id='ContingentLiabilities'>
+                 <link:definition>Contingent liabilities</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets'
+                 id='OtherInformationRelatedToOtherProvisionsContingentLiabilitiesAndContingentAssets'>
+                 <link:definition>Other information related to other provisions, contingent liabilities, and contingent assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInOtherProvisions'
+                 id='ReconciliationOfChangesInOtherProvisions'>
+                 <link:definition>Reconciliation of other provisions</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherProvisionsOtherInformation'
+                 id='OtherProvisionsOtherInformation'>
+                 <link:definition>Other provisions other information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ContingentLiabilitiesDetails'
+                 id='ContingentLiabilitiesDetails'>
+                 <link:definition>Contingent liabilities details</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/Revenue'
+                 id='Revenue'>
+                 <link:definition>Revenue</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AccountingPolicyForRecognitionOfRevenue'
+                 id='AccountingPolicyForRecognitionOfRevenue'>
+                 <link:definition>Accounting policy for recognition of revenue</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/GovernmentGrants'
+                 id='GovernmentGrants'>
+                 <link:definition>Government grants</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedRevenueFromConstructionContracts'
+                 id='RecognisedRevenueFromConstructionContracts'>
+                 <link:definition>Recognition of revenue from construction contracts</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ImpairmentOfAssets'
+                 id='ImpairmentOfAssets'>
+                 <link:definition>Impairment of assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ImpairmentLossAndReversalOfImpairmentLossDetail'
+                 id='ImpairmentLossAndReversalOfImpairmentLossDetail'>
+                 <link:definition>Impairment of assets and  reversal of impairment loss detail</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ImpairmentLossAndReversalOfImpairmentLoss'
+                 id='ImpairmentLossAndReversalOfImpairmentLoss'>
+                 <link:definition>Impairment of assets and  reversal of impairment loss</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/Leases'
+                 id='Leases'>
+                 <link:definition>Leases</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinanceLeaseAndOperatingLeaseByLessee'
+                 id='FinanceLeaseAndOperatingLeaseByLessee'>
+                 <link:definition>Finance lease and operating lease by lessee</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RecognisedFinanceLeaseAsAssetsByLessee'
+                 id='RecognisedFinanceLeaseAsAssetsByLessee'>
+                 <link:definition>Recognised finance lease as assets by lessee</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinanceLeaseAndOperatingLeaseByLessor'
+                 id='FinanceLeaseAndOperatingLeaseByLessor'>
+                 <link:definition>Finance lease and operating lease by lessor</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ContingentRentsRecognisedAsIncome'
+                 id='ContingentRentsRecognisedAsIncome'>
+                 <link:definition>Contingent rents recognised in income</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinanceLeaseAndOperatingLeaseByLesseeDetail'
+                 id='FinanceLeaseAndOperatingLeaseByLesseeDetail'>
+                 <link:definition>Finance and operating lease by lessee detail</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinanceLeaseAndOperatingLeaseByLessorDetail'
+                 id='FinanceLeaseAndOperatingLeaseByLessorDetail'>
+                 <link:definition>Finance and operating lease by lessor detail</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SharebasedPaymentArrangements'
+                 id='SharebasedPaymentArrangements'>
+                 <link:definition>Share-based payment arrangements</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/TermsAndConditionsOfSharebasedPaymentArrangement'
+                 id='TermsAndConditionsOfSharebasedPaymentArrangement'>
+                 <link:definition>Terms and conditions of share-based payment arrangements</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NumberAndWeightedAverageExercisePricesOfShareOptions'
+                 id='NumberAndWeightedAverageExercisePricesOfShareOptions'>
+                 <link:definition>Number and weighted average exercise prices of share options.</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NumberOfShareOptionsRollForward'
+                 id='NumberOfShareOptionsRollForward'>
+                 <link:definition>Reconciliation of the number of share options</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/WeightedAverageExercisePricesOfShareOptions'
+                 id='WeightedAverageExercisePricesOfShareOptions'>
+                 <link:definition>Weighted average exercise prices of share options</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ShareOptionsExercisable'
+                 id='ShareOptionsExercisable'>
+                 <link:definition>Share options exercisable</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/SharebasedPaymentsOtherInformation'
+                 id='SharebasedPaymentsOtherInformation'>
+                 <link:definition>Share-based payments other information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/EmployeeBenefits'
+                 id='EmployeeBenefits'>
+                 <link:definition>Employee benefits</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DefinedBenefitPlans'
+                 id='DefinedBenefitPlans'>
+                 <link:definition>Defined benefit plans</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherLongtermBenefits'
+                 id='OtherLongtermBenefits'>
+                 <link:definition>Other long-term benefits</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/TerminationBenefits'
+                 id='TerminationBenefits'>
+                 <link:definition>Termination benefits</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets'
+                 id='PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets'>
+                 <link:definition>Percentage or amount which each major category contributes to fair value of total plan assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/EmployeeBenefitPlansOtherInformation'
+                 id='EmployeeBenefitPlansOtherInformation'>
+                 <link:definition>Employee benefit plans other information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DefinedBenefitPlanInformation'
+                 id='DefinedBenefitPlanInformation'>
+                 <link:definition>Defined benefit plan information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation'
+                 id='ReconciliationOfChangesInPresentValueOfDefinedBenefitObligation'>
+                 <link:definition>Reconciliation of changes in present value of defined benefit obligation</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfChangesInFairValueOfPlanAssets'
+                 id='ReconciliationOfChangesInFairValueOfPlanAssets'>
+                 <link:definition>Reconciliation of changes in fair value of plan assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfReimbursementRightsAtFairValue'
+                 id='ReconciliationOfReimbursementRightsAtFairValue'>
+                 <link:definition>Reconciliation of reimbursement rights at fair value</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CostsRelatedToDefinedBenefitPlansInformation'
+                 id='CostsRelatedToDefinedBenefitPlansInformation'>
+                 <link:definition>Costs related to defined benefit plans information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AccountingPolicyForDefinedBenefitPlans'
+                 id='AccountingPolicyForDefinedBenefitPlans'>
+                 <link:definition>Description of accounting policy for defined benefit plans</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail'
+                 id='PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail'>
+                 <link:definition>Percentage or amount which each major category contributes to fair value of total plan assets details</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IncomeTax'
+                 id='IncomeTax'>
+                 <link:definition>Income tax</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits'
+                 id='TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits'>
+                 <link:definition>Temporary differences, unused tax losses, and unused tax credits</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DeferredTaxAssetsAndLiabilities'
+                 id='DeferredTaxAssetsAndLiabilities'>
+                 <link:definition>Deferred tax assets and liabilities</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AnalysisOfChangeInDeferredTaxLiabilities'
+                 id='AnalysisOfChangeInDeferredTaxLiabilities'>
+                 <link:definition>Analysis of changes in deferred tax liabilities</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AnalysisOfChangeInDeferredTaxAssets'
+                 id='AnalysisOfChangeInDeferredTaxAssets'>
+                 <link:definition>Analysis of changes in deferred tax assets</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/MajorComponentsOfTaxExpenseIncome'
+                 id='MajorComponentsOfTaxExpenseIncome'>
+                 <link:definition>Major components of tax expense (income)</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome'
+                 id='IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome'>
+                 <link:definition>Income tax relating to components of other comprehensive income</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity'
+                 id='CurrentAndDeferredTaxRelatingToItemsChargedOrCreditedDirectlyToEquity'>
+                 <link:definition>Current and deferred tax relating to items charged or credited directly to equity</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IncomeTaxOtherInformation'
+                 id='IncomeTaxOtherInformation'>
+                 <link:definition>Income tax other information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/EffectOfChangesInForeignExchangeRates'
+                 id='EffectOfChangesInForeignExchangeRates'>
+                 <link:definition>Effect of changes in foreign exchange rates</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CashFlowStatementInformation'
+                 id='CashFlowStatementInformation'>
+                 <link:definition>Cash flow statement information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition'
+                 id='CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition'>
+                 <link:definition>Cash and cash equivalents if different from statement of financial position</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IncomeTaxesPaidRefund'
+                 id='IncomeTaxesPaidRefund'>
+                 <link:definition>Income taxes paid (refund)</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ClassesOfShareCapital'
+                 id='ClassesOfShareCapital'>
+                 <link:definition>Classes of share capital</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReservesWithinEquity'
+                 id='ReservesWithinEquity'>
+                 <link:definition>Reserves within equity</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ShareCapitalReservesAndOtherEquityInterest'
+                 id='ShareCapitalReservesAndOtherEquityInterest'>
+                 <link:definition>Share capital, reserves, and other equity interest.</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ClassOfShareCapitalInformation'
+                 id='ClassOfShareCapitalInformation'>
+                 <link:definition>Class of share capital information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfNumberOfSharesOutstanding'
+                 id='ReconciliationOfNumberOfSharesOutstanding'>
+                 <link:definition>Reconciliation of share capital outstanding</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NatureAndAmountOfChangeInAccountingEstimate'
+                 id='NatureAndAmountOfChangeInAccountingEstimate'>
+                 <link:definition>Nature and amount of change in accounting estimate</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FactThatAmountOfChangeInAccountingEstimateIsImpracticable'
+                 id='FactThatAmountOfChangeInAccountingEstimateIsImpracticable'>
+                 <link:definition>Fact that amount of change in accounting estimate is impractical</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AmountsRecognised'
+                 id='AmountsRecognised'>
+                 <link:definition>Amounts recognized as of acquisition date for each major class of asset or liability assumed</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherMiscellaneousAcquisitionInformation'
+                 id='OtherMiscellaneousAcquisitionInformation'>
+                 <link:definition>Other miscellaneous acquisition information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RelatedPartyTransactionInformation'
+                 id='RelatedPartyTransactionInformation'>
+                 <link:definition>Related party transaction information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RelatedPartyTransactions'
+                 id='RelatedPartyTransactions'>
+                 <link:definition>Related party transactions</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OutstandingBalancesForRelatedPartyTransactions'
+                 id='OutstandingBalancesForRelatedPartyTransactions'>
+                 <link:definition>Outstanding balances for related party transactions</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherRelatedPartyTransactionInformation'
+                 id='OtherRelatedPartyTransactionInformation'>
+                 <link:definition>Other related party transaction information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NonAdjustingEventDetail'
+                 id='NonAdjustingEventDetail'>
+                 <link:definition>Nonadjusting event occurring after reporting period detail</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherBusinessCombinationInformation'
+                 id='OtherBusinessCombinationInformation'>
+                 <link:definition>Other business combination information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/MeasurementDepreciationAndUsefulLives'
+                 id='MeasurementDepreciationAndUsefulLives'>
+                 <link:definition>Measurement, depreciation, and useful lives</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/OtherPropertyPlantAndEquipmentInformation2'
+                 id='OtherPropertyPlantAndEquipmentInformation2'>
+                 <link:definition>Other property plant and equipment information2</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutIntangibleAssets2'
+                 id='DetailedInformationAboutIntangibleAssets2'>
+                 <link:definition>Detailed information about intangible assets2</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/BusinessCombinationsNote'
+                 id='BusinessCombinationsNote'>
+                 <link:definition>Business combinations note</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+</schema>
