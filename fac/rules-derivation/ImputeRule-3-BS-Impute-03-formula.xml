@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Charles Hoffman, CPA: 3/3/2023 -->
+<!-- ImputeRule -->
+<!-- RuleCode: BS-Impute-03 -->
+<!-- FileName: ImputeRule-3-BS-Impute-03-formula.xml -->
+<!-- Key: 3 -->
+ 
+<link:linkbase
+ xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+ xmlns:xs='http://www.w3.org/2001/XMLSchema'
+ xmlns:xbrli='http://www.xbrl.org/2003/instance'
+ xmlns:xlink='http://www.w3.org/1999/xlink'
+ xmlns:link='http://www.xbrl.org/2003/linkbase'
+ xmlns:xfi='http://www.xbrl.org/2008/function/instance'
+ xmlns:num='http://www.xbrl.org/dtr/type/numeric'
+ xmlns:generic='http://xbrl.org/2008/generic'
+ xmlns:formula='http://xbrl.org/2008/formula'
+ xmlns:validation='http://xbrl.org/2008/validation'
+ xmlns:ca='http://xbrl.org/2008/assertion/consistency'
+ xmlns:ea='http://xbrl.org/2008/assertion/existence'
+ xmlns:va='http://xbrl.org/2008/assertion/value'
+ xmlns:variable='http://xbrl.org/2008/variable'
+ xmlns:pf='http://xbrl.org/2008/filter/period'
+ xmlns:cf='http://xbrl.org/2008/filter/concept'
+ xmlns:df='http://xbrl.org/2008/filter/dimension'
+ xmlns:gf='http://xbrl.org/2008/filter/general'
+ xmlns:label='http://xbrl.org/2008/label'
+ xmlns:uf='http://xbrl.org/2008/filter/unit'
+ xmlns:ef='http://xbrl.org/2008/filter/entity'
+ xmlns:msg='http://xbrl.org/2010/message'
+ 
+ xmlns:fac='https://github.com/seattlemethod/ifrs-smes/enhancements/fac'
+ 
+ xsi:schemaLocation='
+     http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
+     http://www.xbrl.org/dtr/type/numeric http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd
+     http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd
+     http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd
+     http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd
+     http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd
+     http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd
+     http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd
+     http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd
+     http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd
+     http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd
+     http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd
+     http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd
+     http://xbrl.org/2008/filter/entity http://www.xbrl.org/2008/entity-filter.xsd
+     http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable.xsd
+     http://xbrl.org/2008/validation http://www.xbrl.org/2008/validation.xsd
+     http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd
+ '>
+ 
+ 
+ <!-- ArcroleRef declarations.  All these are declared by XBRL Formulas. -->
+ <link:arcroleRef arcroleURI='http://xbrl.org/arcrole/2008/element-label' xlink:href='http://www.xbrl.org/2008/generic-label.xsd#element-label' xlink:type='simple'/>
+ <link:arcroleRef arcroleURI='http://xbrl.org/arcrole/2008/variable-set' xlink:href='http://www.xbrl.org/2008/variable.xsd#variable-set' xlink:type='simple'/>
+ <link:arcroleRef arcroleURI='http://xbrl.org/arcrole/2008/variable-filter' xlink:href='http://www.xbrl.org/2008/variable.xsd#variable-filter' xlink:type='simple'/>
+ <link:arcroleRef arcroleURI='http://xbrl.org/arcrole/2008/variable-set-precondition' xlink:href='http://www.xbrl.org/2008/variable.xsd#variable-set-precondition' xlink:type='simple'/>
+ <link:arcroleRef arcroleURI='http://xbrl.org/arcrole/2008/consistency-assertion-formula' xlink:href='http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-formula' xlink:type='simple'/>
+ 
+ <link:roleRef roleURI='http://www.xbrl.org/2008/role/link' xlink:href='http://www.xbrl.org/2008/generic-link.xsd#standard-link-role' xlink:type='simple'/>
+ <link:roleRef roleURI='http://www.xbrl.org/2008/role/label' xlink:href='http://www.xbrl.org/2008/generic-label.xsd#standard-label' xlink:type='simple'/>
+ <link:roleRef roleURI='http://www.xbrl.org/2010/role/message' xlink:href='http://www.xbrl.org/2010/generic-message.xsd#standard-message' xlink:type='simple'/>
+ 
+ <link:arcroleRef arcroleURI='http://xbrl.org/arcrole/2010/assertion-satisfied-message' xlink:href='http://www.xbrl.org/2010/validation-message.xsd#assertion-satisfied-message' xlink:type='simple'/>
+ <link:arcroleRef arcroleURI='http://xbrl.org/arcrole/2010/assertion-unsatisfied-message' xlink:href='http://www.xbrl.org/2010/validation-message.xsd#assertion-unsatisfied-message' xlink:type='simple'/>
+ 
+ 
+ <link:documentation> 
+     <![CDATA[if (($Assets = 0) and ($NoncurrentAssets = 0) and not($LiabilitiesAndEquity = 0) and ($LiabilitiesAndEquity = $Liabilities + $Equity)) then ($Assets = $CurrentAssets) else ($Assets = $Assets)]]>
+ </link:documentation>
+ <link:documentation> 
+     <![CDATA[]]>
+ </link:documentation>
+ 
+
+ <generic:link xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+<formula:formula xlink:type='resource' xlink:label='FORMULA' id='FAC_IMPUTE_BS_Impute_03' value='$CurrentAssets' source='LiabilitiesAndEquity' aspectModel='dimensional' implicitFiltering='true'>
+   <formula:decimals>'INF'</formula:decimals>
+   <formula:aspects>
+      <formula:concept>
+         <formula:qname>fac:Assets</formula:qname>
+      </formula:concept>
+   </formula:aspects>
+</formula:formula>
+     
+     <generic:arc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/element-label'
+          xlink:from='FORMULA' 
+          xlink:to='FORMULA_Label'
+          order='1.0'/>
+     
+     <label:label xlink:type='resource' xlink:label='FORMULA_Label' xlink:role='http://www.xbrl.org/2008/role/label' 
+          xml:lang='en'>
+          Impute the fact: Assets; IF: ($Assets eq null) and ($NoncurrentAssets eq null) and exists($Liabilities) and exists($Equity) and exists($LiabilitiesAndEquity) and ($LiabilitiesAndEquity = $Liabilities + $Equity) VALUE: $CurrentAssets
+     </label:label>
+         
+     <!-- Arcrole: FORMULA to Variable -->
+     <variable:variableArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-set' 
+            xlink:from='FORMULA' order='1.0' 
+            xlink:to='VARIABLE_Assets'
+            name='Assets' 
+            />
+     
+     <variable:variableArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-set' 
+            xlink:from='FORMULA' order='1.0' 
+            xlink:to='VARIABLE_NoncurrentAssets'
+            name='NoncurrentAssets' 
+            />
+     
+     <variable:variableArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-set' 
+            xlink:from='FORMULA' order='1.0' 
+            xlink:to='VARIABLE_LiabilitiesAndEquity'
+            name='LiabilitiesAndEquity' 
+            />
+     
+     <variable:variableArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-set' 
+            xlink:from='FORMULA' order='1.0' 
+            xlink:to='VARIABLE_Liabilities'
+            name='Liabilities' 
+            />
+     
+     <variable:variableArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-set' 
+            xlink:from='FORMULA' order='1.0' 
+            xlink:to='VARIABLE_Equity'
+            name='Equity' 
+            />
+     
+     <variable:variableArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-set' 
+            xlink:from='FORMULA' order='1.0' 
+            xlink:to='VARIABLE_CurrentAssets'
+            name='CurrentAssets' 
+            />
+     
+     
+     <!--  Resource: Fact Variables -->
+     <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_Assets' bindAsSequence='false' />
+     <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_NoncurrentAssets' bindAsSequence='false' />
+     <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_LiabilitiesAndEquity' bindAsSequence='false' />
+     <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_Liabilities' bindAsSequence='false' />
+     <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_Equity' bindAsSequence='false' />
+     <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_CurrentAssets' bindAsSequence='false' />
+     
+     <!--  Arcroles: Variables to Filters -->
+     <variable:variableFilterArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-filter' 
+            xlink:from='VARIABLE_Assets' 
+            xlink:to='FILTER_Assets' order='1.0' complement='false' cover='true' />
+     
+     <variable:variableFilterArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-filter' 
+            xlink:from='VARIABLE_NoncurrentAssets' 
+            xlink:to='FILTER_NoncurrentAssets' order='1.0' complement='false' cover='true' />
+     
+     <variable:variableFilterArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-filter' 
+            xlink:from='VARIABLE_LiabilitiesAndEquity' 
+            xlink:to='FILTER_LiabilitiesAndEquity' order='1.0' complement='false' cover='true' />
+     
+     <variable:variableFilterArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-filter' 
+            xlink:from='VARIABLE_Liabilities' 
+            xlink:to='FILTER_Liabilities' order='1.0' complement='false' cover='true' />
+     
+     <variable:variableFilterArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-filter' 
+            xlink:from='VARIABLE_Equity' 
+            xlink:to='FILTER_Equity' order='1.0' complement='false' cover='true' />
+     
+     <variable:variableFilterArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-filter' 
+            xlink:from='VARIABLE_CurrentAssets' 
+            xlink:to='FILTER_CurrentAssets' order='1.0' complement='false' cover='true' />
+     
+     
+     
+     <!-- Resource: Concept Filter -->
+     <cf:conceptName xlink:type='resource' xlink:label='FILTER_Assets'>
+         <cf:concept>
+             <cf:qname>fac:Assets</cf:qname>
+         </cf:concept>
+     </cf:conceptName>
+     
+     <cf:conceptName xlink:type='resource' xlink:label='FILTER_NoncurrentAssets'>
+         <cf:concept>
+             <cf:qname>fac:NoncurrentAssets</cf:qname>
+         </cf:concept>
+     </cf:conceptName>
+     
+     <cf:conceptName xlink:type='resource' xlink:label='FILTER_LiabilitiesAndEquity'>
+         <cf:concept>
+             <cf:qname>fac:LiabilitiesAndEquity</cf:qname>
+         </cf:concept>
+     </cf:conceptName>
+     
+     <cf:conceptName xlink:type='resource' xlink:label='FILTER_Liabilities'>
+         <cf:concept>
+             <cf:qname>fac:Liabilities</cf:qname>
+         </cf:concept>
+     </cf:conceptName>
+     
+     <cf:conceptName xlink:type='resource' xlink:label='FILTER_Equity'>
+         <cf:concept>
+             <cf:qname>fac:Equity</cf:qname>
+         </cf:concept>
+     </cf:conceptName>
+     
+     <cf:conceptName xlink:type='resource' xlink:label='FILTER_CurrentAssets'>
+         <cf:concept>
+             <cf:qname>fac:CurrentAssets</cf:qname>
+         </cf:concept>
+     </cf:conceptName>
+     
+    <variable:precondition xlink:type='resource' xlink:label='PRECONDITION' test='($Assets eq &quot;null&quot;) and ($NoncurrentAssets eq &quot;null&quot;) and exists($Liabilities) and exists($Equity) and exists($LiabilitiesAndEquity) and ($LiabilitiesAndEquity = $Liabilities + $Equity)'/>
+    <generic:arc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-set-precondition' xlink:from='FORMULA' xlink:to='PRECONDITION' order='3.0'/>
+ 
+ </generic:link>
+
+</link:linkbase>
