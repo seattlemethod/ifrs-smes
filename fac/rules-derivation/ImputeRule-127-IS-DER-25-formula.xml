@@ -110,15 +110,15 @@
 
      <variable:variableArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-set'
             xlink:from='FORMULA' order='1.0'
-            xlink:to='VARIABLE_ProfitLossBeforeFinanceCostsOrTaxExpense'
-            name='ProfitLossBeforeFinanceCostsOrTaxExpense'
+            xlink:to='VARIABLE_ProfitLoss'
+            name='ProfitLoss'
             />
 
 
      <!--  Resource: Fact Variables -->
      <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_ProfitLossFromContinuingOperationsBeforeTax' bindAsSequence='false' />
      <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_FinanceCostsIncome' bindAsSequence='false' />
-     <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_ProfitLossBeforeFinanceCostsOrTaxExpense' bindAsSequence='false' />
+     <variable:factVariable xlink:type='resource' xlink:label='VARIABLE_ProfitLoss' bindAsSequence='false' />
 
      <!--  Arcroles: Variables to Filters -->
      <variable:variableFilterArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-filter'
@@ -130,8 +130,8 @@
             xlink:to='FILTER_FinanceCostsIncome' order='1.0' complement='false' cover='true' />
 
      <variable:variableFilterArc xlink:type='arc' xlink:arcrole='http://xbrl.org/arcrole/2008/variable-filter'
-            xlink:from='VARIABLE_ProfitLossBeforeFinanceCostsOrTaxExpense'
-            xlink:to='FILTER_ProfitLossBeforeFinanceCostsOrTaxExpense' order='1.0' complement='false' cover='true' />
+            xlink:from='VARIABLE_ProfitLoss'
+            xlink:to='FILTER_ProfitLoss' order='1.0' complement='false' cover='true' />
 
 
 
@@ -148,9 +148,9 @@
          </cf:concept>
      </cf:conceptName>
 
-     <cf:conceptName xlink:type='resource' xlink:label='FILTER_ProfitLossBeforeFinanceCostsOrTaxExpense'>
+     <cf:conceptName xlink:type='resource' xlink:label='FILTER_ProfitLoss'>
          <cf:concept>
-             <cf:qname>fac:ProfitLossBeforeFinanceCostsOrTaxExpense</cf:qname>
+             <cf:qname>fac:ProfitLoss</cf:qname>
          </cf:concept>
      </cf:conceptName>
 
