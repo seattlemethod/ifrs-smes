@@ -196,7 +196,7 @@
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/referenceLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='../disclosures-topics/disclosures-ref.xml'  xlink:title='References linkbase for disclosures'/>
 
 
-   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/labels/lab_ifrs_for_smes-en_2024-03-27.xml'  xlink:title='Label linkbase for taxonomy'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/labels/lab_ifrs_for_smes-en_2024-03-27.xml'  xlink:title='Label linkbase for taxonomy'/>
     </appinfo>
   </annotation>
   <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
