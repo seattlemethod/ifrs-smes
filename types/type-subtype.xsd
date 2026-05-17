@@ -17,7 +17,7 @@
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-TextBlocks-rules-def.xml'  xlink:title='TextBlocks'/>
 
 
-    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/labels/lab_ifrs_for_smes-en_2024-03-27.xml' />
+    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/labels/lab_ifrs_for_smes-en_2024-03-27.xml' />
     <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-lab.xml' />
     </appinfo>
   </annotation>
