@@ -15,7 +15,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/TermsAndConditionsOfSharebasedPaymentArrangement' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:label='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementTable' xlink:label='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementTable' xlink:label='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementTable' xlink:from='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' order='1' use='optional' />
    </link:definitionLink>
 
@@ -27,19 +27,19 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/TermsAndConditionsOfSharebasedPaymentArrangement' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ExplanationOfShareOptionsInSharebasedPaymentArrangement' xlink:label='ifrs-smes_ExplanationOfShareOptionsInSharebasedPaymentArrangement' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ExplanationOfShareOptionsInSharebasedPaymentArrangement' xlink:label='ifrs-smes_ExplanationOfShareOptionsInSharebasedPaymentArrangement' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_ExplanationOfShareOptionsInSharebasedPaymentArrangement' xlink:from='cm_Set' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/TermsAndConditionsOfSharebasedPaymentArrangement' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:label='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' xlink:label='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' xlink:label='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock' xlink:to='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' xlink:from='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/TermsAndConditionsOfSharebasedPaymentArrangement' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' xlink:label='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_TypesOfSharebasedPaymentArrangementsAxis' xlink:label='ifrs-smes_TypesOfSharebasedPaymentArrangementsAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_TypesOfSharebasedPaymentArrangementsAxis' xlink:label='ifrs-smes_TypesOfSharebasedPaymentArrangementsAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_TypesOfSharebasedPaymentArrangementsAxis' xlink:from='disclosures_TermsAndConditionsOfSharebasedPaymentArrangement' order='5' use='optional' />
    </link:definitionLink>
 

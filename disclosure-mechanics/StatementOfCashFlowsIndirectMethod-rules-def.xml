@@ -31,13 +31,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfCashFlowsIndirectMethod' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfCashFlowsIndirectMethod' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ReceiptsFromSalesOfGoodsAndRenderingOfServices' xlink:label='ifrs-smes_ReceiptsFromSalesOfGoodsAndRenderingOfServices' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ReceiptsFromSalesOfGoodsAndRenderingOfServices' xlink:label='ifrs-smes_ReceiptsFromSalesOfGoodsAndRenderingOfServices' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-neverContainsConcept' xlink:to='ifrs-smes_ReceiptsFromSalesOfGoodsAndRenderingOfServices' xlink:from='disclosures_StatementOfCashFlowsIndirectMethod' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfCashFlowsIndirectMethod' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfCashFlowsIndirectMethod' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_PaymentsToSuppliersForGoodsAndServices' xlink:label='ifrs-smes_PaymentsToSuppliersForGoodsAndServices' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_PaymentsToSuppliersForGoodsAndServices' xlink:label='ifrs-smes_PaymentsToSuppliersForGoodsAndServices' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-neverContainsConcept' xlink:to='ifrs-smes_PaymentsToSuppliersForGoodsAndServices' xlink:from='disclosures_StatementOfCashFlowsIndirectMethod' order='5' use='optional' />
    </link:definitionLink>
 

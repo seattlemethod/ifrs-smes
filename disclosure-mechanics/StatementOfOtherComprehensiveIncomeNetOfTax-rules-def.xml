@@ -20,25 +20,25 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfOtherComprehensiveIncomeNetOfTax' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_RollUp' xlink:label='cm_RollUp' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ComprehensiveIncome' xlink:label='ifrs-smes_ComprehensiveIncome' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ComprehensiveIncome' xlink:label='ifrs-smes_ComprehensiveIncome' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_ComprehensiveIncome' xlink:from='cm_RollUp' order='2' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfOtherComprehensiveIncomeNetOfTax' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_OtherComprehensiveIncome' xlink:label='ifrs-smes_OtherComprehensiveIncome' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_OtherComprehensiveIncome' xlink:label='ifrs-smes_OtherComprehensiveIncome' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresConcept' xlink:to='ifrs-smes_OtherComprehensiveIncome' xlink:from='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfOtherComprehensiveIncomeNetOfTax' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLoss' xlink:label='ifrs-smes_ProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLoss' xlink:label='ifrs-smes_ProfitLoss' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresConcept' xlink:to='ifrs-smes_ProfitLoss' xlink:from='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfOtherComprehensiveIncomeNetOfTax' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:label='ifrs-smes_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:label='ifrs-smes_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-neverContainsConcept' xlink:to='ifrs-smes_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome' xlink:from='disclosures_StatementOfOtherComprehensiveIncomeNetOfTax' order='5' use='optional' />
    </link:definitionLink>
 

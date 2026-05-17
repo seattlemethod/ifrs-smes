@@ -31,13 +31,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionOrderOfLiqudity' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentAssets' xlink:label='ifrs-smes_CurrentAssets' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentAssets' xlink:label='ifrs-smes_CurrentAssets' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-neverContainsConcept' xlink:to='ifrs-smes_CurrentAssets' xlink:from='disclosures_StatementOfFinancialPositionOrderOfLiqudity' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionOrderOfLiqudity' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentLiabilities' xlink:label='ifrs-smes_CurrentLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentLiabilities' xlink:label='ifrs-smes_CurrentLiabilities' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-neverContainsConcept' xlink:to='ifrs-smes_CurrentLiabilities' xlink:from='disclosures_StatementOfFinancialPositionOrderOfLiqudity' order='5' use='optional' />
    </link:definitionLink>
 
