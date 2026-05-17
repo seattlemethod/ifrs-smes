@@ -15,7 +15,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReservesWithinEquity' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ReservesWithinEquity' xlink:label='disclosures_ReservesWithinEquity' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReservesWithinEquityTable' xlink:label='ifrs-smes_DisclosureOfReservesWithinEquityTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReservesWithinEquityTable' xlink:label='ifrs-smes_DisclosureOfReservesWithinEquityTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfReservesWithinEquityTable' xlink:from='disclosures_ReservesWithinEquity' order='1' use='optional' />
    </link:definitionLink>
 
@@ -27,19 +27,19 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReservesWithinEquity' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfNatureAndPurposeOfReservesWithinEquity' xlink:label='ifrs-smes_DescriptionOfNatureAndPurposeOfReservesWithinEquity' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfNatureAndPurposeOfReservesWithinEquity' xlink:label='ifrs-smes_DescriptionOfNatureAndPurposeOfReservesWithinEquity' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_DescriptionOfNatureAndPurposeOfReservesWithinEquity' xlink:from='cm_Set' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReservesWithinEquity' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ReservesWithinEquity' xlink:label='disclosures_ReservesWithinEquity' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' xlink:label='ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' xlink:label='ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock' xlink:to='ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' xlink:from='disclosures_ReservesWithinEquity' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReservesWithinEquity' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ReservesWithinEquity' xlink:label='disclosures_ReservesWithinEquity' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ReservesWithinEquityAxis' xlink:label='ifrs-smes_ReservesWithinEquityAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ReservesWithinEquityAxis' xlink:label='ifrs-smes_ReservesWithinEquityAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_ReservesWithinEquityAxis' xlink:from='disclosures_ReservesWithinEquity' order='5' use='optional' />
    </link:definitionLink>
 

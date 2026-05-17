@@ -15,7 +15,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:label='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionTable' xlink:label='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionTable' xlink:label='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionTable' xlink:from='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' order='1' use='optional' />
    </link:definitionLink>
 
@@ -27,19 +27,19 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NatureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:label='ifrs-smes_NatureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NatureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:label='ifrs-smes_NatureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_NatureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:from='cm_Set' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:label='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' xlink:label='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' xlink:label='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock' xlink:to='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' xlink:from='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' xlink:label='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_FinancialAssetsWhichDoNotQualifyForDerecognitionAxis' xlink:label='ifrs-smes_FinancialAssetsWhichDoNotQualifyForDerecognitionAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_FinancialAssetsWhichDoNotQualifyForDerecognitionAxis' xlink:label='ifrs-smes_FinancialAssetsWhichDoNotQualifyForDerecognitionAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_FinancialAssetsWhichDoNotQualifyForDerecognitionAxis' xlink:from='disclosures_FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition' order='5' use='optional' />
    </link:definitionLink>
 

@@ -14,7 +14,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RelatedPartyTransactions' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RelatedPartyTransactions' xlink:label='disclosures_RelatedPartyTransactions' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesTable' xlink:label='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesTable' xlink:label='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesTable' xlink:from='disclosures_RelatedPartyTransactions' order='1' use='optional' />
    </link:definitionLink>
 
@@ -26,13 +26,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RelatedPartyTransactions' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_PurchasesOfGoodsRelatedPartyTransactions' xlink:label='ifrs-smes_PurchasesOfGoodsRelatedPartyTransactions' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_PurchasesOfGoodsRelatedPartyTransactions' xlink:label='ifrs-smes_PurchasesOfGoodsRelatedPartyTransactions' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_PurchasesOfGoodsRelatedPartyTransactions' xlink:from='cm_Set' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/RelatedPartyTransactions' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RelatedPartyTransactions' xlink:label='disclosures_RelatedPartyTransactions' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CategoriesOfRelatedPartiesAxis' xlink:label='ifrs-smes_CategoriesOfRelatedPartiesAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CategoriesOfRelatedPartiesAxis' xlink:label='ifrs-smes_CategoriesOfRelatedPartiesAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_CategoriesOfRelatedPartiesAxis' xlink:from='disclosures_RelatedPartyTransactions' order='4' use='optional' />
    </link:definitionLink>
 

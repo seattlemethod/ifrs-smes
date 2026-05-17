@@ -14,7 +14,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:label='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' xlink:label='ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' xlink:label='ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' xlink:from='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' order='1' use='optional' />
    </link:definitionLink>
 
@@ -26,13 +26,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_TextBlock' xlink:label='cm_TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfFactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:label='ifrs-smes_DescriptionOfFactThatAmountOfChangeInAccountingEstimateIsImpracticable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfFactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:label='ifrs-smes_DescriptionOfFactThatAmountOfChangeInAccountingEstimateIsImpracticable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_DescriptionOfFactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:from='cm_TextBlock' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' xlink:label='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_AccountingEstimatesAxis' xlink:label='ifrs-smes_AccountingEstimatesAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_AccountingEstimatesAxis' xlink:label='ifrs-smes_AccountingEstimatesAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_AccountingEstimatesAxis' xlink:from='disclosures_FactThatAmountOfChangeInAccountingEstimateIsImpracticable' order='4' use='optional' />
    </link:definitionLink>
 

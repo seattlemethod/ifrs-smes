@@ -19,13 +19,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_RollUp' xlink:label='cm_RollUp' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:from='cm_RollUp' order='2' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/concept-allowedAlternativeConcept' xlink:to='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges' xlink:from='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' order='3' use='optional' />
    </link:definitionLink>
 

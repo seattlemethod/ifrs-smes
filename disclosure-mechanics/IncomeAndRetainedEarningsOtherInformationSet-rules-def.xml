@@ -18,7 +18,7 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/IncomeAndRetainedEarningsOtherInformationSet' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseThroughCorrectionsOfErrorsRetainedEarnings' xlink:label='ifrs-smes_IncreaseDecreaseThroughCorrectionsOfErrorsRetainedEarnings' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseThroughCorrectionsOfErrorsRetainedEarnings' xlink:label='ifrs-smes_IncreaseDecreaseThroughCorrectionsOfErrorsRetainedEarnings' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_IncreaseDecreaseThroughCorrectionsOfErrorsRetainedEarnings' xlink:from='cm_Set' order='2' use='optional' />
    </link:definitionLink>
 

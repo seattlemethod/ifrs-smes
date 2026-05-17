@@ -15,7 +15,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfInvestmentProperty' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ReconciliationOfInvestmentProperty' xlink:label='disclosures_ReconciliationOfInvestmentProperty' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentTable' xlink:label='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentTable' xlink:label='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentTable' xlink:from='disclosures_ReconciliationOfInvestmentProperty' order='1' use='optional' />
    </link:definitionLink>
 
@@ -27,19 +27,19 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfInvestmentProperty' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_RollForward' xlink:label='cm_RollForward' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_InvestmentPropertyWhoseFairValueCannotBeMeasuredReliablyWithoutUndueCostOrEffortOnOngoingBasis' xlink:label='ifrs-smes_InvestmentPropertyWhoseFairValueCannotBeMeasuredReliablyWithoutUndueCostOrEffortOnOngoingBasis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_InvestmentPropertyWhoseFairValueCannotBeMeasuredReliablyWithoutUndueCostOrEffortOnOngoingBasis' xlink:label='ifrs-smes_InvestmentPropertyWhoseFairValueCannotBeMeasuredReliablyWithoutUndueCostOrEffortOnOngoingBasis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_InvestmentPropertyWhoseFairValueCannotBeMeasuredReliablyWithoutUndueCostOrEffortOnOngoingBasis' xlink:from='cm_RollForward' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfInvestmentProperty' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ReconciliationOfInvestmentProperty' xlink:label='disclosures_ReconciliationOfInvestmentProperty' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' xlink:label='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' xlink:label='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock' xlink:to='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' xlink:from='disclosures_ReconciliationOfInvestmentProperty' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ReconciliationOfInvestmentProperty' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ReconciliationOfInvestmentProperty' xlink:label='disclosures_ReconciliationOfInvestmentProperty' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis' xlink:label='ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis' xlink:label='ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis' xlink:from='disclosures_ReconciliationOfInvestmentProperty' order='5' use='optional' />
    </link:definitionLink>
 
