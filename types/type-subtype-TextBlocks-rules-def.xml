@@ -7,13 +7,13 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory' xlink:label='ifrs-smes_DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory' xlink:label='ifrs-smes_DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory' xlink:from='cm_Level1TextBlock' order='1' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherProvisionsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherProvisionsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherProvisionsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherProvisionsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfOtherProvisionsExplanatory' xlink:from='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' order='2' use='optional' />
    </link:definitionLink>
 
@@ -31,13 +31,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_StatementOfIFRSCompliance' xlink:label='ifrs-smes_StatementOfIFRSCompliance' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_StatementOfIFRSCompliance' xlink:label='ifrs-smes_StatementOfIFRSCompliance' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_StatementOfIFRSCompliance' xlink:from='cm_Level1TextBlock' order='5' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' xlink:label='ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' xlink:label='ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' xlink:from='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' order='6' use='optional' />
    </link:definitionLink>
 
@@ -49,409 +49,409 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ExplanationOfMeasurementBasesUsedInPreparingFinancialStatements' xlink:label='ifrs-smes_ExplanationOfMeasurementBasesUsedInPreparingFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ExplanationOfMeasurementBasesUsedInPreparingFinancialStatements' xlink:label='ifrs-smes_ExplanationOfMeasurementBasesUsedInPreparingFinancialStatements' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_ExplanationOfMeasurementBasesUsedInPreparingFinancialStatements' xlink:from='cm_Level3TextBlock' order='8' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfOtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:label='ifrs-smes_DescriptionOfOtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfOtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:label='ifrs-smes_DescriptionOfOtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfOtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements' xlink:from='cm_Level3TextBlock' order='9' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfUncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:label='ifrs-smes_DescriptionOfUncertaintiesOfEntitysAbilityToContinueAsGoingConcern' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfUncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:label='ifrs-smes_DescriptionOfUncertaintiesOfEntitysAbilityToContinueAsGoingConcern' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfUncertaintiesOfEntitysAbilityToContinueAsGoingConcern' xlink:from='cm_Level3TextBlock' order='10' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReclassificationsOrChangesInPresentationExplanatory' xlink:label='ifrs-smes_DisclosureOfReclassificationsOrChangesInPresentationExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReclassificationsOrChangesInPresentationExplanatory' xlink:label='ifrs-smes_DisclosureOfReclassificationsOrChangesInPresentationExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfReclassificationsOrChangesInPresentationExplanatory' xlink:from='cm_Level3TextBlock' order='11' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory' xlink:label='ifrs-smes_DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory' xlink:label='ifrs-smes_DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory' xlink:from='cm_Level3TextBlock' order='12' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfAssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustmentExplanatory' xlink:label='ifrs-smes_DisclosureOfAssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustmentExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfAssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustmentExplanatory' xlink:label='ifrs-smes_DisclosureOfAssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustmentExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfAssetsAndLiabilitiesWithSignificantRiskOfMaterialAdjustmentExplanatory' xlink:from='cm_Level3TextBlock' order='13' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfInitialApplicationOfStandardsOrInterpretations' xlink:label='ifrs-smes_DescriptionOfInitialApplicationOfStandardsOrInterpretations' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfInitialApplicationOfStandardsOrInterpretations' xlink:label='ifrs-smes_DescriptionOfInitialApplicationOfStandardsOrInterpretations' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfInitialApplicationOfStandardsOrInterpretations' xlink:from='cm_Level1TextBlock' order='14' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfVoluntaryChangeInAccountingPolicy' xlink:label='ifrs-smes_DescriptionOfVoluntaryChangeInAccountingPolicy' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfVoluntaryChangeInAccountingPolicy' xlink:label='ifrs-smes_DescriptionOfVoluntaryChangeInAccountingPolicy' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfVoluntaryChangeInAccountingPolicy' xlink:from='cm_Level1TextBlock' order='15' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' xlink:label='ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' xlink:label='ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' xlink:from='cm_Level1TextBlock' order='16' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfNatureAmountAndCorrectionOfAccountingErrorsInPriorPeriodsEstimate' xlink:label='ifrs-smes_DescriptionOfNatureAmountAndCorrectionOfAccountingErrorsInPriorPeriodsEstimate' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfNatureAmountAndCorrectionOfAccountingErrorsInPriorPeriodsEstimate' xlink:label='ifrs-smes_DescriptionOfNatureAmountAndCorrectionOfAccountingErrorsInPriorPeriodsEstimate' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfNatureAmountAndCorrectionOfAccountingErrorsInPriorPeriodsEstimate' xlink:from='cm_Level1TextBlock' order='17' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEventsAfterReportingPeriodExplanatory' xlink:label='ifrs-smes_DisclosureOfEventsAfterReportingPeriodExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEventsAfterReportingPeriodExplanatory' xlink:label='ifrs-smes_DisclosureOfEventsAfterReportingPeriodExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfEventsAfterReportingPeriodExplanatory' xlink:from='cm_Level1TextBlock' order='18' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodExplanatory' xlink:label='ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodExplanatory' xlink:label='ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodExplanatory' xlink:from='cm_Level1TextBlock' order='19' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfHyperinflationaryReportingExplanatory' xlink:label='ifrs-smes_DisclosureOfHyperinflationaryReportingExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfHyperinflationaryReportingExplanatory' xlink:label='ifrs-smes_DisclosureOfHyperinflationaryReportingExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfHyperinflationaryReportingExplanatory' xlink:from='cm_Level1TextBlock' order='20' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfBusinessCombinationsExplanatory' xlink:label='ifrs-smes_DisclosureOfBusinessCombinationsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfBusinessCombinationsExplanatory' xlink:label='ifrs-smes_DisclosureOfBusinessCombinationsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfBusinessCombinationsExplanatory' xlink:from='cm_Level1TextBlock' order='21' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutBusinessCombinationsExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutBusinessCombinationsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutBusinessCombinationsExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutBusinessCombinationsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfDetailedInformationAboutBusinessCombinationsExplanatory' xlink:from='cm_Level3TextBlock' order='22' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRelatedPartyExplanatory' xlink:label='ifrs-smes_DisclosureOfRelatedPartyExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRelatedPartyExplanatory' xlink:label='ifrs-smes_DisclosureOfRelatedPartyExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfRelatedPartyExplanatory' xlink:from='cm_Level1TextBlock' order='23' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' xlink:label='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' xlink:label='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' xlink:from='cm_Level1TextBlock' order='24' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' xlink:label='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' xlink:label='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesExplanatory' xlink:from='cm_Level1TextBlock' order='25' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFirstTimeAdoptionExplanatory' xlink:label='ifrs-smes_DisclosureOfFirstTimeAdoptionExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFirstTimeAdoptionExplanatory' xlink:label='ifrs-smes_DisclosureOfFirstTimeAdoptionExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfFirstTimeAdoptionExplanatory' xlink:from='cm_Level1TextBlock' order='26' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' xlink:label='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' xlink:label='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' xlink:from='cm_Level1TextBlock' order='27' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfPropertyPlantAndEquipmentExplanatory' xlink:label='ifrs-smes_DisclosureOfPropertyPlantAndEquipmentExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfPropertyPlantAndEquipmentExplanatory' xlink:label='ifrs-smes_DisclosureOfPropertyPlantAndEquipmentExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfPropertyPlantAndEquipmentExplanatory' xlink:from='cm_Level1TextBlock' order='28' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutPropertyPlantAndEquipmentExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutPropertyPlantAndEquipmentExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutPropertyPlantAndEquipmentExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutPropertyPlantAndEquipmentExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfDetailedInformationAboutPropertyPlantAndEquipmentExplanatory' xlink:from='cm_Level1TextBlock' order='29' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' xlink:label='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' xlink:label='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfReconciliationOfInvestmentPropertyAtCostLessAccumulatedDepreciationAndImpairmentExplanatory' xlink:from='cm_Level1TextBlock' order='30' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialInstrumentsExplanatory' xlink:label='ifrs-smes_DisclosureOfFinancialInstrumentsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialInstrumentsExplanatory' xlink:label='ifrs-smes_DisclosureOfFinancialInstrumentsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfFinancialInstrumentsExplanatory' xlink:from='cm_Level1TextBlock' order='31' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' xlink:label='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' xlink:label='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfFinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognitionExplanatory' xlink:from='cm_Level1TextBlock' order='32' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfFinancialAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinancialAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfFinancialAssetsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfFinancialAssetsExplanatory' xlink:from='cm_Level1TextBlock' order='33' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfHedgeAccountingExplanatory' xlink:label='ifrs-smes_DisclosureOfHedgeAccountingExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfHedgeAccountingExplanatory' xlink:label='ifrs-smes_DisclosureOfHedgeAccountingExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfHedgeAccountingExplanatory' xlink:from='cm_Level1TextBlock' order='34' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' xlink:from='cm_Level1TextBlock' order='35' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfIntangibleAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfIntangibleAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfIntangibleAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfIntangibleAssetsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfIntangibleAssetsExplanatory' xlink:from='cm_Level1TextBlock' order='36' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutIntangibleAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutIntangibleAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutIntangibleAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutIntangibleAssetsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfDetailedInformationAboutIntangibleAssetsExplanatory' xlink:from='cm_Level3TextBlock' order='37' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfIntangibleAssetsMaterialToEntityExplanatory' xlink:label='ifrs-smes_DisclosureOfIntangibleAssetsMaterialToEntityExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfIntangibleAssetsMaterialToEntityExplanatory' xlink:label='ifrs-smes_DisclosureOfIntangibleAssetsMaterialToEntityExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfIntangibleAssetsMaterialToEntityExplanatory' xlink:from='cm_Level3TextBlock' order='38' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfBiologicalAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfBiologicalAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfBiologicalAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfBiologicalAssetsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfBiologicalAssetsExplanatory' xlink:from='cm_Level1TextBlock' order='39' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReconciliationOfChangesInBiologicalAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfReconciliationOfChangesInBiologicalAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReconciliationOfChangesInBiologicalAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfReconciliationOfChangesInBiologicalAssetsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfReconciliationOfChangesInBiologicalAssetsExplanatory' xlink:from='cm_Level3TextBlock' order='40' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfInvestmentPropertyExplanatory' xlink:label='ifrs-smes_DisclosureOfInvestmentPropertyExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfInvestmentPropertyExplanatory' xlink:label='ifrs-smes_DisclosureOfInvestmentPropertyExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfInvestmentPropertyExplanatory' xlink:from='cm_Level1TextBlock' order='41' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfConsolidatedSeparateAndCombinedFinancialStatementsExplanatory' xlink:label='ifrs-smes_DisclosureOfConsolidatedSeparateAndCombinedFinancialStatementsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfConsolidatedSeparateAndCombinedFinancialStatementsExplanatory' xlink:label='ifrs-smes_DisclosureOfConsolidatedSeparateAndCombinedFinancialStatementsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfConsolidatedSeparateAndCombinedFinancialStatementsExplanatory' xlink:from='cm_Level1TextBlock' order='42' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfInterestsInJointVenturesExplanatory' xlink:label='ifrs-smes_DisclosureOfInterestsInJointVenturesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfInterestsInJointVenturesExplanatory' xlink:label='ifrs-smes_DisclosureOfInterestsInJointVenturesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfInterestsInJointVenturesExplanatory' xlink:from='cm_Level1TextBlock' order='43' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfInvestmentInAssociatesExplanatory' xlink:label='ifrs-smes_DisclosureOfInvestmentInAssociatesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfInvestmentInAssociatesExplanatory' xlink:label='ifrs-smes_DisclosureOfInvestmentInAssociatesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfInvestmentInAssociatesExplanatory' xlink:from='cm_Level1TextBlock' order='44' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level2TextBlock' xlink:label='cm_Level2TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates' xlink:from='cm_Level2TextBlock' order='45' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfPlanToSellNoncurrentAssetOrDisposalGroupExplanatory' xlink:label='ifrs-smes_DisclosureOfPlanToSellNoncurrentAssetOrDisposalGroupExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfPlanToSellNoncurrentAssetOrDisposalGroupExplanatory' xlink:label='ifrs-smes_DisclosureOfPlanToSellNoncurrentAssetOrDisposalGroupExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfPlanToSellNoncurrentAssetOrDisposalGroupExplanatory' xlink:from='cm_Level1TextBlock' order='46' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfInventoriesExplanatory' xlink:label='ifrs-smes_DisclosureOfInventoriesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfInventoriesExplanatory' xlink:label='ifrs-smes_DisclosureOfInventoriesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfInventoriesExplanatory' xlink:from='cm_Level1TextBlock' order='47' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory' xlink:from='cm_Level1TextBlock' order='48' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRevenueExplanatory' xlink:label='ifrs-smes_DisclosureOfRevenueExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRevenueExplanatory' xlink:label='ifrs-smes_DisclosureOfRevenueExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfRevenueExplanatory' xlink:from='cm_Level1TextBlock' order='49' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level2TextBlock' xlink:label='cm_Level2TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue' xlink:from='cm_Level2TextBlock' order='50' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfGovernmentGrantsExplanatory' xlink:label='ifrs-smes_DisclosureOfGovernmentGrantsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfGovernmentGrantsExplanatory' xlink:label='ifrs-smes_DisclosureOfGovernmentGrantsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfGovernmentGrantsExplanatory' xlink:from='cm_Level1TextBlock' order='51' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRecognisedRevenueFromConstructionContractsExplanatory' xlink:label='ifrs-smes_DisclosureOfRecognisedRevenueFromConstructionContractsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRecognisedRevenueFromConstructionContractsExplanatory' xlink:label='ifrs-smes_DisclosureOfRecognisedRevenueFromConstructionContractsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfRecognisedRevenueFromConstructionContractsExplanatory' xlink:from='cm_Level1TextBlock' order='52' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfImpairmentOfAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfImpairmentOfAssetsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfImpairmentOfAssetsExplanatory' xlink:label='ifrs-smes_DisclosureOfImpairmentOfAssetsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfImpairmentOfAssetsExplanatory' xlink:from='cm_Level1TextBlock' order='53' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfImpairmentLossAndReversalOfImpairmentLossExplanatory' xlink:label='ifrs-smes_DisclosureOfImpairmentLossAndReversalOfImpairmentLossExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfImpairmentLossAndReversalOfImpairmentLossExplanatory' xlink:label='ifrs-smes_DisclosureOfImpairmentLossAndReversalOfImpairmentLossExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfImpairmentLossAndReversalOfImpairmentLossExplanatory' xlink:from='cm_Level1TextBlock' order='54' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfLeasesExplanatory' xlink:label='ifrs-smes_DisclosureOfLeasesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfLeasesExplanatory' xlink:label='ifrs-smes_DisclosureOfLeasesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfLeasesExplanatory' xlink:from='cm_Level1TextBlock' order='55' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfLeasesExplanatory' xlink:label='ifrs-smes_DisclosureOfLeasesExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeExplanatory' xlink:label='ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfLeasesExplanatory' xlink:label='ifrs-smes_DisclosureOfLeasesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeExplanatory' xlink:label='ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfRecognisedFinanceLeaseAsAssetsByLesseeExplanatory' xlink:from='ifrs-smes_DisclosureOfLeasesExplanatory' order='56' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfLeasesExplanatory' xlink:label='ifrs-smes_DisclosureOfLeasesExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeExplanatory' xlink:label='ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfLeasesExplanatory' xlink:label='ifrs-smes_DisclosureOfLeasesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeExplanatory' xlink:label='ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeExplanatory' xlink:from='ifrs-smes_DisclosureOfLeasesExplanatory' order='57' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfLeasesExplanatory' xlink:label='ifrs-smes_DisclosureOfLeasesExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLessorExplanatory' xlink:label='ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLessorExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfLeasesExplanatory' xlink:label='ifrs-smes_DisclosureOfLeasesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLessorExplanatory' xlink:label='ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLessorExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLessorExplanatory' xlink:from='ifrs-smes_DisclosureOfLeasesExplanatory' order='58' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfSharebasedPaymentArrangementsExplanatory' xlink:label='ifrs-smes_DisclosureOfSharebasedPaymentArrangementsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfSharebasedPaymentArrangementsExplanatory' xlink:label='ifrs-smes_DisclosureOfSharebasedPaymentArrangementsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfSharebasedPaymentArrangementsExplanatory' xlink:from='cm_Level1TextBlock' order='59' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' xlink:label='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' xlink:label='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfTermsAndConditionsOfSharebasedPaymentArrangementExplanatory' xlink:from='cm_Level3TextBlock' order='60' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfNumberAndWeightedAverageExercisePricesOfShareOptionsExplanatory' xlink:label='ifrs-smes_DisclosureOfNumberAndWeightedAverageExercisePricesOfShareOptionsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfNumberAndWeightedAverageExercisePricesOfShareOptionsExplanatory' xlink:label='ifrs-smes_DisclosureOfNumberAndWeightedAverageExercisePricesOfShareOptionsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfNumberAndWeightedAverageExercisePricesOfShareOptionsExplanatory' xlink:from='cm_Level3TextBlock' order='61' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:from='cm_Level1TextBlock' order='62' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDefinedBenefitPlansExplanatory' xlink:label='ifrs-smes_DisclosureOfDefinedBenefitPlansExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDefinedBenefitPlansExplanatory' xlink:label='ifrs-smes_DisclosureOfDefinedBenefitPlansExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfDefinedBenefitPlansExplanatory' xlink:from='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' order='63' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherLongtermBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherLongtermBenefitsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfOtherLongtermBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfOtherLongtermBenefitsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfOtherLongtermBenefitsExplanatory' xlink:from='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' order='64' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTerminationBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfTerminationBenefitsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTerminationBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfTerminationBenefitsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfTerminationBenefitsExplanatory' xlink:from='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' order='65' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:label='ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:label='ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:from='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' order='66' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level2TextBlock' xlink:label='cm_Level2TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' xlink:label='ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfAccountingPolicyForDefinedBenefitPlans' xlink:from='cm_Level2TextBlock' order='67' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:label='ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' xlink:label='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:label='ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DescriptionOfPercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssets' xlink:from='ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory' order='68' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfIncomeTaxExplanatory' xlink:label='ifrs-smes_DisclosureOfIncomeTaxExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfIncomeTaxExplanatory' xlink:label='ifrs-smes_DisclosureOfIncomeTaxExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfIncomeTaxExplanatory' xlink:from='cm_Level1TextBlock' order='69' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsExplanatory' xlink:label='ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsExplanatory' xlink:label='ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsExplanatory' xlink:from='cm_Level3TextBlock' order='70' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level1TextBlock' xlink:label='cm_Level1TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEffectOfChangesInForeignExchangeRatesExplanatory' xlink:label='ifrs-smes_DisclosureOfEffectOfChangesInForeignExchangeRatesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfEffectOfChangesInForeignExchangeRatesExplanatory' xlink:label='ifrs-smes_DisclosureOfEffectOfChangesInForeignExchangeRatesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfEffectOfChangesInForeignExchangeRatesExplanatory' xlink:from='cm_Level1TextBlock' order='71' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfCashFlowStatementExplanatory' xlink:label='ifrs-smes_DisclosureOfCashFlowStatementExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfCashFlowStatementExplanatory' xlink:label='ifrs-smes_DisclosureOfCashFlowStatementExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfCashFlowStatementExplanatory' xlink:from='cm_Level3TextBlock' order='72' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfClassesOfShareCapitalExplanatory' xlink:label='ifrs-smes_DisclosureOfClassesOfShareCapitalExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfClassesOfShareCapitalExplanatory' xlink:label='ifrs-smes_DisclosureOfClassesOfShareCapitalExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfClassesOfShareCapitalExplanatory' xlink:from='cm_Level3TextBlock' order='73' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' xlink:label='ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' xlink:label='ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfReservesAndOtherEquityInterestExplanatory' xlink:from='cm_Level3TextBlock' order='74' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/type/role/TextBlocks' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Level3TextBlock' xlink:label='cm_Level3TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory' xlink:label='ifrs-smes_DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory' xlink:label='ifrs-smes_DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='ifrs-smes_DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory' xlink:from='cm_Level3TextBlock' order='75' use='optional' />
    </link:definitionLink>
 
