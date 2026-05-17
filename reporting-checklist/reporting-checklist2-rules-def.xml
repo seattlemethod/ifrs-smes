@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 5/21/2025 11:11:05 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='5/21/2025 11:11:05 AM'?>
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='extended-link-roles.xsd#ReportingChecklist' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-equivalentClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#financialReport-requiresDisclosure' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#reportedDisclosure-requiresDisclosure' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportedDisclosure-requiresDisclosure'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='General purpose financial report created under FRF for SMEs.  Strict, best practices.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:to='cm_FinancialReport' xlink:from='cm_Thing' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A financial report REQUIRES a balance sheet.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:from='cm_FinancialReport' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A balance sheet requires anAssetsRollUp.'>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_AssetsRollUp' xlink:label='disclosures_AssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportedDisclosure-requiresDisclosure' xlink:to='disclosures_AssetsRollUp' xlink:from='disclosures_StatementOfFinancialPositionOrderOfLiqudity' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A balance sheet requires an EquityAndLiabilitiesRollUp.'>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionOrderOfLiqudity' xlink:label='disclosures_StatementOfFinancialPositionOrderOfLiqudity' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_EquityAndLiabilitiesRollUp' xlink:label='disclosures_EquityAndLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportedDisclosure-requiresDisclosure' xlink:to='disclosures_EquityAndLiabilitiesRollUp' xlink:from='disclosures_StatementOfFinancialPositionOrderOfLiqudity' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A financial report REQUIRES an StatementOfActivities.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfIncomeByNature' xlink:label='disclosures_StatementOfIncomeByNature' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_StatementOfIncomeByNature' xlink:from='cm_FinancialReport' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A financial report MUST contain a BreakdownOfProfitLossSet.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_BreakdownOfProfitLossSet' xlink:label='disclosures_BreakdownOfProfitLossSet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_BreakdownOfProfitLossSet' xlink:from='cm_FinancialReport' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A financial report MUST contain a StatementOfOtherComprehensiveIncomeBeforeTax.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' xlink:label='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_StatementOfOtherComprehensiveIncomeBeforeTax' xlink:from='cm_FinancialReport' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A financial report MUST contain a BreakdownOfOtherComprehensiveIncomeLossSet.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:label='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:from='cm_FinancialReport' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A financial report MUST contain a NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp.'>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfCashFlowsIndirectMethod' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:label='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportedDisclosure-requiresDisclosure' xlink:to='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:from='disclosures_StatementOfCashFlowsIndirectMethod' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A financial report MUST contain a statement of changes in cash flow.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfCashFlowsIndirectMethod' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_StatementOfCashFlowsIndirectMethod' xlink:from='cm_FinancialReport' order='10' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='A financial report MUST contain a CashAndCashEquivalentsRollForward.'>
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfCashFlowsIndirectMethod' xlink:label='disclosures_StatementOfCashFlowsIndirectMethod' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CashAndCashEquivalentsRollForward' xlink:label='disclosures_CashAndCashEquivalentsRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportedDisclosure-requiresDisclosure' xlink:to='disclosures_CashAndCashEquivalentsRollForward' xlink:from='disclosures_StatementOfCashFlowsIndirectMethod' order='11' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>
