@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Mapping Table: ConceptMap_General -->
+<!-- Created by Charles Hoffman, CPA 3/3/2023 6:32:34 PM -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-equivalentClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass'/>
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Assets' xlink:label='fac_Assets' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Assets' xlink:label='ifrs-smes_Assets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_Assets' xlink:to='ifrs-smes_Assets' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ComprehensiveIncomeLoss' xlink:label='fac_ComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ComprehensiveIncome' xlink:label='ifrs-smes_ComprehensiveIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_ComprehensiveIncomeLoss' xlink:to='ifrs-smes_ComprehensiveIncome' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CostsOfRevenue' xlink:label='fac_CostsOfRevenue' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CostOfSales' xlink:label='ifrs-smes_CostOfSales' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_CostsOfRevenue' xlink:to='ifrs-smes_CostOfSales' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CurrentAssets' xlink:label='fac_CurrentAssets' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentAssets' xlink:label='ifrs-smes_CurrentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_CurrentAssets' xlink:to='ifrs-smes_CurrentAssets' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CurrentLiabilities' xlink:label='fac_CurrentLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CurrentLiabilities' xlink:label='ifrs-smes_CurrentLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_CurrentLiabilities' xlink:to='ifrs-smes_CurrentLiabilities' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_EffectOfExchangeRateChanges' xlink:label='fac_EffectOfExchangeRateChanges' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents' xlink:label='ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_EffectOfExchangeRateChanges' xlink:to='ifrs-smes_EffectOfExchangeRateChangesOnCashAndCashEquivalents' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Equity' xlink:label='fac_Equity' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Equity' xlink:label='ifrs-smes_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_Equity' xlink:to='ifrs-smes_Equity' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_EquityAttributableToControllingInterests' xlink:label='fac_EquityAttributableToControllingInterests' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_EquityAttributableToOwnersOfParent' xlink:label='ifrs-smes_EquityAttributableToOwnersOfParent' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_EquityAttributableToControllingInterests' xlink:to='ifrs-smes_EquityAttributableToOwnersOfParent' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_EquityAttributableToNoncontrollingInterests' xlink:label='fac_EquityAttributableToNoncontrollingInterests' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncontrollingInterests' xlink:label='ifrs-smes_NoncontrollingInterests' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_EquityAttributableToNoncontrollingInterests' xlink:to='ifrs-smes_NoncontrollingInterests' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_GrossProfitLoss' xlink:label='fac_GrossProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_GrossProfit' xlink:label='ifrs-smes_GrossProfit' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_GrossProfitLoss' xlink:to='ifrs-smes_GrossProfit' order='11' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Liabilities' xlink:label='fac_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Liabilities' xlink:label='ifrs-smes_Liabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_Liabilities' xlink:to='ifrs-smes_Liabilities' order='13' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_LiabilitiesAndEquity' xlink:label='fac_LiabilitiesAndEquity' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_EquityAndLiabilities' xlink:label='ifrs-smes_EquityAndLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_LiabilitiesAndEquity' xlink:to='ifrs-smes_EquityAndLiabilities' order='14' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlow' xlink:label='fac_NetCashFlow' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_NetCashFlow' xlink:to='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' order='16' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromFinancingActivities' xlink:label='fac_NetCashFlowFromFinancingActivities' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashFlowsFromUsedInFinancingActivities' xlink:label='ifrs-smes_CashFlowsFromUsedInFinancingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_NetCashFlowFromFinancingActivities' xlink:to='ifrs-smes_CashFlowsFromUsedInFinancingActivities' order='17' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromInvestingActivities' xlink:label='fac_NetCashFlowFromInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashFlowsFromUsedInInvestingActivities' xlink:label='ifrs-smes_CashFlowsFromUsedInInvestingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_NetCashFlowFromInvestingActivities' xlink:to='ifrs-smes_CashFlowsFromUsedInInvestingActivities' order='18' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromOperatingActivities' xlink:label='fac_NetCashFlowFromOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashFlowsFromUsedInOperatingActivities' xlink:label='ifrs-smes_CashFlowsFromUsedInOperatingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_NetCashFlowFromOperatingActivities' xlink:to='ifrs-smes_CashFlowsFromUsedInOperatingActivities' order='19' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NoncurrentAssets' xlink:label='fac_NoncurrentAssets' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncurrentAssets' xlink:label='ifrs-smes_NoncurrentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_NoncurrentAssets' xlink:to='ifrs-smes_NoncurrentAssets' order='20' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NoncurrentLiabilities' xlink:label='fac_NoncurrentLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_NoncurrentLiabilities' xlink:label='ifrs-smes_NoncurrentLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_NoncurrentLiabilities' xlink:to='ifrs-smes_NoncurrentLiabilities' order='21' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_OtherComprehensiveIncomeLoss' xlink:label='fac_OtherComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_OtherComprehensiveIncome' xlink:label='ifrs-smes_OtherComprehensiveIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_OtherComprehensiveIncomeLoss' xlink:to='ifrs-smes_OtherComprehensiveIncome' order='27' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_OtherOperatingIncome' xlink:label='fac_OtherOperatingIncome' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_OtherIncome' xlink:label='ifrs-smes_OtherIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_OtherOperatingIncome' xlink:to='ifrs-smes_OtherIncome' order='29' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLoss' xlink:label='fac_ProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLoss' xlink:label='ifrs-smes_ProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_ProfitLoss' xlink:to='ifrs-smes_ProfitLoss' order='30' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossAttributableToControllingInterests' xlink:label='fac_ProfitLossAttributableToControllingInterests' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLossAttributableToOwnersOfParent' xlink:label='ifrs-smes_ProfitLossAttributableToOwnersOfParent' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_ProfitLossAttributableToControllingInterests' xlink:to='ifrs-smes_ProfitLossAttributableToOwnersOfParent' order='31' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossAttributableToNoncontrollingInterests' xlink:label='fac_ProfitLossAttributableToNoncontrollingInterests' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLossAttributableToNoncontrollingInterests' xlink:label='ifrs-smes_ProfitLossAttributableToNoncontrollingInterests' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_ProfitLossAttributableToNoncontrollingInterests' xlink:to='ifrs-smes_ProfitLossAttributableToNoncontrollingInterests' order='32' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossFromContinuingOperationsAfterTax' xlink:label='fac_ProfitLossFromContinuingOperationsAfterTax' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLossFromContinuingOperations' xlink:label='ifrs-smes_ProfitLossFromContinuingOperations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_ProfitLossFromContinuingOperationsAfterTax' xlink:to='ifrs-smes_ProfitLossFromContinuingOperations' order='35' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossFromContinuingOperationsBeforeTax' xlink:label='fac_ProfitLossFromContinuingOperationsBeforeTax' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLossBeforeTax' xlink:label='ifrs-smes_ProfitLossBeforeTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_ProfitLossFromContinuingOperationsBeforeTax' xlink:to='ifrs-smes_ProfitLossBeforeTax' order='36' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossFromDiscontinuedOperations' xlink:label='fac_ProfitLossFromDiscontinuedOperations' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_ProfitLossFromDiscontinuedOperations' xlink:label='ifrs-smes_ProfitLossFromDiscontinuedOperations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_ProfitLossFromDiscontinuedOperations' xlink:to='ifrs-smes_ProfitLossFromDiscontinuedOperations' order='37' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Revenue' xlink:label='fac_Revenue' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Revenue' xlink:label='ifrs-smes_Revenue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_Revenue' xlink:to='ifrs-smes_Revenue' order='39' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_TaxExpenseIncome' xlink:label='fac_TaxExpenseIncome' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncomeTaxExpenseContinuingOperations' xlink:label='ifrs-smes_IncomeTaxExpenseContinuingOperations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:from='fac_TaxExpenseIncome' xlink:to='ifrs-smes_IncomeTaxExpenseContinuingOperations' order='40' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

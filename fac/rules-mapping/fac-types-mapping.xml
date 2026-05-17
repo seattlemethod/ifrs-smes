@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Mapping Table: ConceptMap_General -->
+<!-- Created by Charles Hoffman, CPA 2/28/2023 9:58:15 AM -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-equivalentClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#has-part' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/has-part'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-subClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass'/>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Assets' xlink:label='fac_Assets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='fac_Assets' xlink:from='cm_Thing' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetAssets' xlink:label='fac_NetAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='fac_NetAssets' xlink:from='cm_Thing' order='2.1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_LiabilitiesAndEquity' xlink:label='fac_LiabilitiesAndEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='fac_LiabilitiesAndEquity' xlink:from='cm_Thing' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ComprehensiveIncomeLoss' xlink:label='fac_ComprehensiveIncomeLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='fac_ComprehensiveIncomeLoss' xlink:from='cm_Thing' order='3' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlow' xlink:label='fac_NetCashFlow' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='fac_NetCashFlow' xlink:from='cm_Thing' order='3' use='optional' />
+   </link:definitionLink>
+
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Assets' xlink:label='fac_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CurrentAssets' xlink:label='fac_CurrentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_CurrentAssets' xlink:from='fac_Assets' order='1' use='optional' />
+   </link:definitionLink>
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Assets' xlink:label='fac_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NoncurrentAssets' xlink:label='fac_NoncurrentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_NoncurrentAssets' xlink:from='fac_Assets' order='2' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Liabilities' xlink:label='fac_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CurrentLiabilities' xlink:label='fac_CurrentLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_CurrentLiabilities' xlink:from='fac_Liabilities' order='1' use='optional' />
+   </link:definitionLink>
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Liabilities' xlink:label='fac_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NoncurrentLiabilities' xlink:label='fac_NoncurrentLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_NoncurrentLiabilities' xlink:from='fac_Liabilities' order='2' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_LiabilitiesAndEquity' xlink:label='fac_LiabilitiesAndEquity' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Liabilities' xlink:label='fac_Liabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_Liabilities' xlink:from='fac_LiabilitiesAndEquity' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_LiabilitiesAndEquity' xlink:label='fac_LiabilitiesAndEquity' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Equity' xlink:label='fac_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_Equity' xlink:from='fac_LiabilitiesAndEquity' order='2' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_EquityAttributableToControllingInterests' xlink:label='fac_EquityAttributableToControllingInterests' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Equity' xlink:label='fac_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_EquityAttributableToControllingInterests' xlink:from='fac_Equity' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_EquityAttributableToNoncontrollingInterests' xlink:label='fac_EquityAttributableToNoncontrollingInterests' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Equity' xlink:label='fac_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_EquityAttributableToNoncontrollingInterests' xlink:from='fac_Equity' order='2' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ComprehensiveIncomeLoss' xlink:label='fac_ComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLoss' xlink:label='fac_ProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_ProfitLoss' xlink:from='fac_ComprehensiveIncomeLoss' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossAttributableToControllingInterests' xlink:label='fac_ProfitLossAttributableToControllingInterests' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLoss' xlink:label='fac_ProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_ProfitLossAttributableToControllingInterests' xlink:from='fac_ProfitLoss' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossAttributableToNoncontrollingInterests' xlink:label='fac_ProfitLossAttributableToNoncontrollingInterests' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLoss' xlink:label='fac_ProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_ProfitLossAttributableToNoncontrollingInterests' xlink:from='fac_ProfitLoss' order='5' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ComprehensiveIncomeLoss' xlink:label='fac_ComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_OtherComprehensiveIncomeLoss' xlink:label='fac_OtherComprehensiveIncomeLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_OtherComprehensiveIncomeLoss' xlink:from='fac_ComprehensiveIncomeLoss' order='1' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLoss' xlink:label='fac_ProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_GrossProfitLoss' xlink:label='fac_GrossProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_GrossProfitLoss' xlink:from='fac_ProfitLoss' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Revenue' xlink:label='fac_Revenue' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_GrossProfitLoss' xlink:label='fac_GrossProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_Revenue' xlink:from='fac_GrossProfitLoss' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CostsOfRevenue' xlink:label='fac_CostsOfRevenue' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_GrossProfitLoss' xlink:label='fac_GrossProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_CostsOfRevenue' xlink:from='fac_GrossProfitLoss' order='2' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlow' xlink:label='fac_NetCashFlow' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromOperatingActivities' xlink:label='fac_NetCashFlowFromOperatingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_NetCashFlowFromOperatingActivities' xlink:from='fac_NetCashFlow' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlow' xlink:label='fac_NetCashFlow' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromInvestingActivities' xlink:label='fac_NetCashFlowFromInvestingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_NetCashFlowFromInvestingActivities' xlink:from='fac_NetCashFlow' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+     <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlow' xlink:label='fac_NetCashFlow' />
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromFinancingActivities' xlink:label='fac_NetCashFlowFromFinancingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='fac_NetCashFlowFromFinancingActivities' xlink:from='fac_NetCashFlow' order='3' use='optional' />
+   </link:definitionLink>
+
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Assets' xlink:label='fac_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_Assets' xlink:to='aasb1060_Assets' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ComprehensiveIncomeLoss' xlink:label='fac_ComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_ComprehensiveIncomeLoss' xlink:label='aasb1060_ComprehensiveIncomeLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_ComprehensiveIncomeLoss' xlink:to='aasb1060_ComprehensiveIncomeLoss' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CostsOfRevenue' xlink:label='fac_CostsOfRevenue' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_CostOfSales' xlink:label='aasb1060_CostOfSales' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_CostsOfRevenue' xlink:to='aasb1060_CostOfSales' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CurrentAssets' xlink:label='fac_CurrentAssets' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_CurrentAssets' xlink:label='aasb1060_CurrentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_CurrentAssets' xlink:to='aasb1060_CurrentAssets' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_CurrentLiabilities' xlink:label='fac_CurrentLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_CurrentLiabilities' xlink:label='aasb1060_CurrentLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_CurrentLiabilities' xlink:to='aasb1060_CurrentLiabilities' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Equity' xlink:label='fac_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_Equity' xlink:to='aasb1060_Equity' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_EquityAttributableToControllingInterests' xlink:label='fac_EquityAttributableToControllingInterests' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_EquityAttributableToOwnersOfParent' xlink:label='aasb1060_EquityAttributableToOwnersOfParent' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_EquityAttributableToControllingInterests' xlink:to='aasb1060_EquityAttributableToOwnersOfParent' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_EquityAttributableToNoncontrollingInterests' xlink:label='fac_EquityAttributableToNoncontrollingInterests' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_NoncontrollingInterests' xlink:label='aasb1060_NoncontrollingInterests' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_EquityAttributableToNoncontrollingInterests' xlink:to='aasb1060_NoncontrollingInterests' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_GrossProfitLoss' xlink:label='fac_GrossProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_GrossProfit' xlink:label='aasb1060_GrossProfit' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_GrossProfitLoss' xlink:to='aasb1060_GrossProfit' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Liabilities' xlink:label='fac_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_Liabilities' xlink:label='aasb1060_Liabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_Liabilities' xlink:to='aasb1060_Liabilities' order='10' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_LiabilitiesAndEquity' xlink:label='fac_LiabilitiesAndEquity' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_LiabilitiesEquity' xlink:label='aasb1060_LiabilitiesEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_LiabilitiesAndEquity' xlink:to='aasb1060_LiabilitiesEquity' order='11' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetAssets' xlink:label='fac_NetAssets' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_NetAssets' xlink:label='aasb1060_NetAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_NetAssets' xlink:to='aasb1060_NetAssets' order='12' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlow' xlink:label='fac_NetCashFlow' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' xlink:label='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_NetCashFlow' xlink:to='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' order='13' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromFinancingActivities' xlink:label='fac_NetCashFlowFromFinancingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInFinancingActivities' xlink:label='aasb1060_CashFlowsFromUsedInFinancingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_NetCashFlowFromFinancingActivities' xlink:to='aasb1060_CashFlowsFromUsedInFinancingActivities' order='14' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromInvestingActivities' xlink:label='fac_NetCashFlowFromInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_NetCashFlowFromInvestingActivities' xlink:to='aasb1060_CashFlowsFromUsedInInvestingActivities' order='15' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NetCashFlowFromOperatingActivities' xlink:label='fac_NetCashFlowFromOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInOperatingActivities' xlink:label='aasb1060_CashFlowsFromUsedInOperatingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_NetCashFlowFromOperatingActivities' xlink:to='aasb1060_CashFlowsFromUsedInOperatingActivities' order='16' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NoncurrentAssets' xlink:label='fac_NoncurrentAssets' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_NoncurrentAssets' xlink:label='aasb1060_NoncurrentAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_NoncurrentAssets' xlink:to='aasb1060_NoncurrentAssets' order='17' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_NoncurrentLiabilities' xlink:label='fac_NoncurrentLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_NoncurrentLiabilities' xlink:label='aasb1060_NoncurrentLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_NoncurrentLiabilities' xlink:to='aasb1060_NoncurrentLiabilities' order='18' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_OtherComprehensiveIncomeLoss' xlink:label='fac_OtherComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_OtherComprehensiveIncomeLoss' xlink:to='aasb1060_OtherComprehensiveIncomeLoss' order='19' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLoss' xlink:label='fac_ProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLoss' xlink:label='aasb1060_ProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_ProfitLoss' xlink:to='aasb1060_ProfitLoss' order='20' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossAttributableToControllingInterests' xlink:label='fac_ProfitLossAttributableToControllingInterests' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossAttributableToOwnersOfParent' xlink:label='aasb1060_ProfitLossAttributableToOwnersOfParent' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_ProfitLossAttributableToControllingInterests' xlink:to='aasb1060_ProfitLossAttributableToOwnersOfParent' order='21' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_ProfitLossAttributableToNoncontrollingInterests' xlink:label='fac_ProfitLossAttributableToNoncontrollingInterests' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossAttributableToNoncontrollingInterests' xlink:label='aasb1060_ProfitLossAttributableToNoncontrollingInterests' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_ProfitLossAttributableToNoncontrollingInterests' xlink:to='aasb1060_ProfitLossAttributableToNoncontrollingInterests' order='22' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../fac.xsd#fac_Revenue' xlink:label='fac_Revenue' />
+      <link:loc xlink:type='locator' xlink:href='../../base-taxonomy/aasb1060.xsd#aasb1060_Revenue' xlink:label='aasb1060_Revenue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-subClass' xlink:from='fac_Revenue' xlink:to='aasb1060_Revenue' order='23' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>
