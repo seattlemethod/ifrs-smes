@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/3/2023 6:32:30 PM -->
+<!-- ComprehensiveIncome -->
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:fac='https://github.com/seattlemethod/ifrs-smes/enhancements/fac'
+  
+  xmlns:rf262='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf262'
+  targetNamespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf262'
+ 
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <documentation>ComprehensiveIncome</documentation>
+    <appinfo>
+      <link:linkbaseRef  xlink:href='../relations/Network-ComprehensiveIncome-relations.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-IS03-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+  <import namespace='http://www.xbrl.org/2003/linkbase' schemaLocation='http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd' />
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac' schemaLocation='../fac.xsd' />
+ 
+ 
+</schema>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/3/2023 6:32:31 PM -->
+<!-- IncomeByNature -->
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:fac='https://github.com/seattlemethod/ifrs-smes/enhancements/fac'
+
+  xmlns:rf266='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf266'
+  targetNamespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf266'
+
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <documentation>IncomeByNature</documentation>
+    <appinfo>
+      <link:linkbaseRef  xlink:href='../relations/Network-IncomeByNature-relations.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-IS05-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-IS06-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-IS08-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-IS09-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-127-IS-DER-25-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+  <import namespace='http://www.xbrl.org/2003/linkbase' schemaLocation='http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd' />
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac' schemaLocation='../fac.xsd' />
+
+
+</schema>

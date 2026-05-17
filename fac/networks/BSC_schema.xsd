@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/3/2023 6:32:30 PM -->
+<!-- BSC -->
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:fac='https://github.com/seattlemethod/ifrs-smes/enhancements/fac'
+  
+  xmlns:rf189='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf189'
+  targetNamespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac/ReportingStyles/rf189'
+ 
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <documentation>BSC</documentation>
+    <appinfo>
+      <link:linkbaseRef  xlink:href='../relations/Network-BSC-relations.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-BS01-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-BS02-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-BS03-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-BS26-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-consistency/Consistency-BS04-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-4-BS-Impute-04-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-125-BS-DER-31-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-126-BS-DER-32-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-12-BS-Impute-12-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-14-BS-Impute-14-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-80-BS-Impute-56-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-1-BS-Impute-01-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-2-BS-Impute-02-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-3-BS-Impute-03-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+      <link:linkbaseRef  xlink:href='../rules-derivation/ImputeRule-5-BS-Impute-05-formula.xml' xlink:type='simple' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' />
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+  <import namespace='http://www.xbrl.org/2003/linkbase' schemaLocation='http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd' />
+  <import namespace='https://github.com/seattlemethod/ifrs-smes/enhancements/fac' schemaLocation='../fac.xsd' />
+ 
+ 
+</schema>
