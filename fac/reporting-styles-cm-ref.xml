@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 2022-07-21 -->
+<!-- Reporting Styles for SFAC8 -->
+<linkbase
+  xmlns:rpart='https://github.com/seattlemethod/universal/cm/rparts-rs'
+  xmlns='http://www.xbrl.org/2003/linkbase'
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xsi:schemaLocation='
+    http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
+    https://github.com/seattlemethod/universal/cm/rparts-rs https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-rparts-rs.xsd
+    '>
+
+   <roleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-rparts-rs.xsd#reportingStyle' roleURI='https://github.com/seattlemethod/universal/cm/roles/reportingStyle'/>
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_ReportingStyle' xlink:label='cm_ReportingStyle' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='cm_ReportingStyle' xlink:to='cm_ReportingStyle_lbl' />
+    <reference xlink:type='resource' xlink:label='cm_ReportingStyle_lbl' xlink:role='https://github.com/seattlemethod/universal/cm/roles/reportingStyle'>
+        <rpart:Description>BSC-ISF-OCIN-CFD</rpart:Description>
+        <rpart:ReportingStyleCode>BSC-ISF-OCIN-CFD</rpart:ReportingStyleCode>
+        <rpart:ReportingStyleLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/fac/reporting-styles/IFRS-SMEs-BSC-ISF-CF1-OCIN_schema.xsd</rpart:ReportingStyleLink>
+        <rpart:ReportingChecklistLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/reporting-checklist/reportability-bsc-isf-ocin-cfd-rules-def.xml</rpart:ReportingChecklistLink>
+        <rpart:TypeSubtypeRulesLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/types/bsc-isf-ocin-cfd-types-def.xml</rpart:TypeSubtypeRulesLink>
+    </reference>
+  </referenceLink>
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_ReportingStyle' xlink:label='cm_ReportingStyle' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='cm_ReportingStyle' xlink:to='cm_ReportingStyle_lbl' />
+    <reference xlink:type='resource' xlink:label='cm_ReportingStyle_lbl' xlink:role='https://github.com/seattlemethod/universal/cm/roles/reportingStyle'>
+        <rpart:Description>BSC-ISN-OCIN-CFD</rpart:Description>
+        <rpart:ReportingStyleCode>BSC-ISF-OCIN-CFD</rpart:ReportingStyleCode>
+        <rpart:ReportingStyleLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/fac/reporting-styles/IFRS-SMEs-BSC-ISN-CF1-OCIN_schema.xsd</rpart:ReportingStyleLink>
+        <rpart:ReportingChecklistLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/reporting-checklist/reportability-bsc-isn-ocin-cfd-rules-def.xml</rpart:ReportingChecklistLink>
+        <rpart:TypeSubtypeRulesLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/types/bsc-isn-ocin-cfd-types-def.xml</rpart:TypeSubtypeRulesLink>
+    </reference>
+  </referenceLink>
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_ReportingStyle' xlink:label='cm_ReportingStyle' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='cm_ReportingStyle' xlink:to='cm_ReportingStyle_lbl' />
+    <reference xlink:type='resource' xlink:label='cm_ReportingStyle_lbl' xlink:role='https://github.com/seattlemethod/universal/cm/roles/reportingStyle'>
+        <rpart:Description>BSL-ISF-OCIN-CFD</rpart:Description>
+        <rpart:ReportingStyleCode>BSL-ISF-OCIN-CFD</rpart:ReportingStyleCode>
+        <rpart:ReportingStyleLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/fac/reporting-styles/IFRS-SMEs-BSU-ISF-CF1-OCIN_schema.xsd</rpart:ReportingStyleLink>
+        <rpart:ReportingChecklistLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/reporting-checklist/reportability-bsl-isf-ocin-cfd-rules-def.xml</rpart:ReportingChecklistLink>
+        <rpart:TypeSubtypeRulesLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/types/bsl-isf-ocin-cfd-types-def.xml</rpart:TypeSubtypeRulesLink>
+    </reference>
+  </referenceLink>
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_ReportingStyle' xlink:label='cm_ReportingStyle' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='cm_ReportingStyle' xlink:to='cm_ReportingStyle_lbl' />
+    <reference xlink:type='resource' xlink:label='cm_ReportingStyle_lbl' xlink:role='https://github.com/seattlemethod/universal/cm/roles/reportingStyle'>
+        <rpart:Description>BSL-ISN-OCIN-CFD</rpart:Description>
+        <rpart:ReportingStyleCode>BSL-ISN-OCIN-CFD</rpart:ReportingStyleCode>
+        <rpart:ReportingStyleLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/fac/reporting-styles/IFRS-SMEs-BSU-ISN-CF1-OCIN_schema.xsd</rpart:ReportingStyleLink>
+        <rpart:ReportingChecklistLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/reporting-checklist/reportability-bsl-isn-ocin-cfd-rules-def.xml</rpart:ReportingChecklistLink>
+        <rpart:TypeSubtypeRulesLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/types/bsl-isn-ocin-cfd-types-def.xml</rpart:TypeSubtypeRulesLink>
+    </reference>
+  </referenceLink>
+
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_ReportingStyle' xlink:label='cm_ReportingStyle' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='cm_ReportingStyle' xlink:to='cm_ReportingStyle_lbl' />
+    <reference xlink:type='resource' xlink:label='cm_ReportingStyle_lbl' xlink:role='https://github.com/seattlemethod/universal/cm/roles/reportingStyle'>
+        <rpart:Description>REFERENCE</rpart:Description>
+        <rpart:ReportingStyleCode>REFERENCE</rpart:ReportingStyleCode>
+        <rpart:ReportingStyleLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/fac/reporting-styles/IFRS-SMEs-BSU-ISN-CF1-OCIN_schema.xsd</rpart:ReportingStyleLink>
+        <rpart:ReportingChecklistLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/reporting-checklist/reporting-checklist-testing-rules-def.xml</rpart:ReportingChecklistLink>
+        <rpart:TypeSubtypeRulesLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/types/type-subtype.xsd</rpart:TypeSubtypeRulesLink>
+    </reference>
+  </referenceLink>
+
+
+
+
+
+
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_ReportingStyle' xlink:label='cm_ReportingStyle' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='cm_ReportingStyle' xlink:to='cm_ReportingStyle_lbl' />
+    <reference xlink:type='resource' xlink:label='cm_ReportingStyle_lbl' xlink:role='https://github.com/seattlemethod/universal/cm/roles/reportingStyle'>
+        <rpart:Description>BSC-ISF-OCIN-CFI</rpart:Description>
+        <rpart:ReportingStyleCode>BSC-ISF-OCIN-CFI</rpart:ReportingStyleCode>
+        <rpart:ReportingStyleLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/fac/reporting-styles/IFRS-SMEs-BSC-ISF-CF1-OCIN_schema.xsd</rpart:ReportingStyleLink>
+        <rpart:ReportingChecklistLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/reporting-checklist/reportability-bsc-isf-ocin-cfi-rules-def.xml</rpart:ReportingChecklistLink>
+        <rpart:TypeSubtypeRulesLink>>https://raw.githubusercontent.com/seattlemethod/ifrs-smes/refs/heads/main/types/bsc-isf-ocin-cfi-types-def.xml</rpart:TypeSubtypeRulesLink>
+    </reference>
+  </referenceLink>
+
+
+
+</linkbase>

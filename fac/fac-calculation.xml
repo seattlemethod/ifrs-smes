@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Taxonomy Calculation Links linkbase based on XBRL standard Version 2.1.
+Created by UBmatrix Taxonomy Designer 3.0.2.2347 (2007-12-17 12:39).  
+Contact www.ubmatrix.com
+Copyright (c) 2002-2025 UBmatrix inc., All Rights Reserved
+Produced on 2025-05-03 06:23:47
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#NetAssetsClassified" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/NetAssetsClassified" />
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#BSC" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/BSC" />
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#BSU" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/BSU" />
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#EquityBreakdown" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/EquityBreakdown" />
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#IncomeByFunction" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/IncomeByFunction" />
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#IncomeByNature" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/IncomeByNature" />
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#ComprehensiveIncome" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/ComprehensiveIncome" />
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#ProfitLossBreakdown" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/ProfitLossBreakdown" />
+  <roleRef xlink:type="simple" xlink:href="fac.xsd#CashFlow" roleURI="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/CashFlow" />
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/NetAssetsClassified">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NetAssets" xlink:label="fac_NetAssets" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Assets" xlink:label="fac_Assets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_NetAssets" xlink:to="fac_Assets" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_NetAssets" xlink:to="fac_Liabilities" order="2" weight="-1" use="optional" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/BSC">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Assets" xlink:label="fac_Assets" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_CurrentAssets" xlink:label="fac_CurrentAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Assets" xlink:to="fac_CurrentAssets" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NoncurrentAssets" xlink:label="fac_NoncurrentAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Assets" xlink:to="fac_NoncurrentAssets" order="2" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_LiabilitiesAndEquity" xlink:label="fac_LiabilitiesAndEquity" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_LiabilitiesAndEquity" xlink:to="fac_Liabilities" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_CurrentLiabilities" xlink:label="fac_CurrentLiabilities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Liabilities" xlink:to="fac_CurrentLiabilities" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NoncurrentLiabilities" xlink:label="fac_NoncurrentLiabilities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Liabilities" xlink:to="fac_NoncurrentLiabilities" order="2" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Equity" xlink:label="fac_Equity" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_LiabilitiesAndEquity" xlink:to="fac_Equity" order="2" weight="1" use="optional" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/BSU">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_LiabilitiesAndEquity" xlink:label="fac_LiabilitiesAndEquity" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_LiabilitiesAndEquity" xlink:to="fac_Liabilities" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Equity" xlink:label="fac_Equity" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_LiabilitiesAndEquity" xlink:to="fac_Equity" order="2" weight="1" use="optional" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/EquityBreakdown">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Equity" xlink:label="fac_Equity" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_EquityAttributableToControllingInterests" xlink:label="fac_EquityAttributableToControllingInterests" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Equity" xlink:to="fac_EquityAttributableToControllingInterests" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_EquityAttributableToNoncontrollingInterests" xlink:label="fac_EquityAttributableToNoncontrollingInterests" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_Equity" xlink:to="fac_EquityAttributableToNoncontrollingInterests" order="2" weight="1" use="optional" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/IncomeByFunction">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_GrossProfitLoss" xlink:label="fac_GrossProfitLoss" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Revenue" xlink:label="fac_Revenue" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_GrossProfitLoss" xlink:to="fac_Revenue" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_CostsOfRevenue" xlink:label="fac_CostsOfRevenue" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_GrossProfitLoss" xlink:to="fac_CostsOfRevenue" order="2" weight="-1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLoss" xlink:label="fac_ProfitLoss" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLossFromDiscontinuedOperations" xlink:label="fac_ProfitLossFromDiscontinuedOperations" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLossFromDiscontinuedOperations" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLossFromContinuingOperationsAfterTax" xlink:label="fac_ProfitLossFromContinuingOperationsAfterTax" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLossFromContinuingOperationsAfterTax" order="2" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_TaxExpenseIncome" xlink:label="fac_TaxExpenseIncome" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTax" xlink:to="fac_TaxExpenseIncome" order="1" weight="-1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLossFromContinuingOperationsBeforeTax" xlink:label="fac_ProfitLossFromContinuingOperationsBeforeTax" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTax" xlink:to="fac_ProfitLossFromContinuingOperationsBeforeTax" order="2" weight="1" use="optional" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/IncomeByNature">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLoss" xlink:label="fac_ProfitLoss" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLossFromDiscontinuedOperations" xlink:label="fac_ProfitLossFromDiscontinuedOperations" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLossFromDiscontinuedOperations" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLossFromContinuingOperationsAfterTax" xlink:label="fac_ProfitLossFromContinuingOperationsAfterTax" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLossFromContinuingOperationsAfterTax" order="2" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_TaxExpenseIncome" xlink:label="fac_TaxExpenseIncome" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTax" xlink:to="fac_TaxExpenseIncome" order="1" weight="-1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLossFromContinuingOperationsBeforeTax" xlink:label="fac_ProfitLossFromContinuingOperationsBeforeTax" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLossFromContinuingOperationsAfterTax" xlink:to="fac_ProfitLossFromContinuingOperationsBeforeTax" order="2" weight="1" use="optional" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/ComprehensiveIncome">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ComprehensiveIncomeLoss" xlink:label="fac_ComprehensiveIncomeLoss" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLoss" xlink:label="fac_ProfitLoss" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ComprehensiveIncomeLoss" xlink:to="fac_ProfitLoss" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_OtherComprehensiveIncomeLoss" xlink:label="fac_OtherComprehensiveIncomeLoss" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ComprehensiveIncomeLoss" xlink:to="fac_OtherComprehensiveIncomeLoss" order="2" weight="1" use="optional" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/ProfitLossBreakdown">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLoss" xlink:label="fac_ProfitLoss" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLossAttributableToControllingInterests" xlink:label="fac_ProfitLossAttributableToControllingInterests" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLossAttributableToControllingInterests" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLossAttributableToNoncontrollingInterests" xlink:label="fac_ProfitLossAttributableToNoncontrollingInterests" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLossAttributableToNoncontrollingInterests" order="2" weight="1" use="optional" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/ifrs-smes/enhancements/fac/role/CashFlow">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_FreeCashFlow" xlink:label="fac_FreeCashFlow" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NetCashFlowFromOperatingActivities" xlink:label="fac_NetCashFlowFromOperatingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_FreeCashFlow" xlink:to="fac_NetCashFlowFromOperatingActivities" order="1" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NetCashFlowFromInvestingActivities" xlink:label="fac_NetCashFlowFromInvestingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_FreeCashFlow" xlink:to="fac_NetCashFlowFromInvestingActivities" order="2" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NetCashFlow" xlink:label="fac_NetCashFlow" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_NetCashFlow" xlink:to="fac_NetCashFlowFromOperatingActivities" order="1" weight="1" use="optional" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_NetCashFlow" xlink:to="fac_NetCashFlowFromInvestingActivities" order="2" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NetCashFlowFromFinancingActivities" xlink:label="fac_NetCashFlowFromFinancingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_NetCashFlow" xlink:to="fac_NetCashFlowFromFinancingActivities" order="3" weight="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_EffectOfExchangeRateChanges" xlink:label="fac_EffectOfExchangeRateChanges" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_NetCashFlow" xlink:to="fac_EffectOfExchangeRateChanges" order="4" weight="1" use="optional" />
+  </calculationLink>
+</linkbase>
