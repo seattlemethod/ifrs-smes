@@ -19,13 +19,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CashAndCashEquivalentsRollForward' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_RollForward' xlink:label='cm_RollForward' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashAndCashEquivalents' xlink:label='ifrs-smes_CashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_CashAndCashEquivalents' xlink:label='ifrs-smes_CashAndCashEquivalents' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_CashAndCashEquivalents' xlink:from='cm_RollForward' order='2' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/CashAndCashEquivalentsRollForward' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CashAndCashEquivalentsRollForward' xlink:label='disclosures_CashAndCashEquivalentsRollForward' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:label='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresConcept' xlink:to='ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents' xlink:from='disclosures_CashAndCashEquivalentsRollForward' order='3' use='optional' />
    </link:definitionLink>
 

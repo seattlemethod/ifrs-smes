@@ -14,7 +14,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ChangesInAccountingEstimates' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ChangesInAccountingEstimates' xlink:label='disclosures_ChangesInAccountingEstimates' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' xlink:label='ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' xlink:label='ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfChangesInAccountingEstimatesTable' xlink:from='disclosures_ChangesInAccountingEstimates' order='1' use='optional' />
    </link:definitionLink>
 
@@ -26,13 +26,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ChangesInAccountingEstimates' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInAccountingEstimate' xlink:label='ifrs-smes_IncreaseDecreaseInAccountingEstimate' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_IncreaseDecreaseInAccountingEstimate' xlink:label='ifrs-smes_IncreaseDecreaseInAccountingEstimate' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_IncreaseDecreaseInAccountingEstimate' xlink:from='cm_Set' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ChangesInAccountingEstimates' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ChangesInAccountingEstimates' xlink:label='disclosures_ChangesInAccountingEstimates' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' xlink:label='ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' xlink:label='ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock' xlink:to='ifrs-smes_DisclosureOfChangesInAccountingEstimatesExplanatory' xlink:from='disclosures_ChangesInAccountingEstimates' order='4' use='optional' />
    </link:definitionLink>
 

@@ -18,7 +18,7 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ContingentLiabilities' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_TextBlock' xlink:label='cm_TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' xlink:label='ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' xlink:label='ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory' xlink:from='cm_TextBlock' order='2' use='optional' />
    </link:definitionLink>
 

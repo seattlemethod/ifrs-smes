@@ -14,7 +14,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AnalysisOfChangeInDeferredTaxLiabilities' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_AnalysisOfChangeInDeferredTaxLiabilities' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsTable' xlink:label='ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsTable' xlink:label='ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsTable' xlink:from='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' order='1' use='optional' />
    </link:definitionLink>
 
@@ -26,13 +26,13 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AnalysisOfChangeInDeferredTaxLiabilities' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_TextBlock' xlink:label='cm_TextBlock' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_AnalysisOfChangeInDeferredTaxLiabilitiesExplanatory' xlink:label='ifrs-smes_AnalysisOfChangeInDeferredTaxLiabilitiesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_AnalysisOfChangeInDeferredTaxLiabilitiesExplanatory' xlink:label='ifrs-smes_AnalysisOfChangeInDeferredTaxLiabilitiesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_AnalysisOfChangeInDeferredTaxLiabilitiesExplanatory' xlink:from='cm_TextBlock' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/AnalysisOfChangeInDeferredTaxLiabilities' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_AnalysisOfChangeInDeferredTaxLiabilities' xlink:label='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis' xlink:label='ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis' xlink:label='ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis' xlink:from='disclosures_AnalysisOfChangeInDeferredTaxLiabilities' order='4' use='optional' />
    </link:definitionLink>
 

@@ -15,7 +15,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ComparativeInformationPreparedUnderPreviousGAAP' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:label='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPTable' xlink:label='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPTable' xlink:label='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPTable' xlink:from='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' order='1' use='optional' />
    </link:definitionLink>
 
@@ -27,19 +27,19 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ComparativeInformationPreparedUnderPreviousGAAP' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Equity' xlink:label='ifrs-smes_Equity' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_Equity' xlink:label='ifrs-smes_Equity' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_Equity' xlink:from='cm_Set' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ComparativeInformationPreparedUnderPreviousGAAP' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:label='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' xlink:label='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' xlink:label='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock' xlink:to='ifrs-smes_DisclosureOfComparativeInformationPreparedUnderPreviousGAAPExplanatory' xlink:from='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/ComparativeInformationPreparedUnderPreviousGAAP' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ComparativeInformationPreparedUnderPreviousGAAP' xlink:label='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_FinancialEffectOfTransitionFromPreviousGAAPToIFRSsAxis' xlink:label='ifrs-smes_FinancialEffectOfTransitionFromPreviousGAAPToIFRSsAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_FinancialEffectOfTransitionFromPreviousGAAPToIFRSsAxis' xlink:label='ifrs-smes_FinancialEffectOfTransitionFromPreviousGAAPToIFRSsAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_FinancialEffectOfTransitionFromPreviousGAAPToIFRSsAxis' xlink:from='disclosures_ComparativeInformationPreparedUnderPreviousGAAP' order='5' use='optional' />
    </link:definitionLink>
 

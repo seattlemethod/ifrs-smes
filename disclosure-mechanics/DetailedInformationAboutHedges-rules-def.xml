@@ -15,7 +15,7 @@
  
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutHedges' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_DetailedInformationAboutHedges' xlink:label='disclosures_DetailedInformationAboutHedges' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfHedgeAccountingTable' xlink:label='ifrs-smes_DisclosureOfHedgeAccountingTable' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfHedgeAccountingTable' xlink:label='ifrs-smes_DisclosureOfHedgeAccountingTable' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresHypercube' xlink:to='ifrs-smes_DisclosureOfHedgeAccountingTable' xlink:from='disclosures_DetailedInformationAboutHedges' order='1' use='optional' />
    </link:definitionLink>
 
@@ -27,19 +27,19 @@
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutHedges' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Set' xlink:label='cm_Set' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfTypeOfHedge' xlink:label='ifrs-smes_DescriptionOfTypeOfHedge' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DescriptionOfTypeOfHedge' xlink:label='ifrs-smes_DescriptionOfTypeOfHedge' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/conceptArrangementPattern-requiresConcept' xlink:to='ifrs-smes_DescriptionOfTypeOfHedge' xlink:from='cm_Set' order='3' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutHedges' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_DetailedInformationAboutHedges' xlink:label='disclosures_DetailedInformationAboutHedges' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' xlink:label='ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-equivalentTextblock' xlink:to='ifrs-smes_DisclosureOfDetailedInformationAboutHedgesExplanatory' xlink:from='disclosures_DetailedInformationAboutHedges' order='4' use='optional' />
    </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/dm/elr/role/DisclosureMechanics/DetailedInformationAboutHedges' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_DetailedInformationAboutHedges' xlink:label='disclosures_DetailedInformationAboutHedges' />
-      <link:loc xlink:type='locator' xlink:href='http://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_TypesOfRisksAxis' xlink:label='ifrs-smes_TypesOfRisksAxis' />
+      <link:loc xlink:type='locator' xlink:href='https://xbrl.ifrs.org/taxonomy/2024-03-27/ifrs_for_smes/ifrs_for_smes-cor_2024-03-27.xsd#ifrs-smes_TypesOfRisksAxis' xlink:label='ifrs-smes_TypesOfRisksAxis' />
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/disclosure-requiresAxis' xlink:to='ifrs-smes_TypesOfRisksAxis' xlink:from='disclosures_DetailedInformationAboutHedges' order='5' use='optional' />
    </link:definitionLink>
 
