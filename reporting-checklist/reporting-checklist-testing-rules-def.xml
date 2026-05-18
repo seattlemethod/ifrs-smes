@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Created by Charles Hoffman, CPA 5/21/2025 11:11:06 AM -->
+<!-- Removed DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative and PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail -->
 <?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
 <?twinfox name='CreationDateTime' value='5/21/2025 11:11:06 AM'?>
 <link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
    <link:roleRef xlink:type='simple' xlink:href='extended-link-roles.xsd#ReportingChecklist' roleURI='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist'/>
- 
+
    <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-equivalentClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass'/>
    <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#financialReport-requiresDisclosure' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure'/>
- 
+
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title='General purpose financial report created under FRF for SMEs.  Strict, best practices.'>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
@@ -440,11 +441,7 @@
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_OtherPropertyPlantAndEquipmentInformation' xlink:from='cm_FinancialReport' order='72' use='optional' />
    </link:definitionLink>
 
-   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
-      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' xlink:label='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' />
-      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative' xlink:from='cm_FinancialReport' order='73' use='optional' />
-   </link:definitionLink>
+
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
@@ -866,11 +863,6 @@
       <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_AccountingPolicyForDefinedBenefitPlans' xlink:from='cm_FinancialReport' order='143' use='optional' />
    </link:definitionLink>
 
-   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title=''>
-      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
-      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' xlink:label='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' />
-      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail' xlink:from='cm_FinancialReport' order='144' use='optional' />
-   </link:definitionLink>
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ifrs-smes/enhancements/elr/role/ReportingChecklist' xlink:title=''>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
