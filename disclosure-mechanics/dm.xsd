@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Created by Charles Hoffman, CPA 5/22/2026 8:08:51 AM -->
+<!-- Removed DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative and PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail -->
 <?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
 <?twinfox name='CreationDateTime' value='5/22/2025 8:08:51 AM'?>
 <schema
@@ -104,7 +105,7 @@
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill-rules-def.xml'  xlink:title='ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwill'/>
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='ReconciliationOfChangesInPropertyPlantAndEquipment-rules-def.xml'  xlink:title='ReconciliationOfChangesInPropertyPlantAndEquipment'/>
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='OtherPropertyPlantAndEquipmentInformation-rules-def.xml'  xlink:title='OtherPropertyPlantAndEquipmentInformation'/>
-   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative-rules-def.xml'  xlink:title='DetailedInformationAboutPropertyPlantAndEquipmentAndInvestmentPropertyAlternative'/>
+
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='ReconciliationOfInvestmentProperty-rules-def.xml'  xlink:title='ReconciliationOfInvestmentProperty'/>
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='FinancialInstruments-rules-def.xml'  xlink:title='FinancialInstruments'/>
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition-rules-def.xml'  xlink:title='FinancialAssetsTransferredDuringPeriodWhichDoNotQualifyForDerecognition'/>
@@ -148,7 +149,7 @@
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='ReconciliationOfReimbursementRightsAtFairValue-rules-def.xml'  xlink:title='ReconciliationOfReimbursementRightsAtFairValue'/>
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='CostsRelatedToDefinedBenefitPlansInformation-rules-def.xml'  xlink:title='CostsRelatedToDefinedBenefitPlansInformation'/>
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='AccountingPolicyForDefinedBenefitPlans-rules-def.xml'  xlink:title='AccountingPolicyForDefinedBenefitPlans'/>
-   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail-rules-def.xml'  xlink:title='PercentageOrAmountWhichEachMajorCategoryContributesToFairValueOfTotalPlanAssetsDetail'/>
+
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='IncomeTax-rules-def.xml'  xlink:title='IncomeTax'/>
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='StatementOfCashFlowsDirectMethod-rules-def.xml'  xlink:title='StatementOfCashFlowsDirectMethod'/>
    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits-rules-def.xml'  xlink:title='TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCredits'/>
